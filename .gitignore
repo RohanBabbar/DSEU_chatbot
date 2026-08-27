@@ -1,0 +1,13 @@
+# Environments
+chatbot_env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Mac
+.DS_Store
+
+# Ignore database data if a local volume is mapped
+pgdata/

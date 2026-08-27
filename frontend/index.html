@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSEU Admissions Chatbot</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f3f4f6; margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        .chat-container { width: 100%; max-width: 600px; height: 80vh; background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); display: flex; flex-direction: column; overflow: hidden; }
+        .chat-header { background: #2563eb; color: white; padding: 16px; text-align: center; font-weight: bold; font-size: 1.2rem; }
+        .chat-messages { flex-grow: 1; padding: 16px; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; }
+        .message { max-width: 80%; padding: 12px 16px; border-radius: 12px; line-height: 1.5; font-size: 0.95rem; }
+        .message.bot { background: #f3f4f6; align-self: flex-start; border-bottom-left-radius: 2px; }
+        .message.user { background: #2563eb; color: white; align-self: flex-end; border-bottom-right-radius: 2px; }
+        .input-area { display: flex; padding: 16px; border-top: 1px solid #e5e7eb; background: white; }
+        .input-area input { flex-grow: 1; padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; outline: none; font-size: 1rem; }
+        .input-area input:focus { border-color: #2563eb; }
+        .input-area button { margin-left: 12px; padding: 12px 24px; background: #2563eb; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 1rem; transition: background 0.2s; }
+        .input-area button:hover { background: #1d4ed8; }
+        .input-area button:disabled { background: #9ca3af; cursor: not-allowed; }
+        .loading { font-size: 0.85rem; color: #6b7280; align-self: flex-start; margin-top: -8px; display: none; }
+        
+        /* Markdown Table Styling for Bot Responses */
+        .message.bot table { border-collapse: collapse; width: 100%; margin-top: 8px; }
+        .message.bot th, .message.bot td { border: 1px solid #d1d5db; padding: 6px; text-align: left; }
+        .message.bot th { background-color: #e5e7eb; }
+    </style>
+    <!-- Include Marked.js to render Markdown responses (especially tables) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">
+        DSEU Admissions Assistant
+    </div>
+    <div class="chat-messages" id="chat-messages">
+        <div class="message bot">Hello! I can answer any questions you have about the DSEU 2026 Admissions Brochure. Ask me about programs, fees, or eligibility!</div>
+    </div>
+    <div class="loading" id="loading-indicator">Thinking...</div>
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ask a question..." autocomplete="off" onkeypress="handleKeyPress(event)">
+        <button id="send-btn" onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<script>
+    let chatHistory = [];
+
+    async function sendMessage() {
+        const inputField = document.getElementById('user-input');
+        const sendBtn = document.getElementById('send-btn');
+        const messagesDiv = document.getElementById('chat-messages');
+        const loadingIndicator = document.getElementById('loading-indicator');
+        
+        const text = inputField.value.trim();
+        if (!text) return;
+
+        // Add user message to UI
+        addMessageToUI(text, 'user');
+        inputField.value = '';
+        inputField.disabled = true;
+        sendBtn.disabled = true;
+        loadingIndicator.style.display = 'block';
+
+        try {
+            const response = await fetch('/api/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    query: text,
+                    history: chatHistory
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error("API Error");
+            }
+
+            const data = await response.json();
+            
+            // Construct message HTML with sources if available
+            let messageHTML = marked.parse(data.answer);
+            
+            if (data.sources && data.sources.length > 0) {
+                messageHTML += `<div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 0.85em; color: #666;">
+                    <strong>Sources Used:</strong> ${data.sources.join(', ')}
+                </div>`;
+            }
+
+            // Add bot message to UI (parse Markdown)
+            addMessageToUI(messageHTML, 'bot', true);
+            
+            // Update history for short-term memory
+            chatHistory.push({ role: 'user', content: text });
+            chatHistory.push({ role: 'model', content: data.answer });
+
+        } catch (error) {
+            addMessageToUI("Sorry, I encountered an error connecting to the server.", 'bot');
+            console.error(error);
+        } finally {
+            inputField.disabled = false;
+            sendBtn.disabled = false;
+            loadingIndicator.style.display = 'none';
+            inputField.focus();
+            scrollToBottom();
+        }
+    }
+
+    function addMessageToUI(content, sender, isHTML = false) {
+        const messagesDiv = document.getElementById('chat-messages');
+        const msgDiv = document.createElement('div');
+        msgDiv.className = `message ${sender}`;
+        if (isHTML) {
+            msgDiv.innerHTML = content;
+        } else {
+            msgDiv.textContent = content;
+        }
+        messagesDiv.appendChild(msgDiv);
+        scrollToBottom();
+    }
+
+    function scrollToBottom() {
+        const messagesDiv = document.getElementById('chat-messages');
+        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+    function handleKeyPress(event) {
+        if (event.key === 'Enter') {
+            sendMessage();
+        }
+    }
+</script>
+
+</body>
+</html>

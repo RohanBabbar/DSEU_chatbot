@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+asyncpg
+google-genai
+pymupdf
+pandas
+python-dotenv
+tabulate
+sentence-transformers
