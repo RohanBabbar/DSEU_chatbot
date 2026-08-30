@@ -101,6 +101,20 @@ CASES = [
                        "environmental science", "entrepreneurship",
                        "medical laboratory"])}),
 
+    # Admission dates. The 9-row "Important Dates" table used to fragment into five
+    # padded chunks, none of which ranked for a deadline question.
+    ("deadline-diploma", "What is the last date to apply for admission 2026?",
+     {"all": ["25 may 2026"]}),
+
+    ("registration-window", "When does Diploma online registration start and end?",
+     {"all": ["04 may 2026", "25 may 2026"]}),
+
+    ("campus-roster", "How many campuses does DSEU have in total?",
+     {"all": ["23"], "min_hits": (3, ["ambedkar", "aryabhatt", "meerabai", "wazirpur"])}),
+
+    ("lowest-fee", "Which program has the lowest fee at DSEU?",
+     {"all": ["10,000"], "any": ["category e", "diploma"]}),
+
     # Campus contact details. The brochure lays each campus out as a vertical
     # record, so chunking it row-wise detached every "(Nearest Metro Station: X)"
     # from its campus -- the bot could not answer, and risked pairing a metro with

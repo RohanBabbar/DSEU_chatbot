@@ -265,6 +265,27 @@ def _record_chunks(df: pd.DataFrame, index: int, budget: int,
     return [f"{prefix}\n{part}" for part in parts]
 
 
+def _to_markdown(df: pd.DataFrame) -> str:
+    """Renders a table as Markdown without column padding.
+
+    pandas' to_markdown pads every cell to align the columns, which on a wide
+    sparse table (the brochure has several) spends most of the token budget on
+    runs of spaces and dashes. That fragmented the 9-row "Important Dates" table
+    into five chunks, none of which ranked for a question about deadlines.
+    """
+    def cell(value) -> str:
+        return re.sub(r"\s+", " ", str(value)).replace("|", "/").strip()
+
+    columns = [cell(c) for c in df.columns]
+    lines = [
+        "| " + " | ".join(columns) + " |",
+        "| " + " | ".join("---" for _ in columns) + " |",
+    ]
+    for _, row in df.iterrows():
+        lines.append("| " + " | ".join(cell(v) for v in row) + " |")
+    return "\n".join(lines)
+
+
 def table_to_chunks(df: pd.DataFrame, budget: int,
                     contexts: list[list[str]] | None = None) -> list[str]:
     """Renders a table as Markdown, split row-wise with the header repeated.
@@ -275,7 +296,7 @@ def table_to_chunks(df: pd.DataFrame, budget: int,
     rendered = df.copy()
     rendered.columns = ["" if _is_placeholder_col(c) else str(c).strip() for c in df.columns]
 
-    md = rendered.to_markdown(index=False)
+    md = _to_markdown(rendered)
     lines = md.split("\n")
     if len(lines) < 3:
         return [md] if md.strip() else []
@@ -590,8 +611,22 @@ def build_campus_detail_rows(doc) -> list[tuple]:
         if core.fits(text):
             rows.append((text, CAMPUS_DETAIL_PREFIX, True, record["page"], SOURCE_BROCHURE))
 
+    # A roster chunk, so "how many campuses are there?" and "list all the campuses"
+    # are one lookup. Counting across 23 separate chunks is not something top-k
+    # retrieval can do, and the bot was refusing the question.
+    names = sorted({r["name"] for r in records})
+    if names:
+        roster = (
+            f"{CAMPUS_DETAIL_PREFIX}: complete list of DSEU campuses.\n"
+            f"DSEU has {len(names)} campuses listed in the brochure:\n"
+            + "\n".join(f"{i}. {n}" for i, n in enumerate(names, 1))
+        )
+        if core.fits(roster):
+            rows.append((roster, CAMPUS_DETAIL_PREFIX, False, 0, SOURCE_BROCHURE))
+
     with_metro = sum(1 for r in records if r["metro"])
-    print(f"Assembled {len(rows)} campus detail records ({with_metro} with a metro station)")
+    print(f"Assembled {len(records)} campus detail records "
+          f"({with_metro} with a metro station), plus a roster of {len(names)}")
     return rows
 
 
