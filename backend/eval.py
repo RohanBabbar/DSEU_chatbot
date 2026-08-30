@@ -109,8 +109,22 @@ CASES = [
     ("registration-window", "When does Diploma online registration start and end?",
      {"all": ["04 may 2026", "25 may 2026"]}),
 
-    ("campus-roster", "How many campuses does DSEU have in total?",
-     {"all": ["23"], "min_hits": (3, ["ambedkar", "aryabhatt", "meerabai", "wazirpur"])}),
+    # Two cases, not one: "how many" is correctly answered by the bare number, so
+    # asserting campus names there made the test flaky while the bot was right.
+    ("campus-count-total", "How many campuses does DSEU have in total?",
+     {"all": ["23"]}),
+
+    ("campus-roster", "List all DSEU campuses by name",
+     {"min_hits": (4, ["ambedkar", "aryabhatt", "meerabai", "wazirpur", "kasturba"])}),
+
+    ("jewellery-fee", "What is the fee for B.Des. Jewellery Design?",
+     {"all": ["1,00,000"]}),
+
+    ("fall-semester", "When do classes start for the Fall semester 2026?",
+     {"any": ["01/07/2026", "1 july 2026", "1st july 2026", "july 2026"]}),
+
+    ("registration-fee-ug", "How much is the registration and counselling fee for UG programs?",
+     {"all": ["1500"]}),
 
     ("lowest-fee", "Which program has the lowest fee at DSEU?",
      {"all": ["10,000"], "any": ["category e", "diploma"]}),
@@ -137,7 +151,8 @@ CASES = [
     # Honesty checks. A confident answer here is worse than no answer.
     ("refuses-off-topic", "Who won the 2019 cricket world cup?", {"refuses": True}),
 
-    # Lives on the scanned pages (1-68) that have no extractable text.
+    # Lives on the scanned pages (1-68), which the university treats as low
+    # priority. Refusing is the wanted behaviour, not a gap to close.
     ("refuses-scanned-gap", "What is the attendance requirement for a Master's degree?",
      {"refuses": True}),
 ]

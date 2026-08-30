@@ -721,6 +721,25 @@ def build_campus_rows(doc) -> list[tuple]:
     return rows
 
 
+def header_only_text(table) -> str | None:
+    """Recovers tables whose entire content sits in the header row.
+
+    PyMuPDF sometimes reports a one-line table as column names with zero data
+    rows, which dropna() then discards -- silently losing the content. Page 79's
+    "B.Des. Jewellery Design - approximate fee" note went missing this way.
+    """
+    try:
+        columns = [re.sub(r"\s+", " ", str(c)).strip() for c in table.to_pandas().columns]
+    except Exception:
+        return None
+    parts = [
+        c for c in columns
+        if len(c) > 3 and re.search(r"[A-Za-z]{3}", c) and not _is_placeholder_col(c)
+    ]
+    text = " | ".join(dict.fromkeys(parts))
+    return text if len(text) > 20 else None
+
+
 def header_for(page_no: int, section: str | None, extra: str = "") -> str:
     bits = [f"Brochure page {page_no}"]
     if section:
@@ -765,6 +784,11 @@ def build_rows() -> list[tuple]:
         for t_index, table in enumerate(tables, 1):
             df = clean_table(table)
             if df is None:
+                salvaged = header_only_text(table)
+                if salvaged:
+                    header = header_for(page_no, section, "table note")
+                    rows.append((f"{header}\n{salvaged}", section, True, page_no,
+                                 SOURCE_BROCHURE))
                 continue
             n_tables += 1
             if is_campus_detail_table(df):
