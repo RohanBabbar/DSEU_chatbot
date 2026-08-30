@@ -1,0 +1,10 @@
+chatbot_env/
+.git/
+.gitignore
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.env
+.DS_Store
+pgdata/
+README.md

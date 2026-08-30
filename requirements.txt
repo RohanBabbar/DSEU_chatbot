@@ -1,9 +1,10 @@
 fastapi
 uvicorn
 asyncpg
-google-genai
+openai
 pymupdf
 pandas
-python-dotenv
 tabulate
+numbers-parser
+python-dotenv
 sentence-transformers

@@ -1,177 +1,232 @@
+"""FastAPI server for the DSEU admissions chatbot."""
 import os
-import json
-import asyncio
+from contextlib import asynccontextmanager
+
 import asyncpg
 from fastapi import FastAPI, HTTPException
-from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
-from pydantic import BaseModel
-from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer
-from google import genai
+from fastapi.staticfiles import StaticFiles
+from openai import APIStatusError, AsyncOpenAI
+from pydantic import BaseModel, Field
 
-# Load environment variables
-load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+import core
+from core import FRONTEND_DIR, OPENAI_API_KEY, OPENAI_MODEL, PLACEHOLDER_KEYS
 
-# Configuration
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not GEMINI_API_KEY or GEMINI_API_KEY == "your_api_key_here":
-    raise ValueError("GEMINI_API_KEY is not set in the .env file")
+TOP_K = 10
+MAX_HISTORY_MESSAGES = 8  # 4 exchanges; keeps the request small and the cost flat
 
-DB_USER = os.getenv("POSTGRES_USER", "postgres")
-DB_PASS = os.getenv("POSTGRES_PASSWORD", "password")
-DB_DB = os.getenv("POSTGRES_DB", "chatbot")
-DB_HOST = os.getenv("POSTGRES_HOST", "localhost")
-DB_PORT = os.getenv("POSTGRES_PORT", "5432")
-DSN = f"postgresql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_DB}"
+SYSTEM_PROMPT = """You are a friendly, helpful admissions assistant for DSEU \
+(Delhi Skill and Entrepreneurship University). Answer prospective students' \
+questions using ONLY the context documents provided below, which are drawn from \
+the Official Admission Brochure and the Updated Programs Spreadsheet.
 
-# Initialize models
-print("Loading local embedding model (all-mpnet-base-v2)...")
-embedder = SentenceTransformer('all-mpnet-base-v2')
-gemini_client = genai.Client(api_key=GEMINI_API_KEY)
+Instructions:
+- Read ALL the provided chunks before answering. Relevant details are often split \
+across several chunks.
+- USE BOTH SOURCES TOGETHER. The brochure and the spreadsheet are complementary, \
+not alternatives: the spreadsheet carries exit options and updated program data, \
+the brochure carries fees, eligibility, reservation, campuses and intake. A good \
+answer combines everything the context offers on the question. Only when the two \
+directly contradict each other on the same fact does the spreadsheet win \
+(chunks labelled 'Updated Program Information', 'Program Summary Fact', 'Updated \
+Program Catalogue' or 'Exit Qualification Pathway'). Never present one source as \
+more "official" than the other.
+- DSEU programs run four years with multiple exit points: a student may leave \
+early and receive a lower qualification instead of continuing. So a qualification \
+is OFFERED by DSEU if it appears as an exit option, even when no program carries \
+that name. Never say DSEU does not offer a qualification that appears in an \
+'Exit Qualification Pathway' chunk.
+- When someone names a qualification or says what they want to study (for example \
+"I want to do BCA", "how do I get a BBA"), give them the complete picture from \
+whatever the context contains, as a short labelled list:
+  * the ways to get in, as a numbered list under the heading "Routes", the direct \
+route always first. An 'Exit Qualification Pathway' chunk labels them \
+"ROUTE 1 - DIRECT" and "ROUTE 2 - EXIT OPTION"; keep that order and that split, \
+but never copy those internal labels, or any wording from these instructions, \
+into your answer. Write them as:
+      "Option 1 - Direct: apply to the <name> program (<duration>)."
+      "Option 2 - Exit option: enrol in <program> (4 years) and exit after Year \
+<n>, receiving <qualification>."
+    List every program under each option. If the context shows no directly-named \
+program for that qualification, say so explicitly as Option 1 rather than \
+silently dropping it, then give the exit route as Option 2. Present both options \
+as equally valid choices and never call one the "official" one.
+  * the fee: quote the 'Program Fee' chunk for that program -- the fee category \
+AND the rupee amount with its billing period.
+  * eligibility, duration and level, and campuses or intake if present.
+  * which campuses offer it and the intake, from the 'Campus Availability' \
+chunk for that program -- that chunk lists EVERY campus, so give all of them, \
+not just one.
+  Name explicitly anything they would want that the context does not cover.
+- Never present a guess as a value. Do not write "assumed", "likely" or "probably" \
+next to a fee, campus, intake or date. If the context does not give that value for \
+the specific program asked about, say it is not listed in your documents.
+- For any question about fees, always give the actual rupee amount, not just the \
+fee category letter. A 'Program Fee' chunk already pairs the category with its \
+amount; use it. Never guess an amount for a program whose fee chunk is absent.
+- Each chunk begins with a bracketed header such as [Brochure page 42 · Fee \
+Structure]. Use it to locate information, but do not quote the header back.
+- Tables are given in Markdown. Read along the row and match the column heading \
+carefully before quoting any number.
+- If you only have partial information, give what you have and say plainly which \
+part you could not find. Do not pad it out with guesses.
+- If the answer is genuinely absent from the context, begin your reply with the \
+exact tag {no_answer} on its own, then say you do not have that information in \
+your current documents and suggest they check with the admissions office. Use the \
+tag only when the context gave you nothing usable -- not when you found a partial \
+answer.
+- Never use knowledge from outside the context. Never invent fees, dates, \
+percentages or eligibility rules.
 
-app = FastAPI()
+CONTEXT DOCUMENTS:
+{context}"""
 
-# Connection pool for the database
-db_pool = None
+# Citing pages under an "I don't know" is misleading, so the model flags that case
+# explicitly. Matching on the prose instead would break the moment it rephrases.
+NO_ANSWER_TAG = "[NO_ANSWER]"
 
-@app.on_event("startup")
-async def startup_event():
-    global db_pool
-    db_pool = await asyncpg.create_pool(DSN)
+NO_CONTEXT_ANSWER = (
+    "I could not find anything about that in the admission brochure or the "
+    "programs list. Could you rephrase it, or check with the DSEU admissions office?"
+)
 
-@app.on_event("shutdown")
-async def shutdown_event():
-    await db_pool.close()
 
-# Request Models
 class Message(BaseModel):
-    role: str # 'user' or 'model'
+    role: str
     content: str
 
+
 class ChatRequest(BaseModel):
-    query: str
+    query: str = Field(min_length=1, max_length=2000)
     history: list[Message] = []
 
-async def retrieve_context(query: str, top_k: int = 10) -> dict:
-    """Performs Hybrid Search and returns both the context string and a list of sources."""
-    query_vector = embedder.encode(query).tolist()
-    
-    sql = """
-    WITH vector_search AS (
-        SELECT id, chunk_text, section, is_table, page_number,
-               RANK() OVER (ORDER BY embedding <-> $1) AS vector_rank
-        FROM document_chunks
-        ORDER BY embedding <-> $1
-        LIMIT 20
-    ),
-    fts_search AS (
-        SELECT id, chunk_text, section, is_table, page_number,
-               RANK() OVER (ORDER BY ts_rank(tsv, websearch_to_tsquery('english', $2)) DESC) AS fts_rank
-        FROM document_chunks
-        WHERE tsv @@ websearch_to_tsquery('english', $2)
-        ORDER BY fts_rank
-        LIMIT 20
-    )
-    SELECT
-        COALESCE(vs.id, fs.id) AS id,
-        COALESCE(vs.chunk_text, fs.chunk_text) AS chunk_text,
-        COALESCE(vs.is_table, fs.is_table) AS is_table,
-        COALESCE(vs.page_number, fs.page_number) AS page_number,
-        COALESCE(1.0 / (60 + vs.vector_rank), 0.0) + COALESCE(1.0 / (60 + fs.fts_rank), 0.0) AS rrf_score
-    FROM vector_search vs
-    FULL OUTER JOIN fts_search fs ON vs.id = fs.id
-    ORDER BY rrf_score DESC
-    LIMIT $3;
-    """
-    
-    async with db_pool.acquire() as conn:
-        rows = await conn.fetch(sql, str(query_vector), query, top_k)
-    
-    if not rows:
-        return {"context_string": "", "sources": []}
-    
-    context_parts = []
-    sources = []
-    
-    for row in rows:
-        source_type = "TABLE" if row['is_table'] else "TEXT"
-        source_name = "Programs Spreadsheet" if row['page_number'] == 0 else f"Brochure Page {row['page_number']}"
-        
-        if source_name not in sources:
-            sources.append(source_name)
-            
-        context_parts.append(
-            f"--- START {source_type} CHUNK ({source_name}) ---\n"
-            f"{row['chunk_text']}\n"
-            f"--- END CHUNK ---"
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    if not OPENAI_API_KEY or OPENAI_API_KEY in PLACEHOLDER_KEYS:
+        raise RuntimeError(
+            "No API key found. Set OPENAI_API_KEY in the .env file "
+            "(see .env.example)."
         )
-    
-    return {
-        "context_string": "\n\n".join(context_parts),
-        "sources": sources
+
+    app.state.pool = await asyncpg.create_pool(core.DSN, min_size=1, max_size=8)
+    app.state.client = AsyncOpenAI(api_key=OPENAI_API_KEY)
+
+    # Load the embedding model now so the first question is not slow.
+    core.get_embedder()
+    core.embed_query("warmup")
+
+    async with app.state.pool.acquire() as conn:
+        app.state.chunk_count = await conn.fetchval("SELECT count(*) FROM document_chunks")
+    if not app.state.chunk_count:
+        print("WARNING: document_chunks is empty -- run 'python backend/ingest.py' first.")
+    else:
+        print(f"Retrieval corpus: {app.state.chunk_count} chunks")
+
+    # Verify the key and model up front, so a misconfiguration surfaces at boot
+    # rather than as a 500 on every question.
+    app.state.llm_error = None
+    try:
+        ids = {m.id async for m in (await app.state.client.models.list())}
+        if OPENAI_MODEL not in ids:
+            app.state.llm_error = (
+                f"Model '{OPENAI_MODEL}' is not available to this API key. "
+                f"Set OPENAI_MODEL in .env to one of, for example: "
+                f"{', '.join(sorted(i for i in ids if i.startswith('gpt-4.1'))[:4])}"
+            )
+        else:
+            print(f"LLM ready: {OPENAI_MODEL}")
+    except Exception as exc:  # network down, bad key, revoked key
+        app.state.llm_error = f"Could not reach the OpenAI API: {type(exc).__name__}: {exc}"
+    if app.state.llm_error:
+        print(f"WARNING: {app.state.llm_error}")
+
+    try:
+        yield
+    finally:
+        await app.state.pool.close()
+
+
+app = FastAPI(title="DSEU Admissions Chatbot", lifespan=lifespan)
+
+
+async def complete(client: AsyncOpenAI, messages: list[dict]) -> str:
+    """Calls the model, retrying without params the chosen model rejects."""
+    kwargs = {
+        "model": OPENAI_MODEL,
+        "messages": messages,
+        "temperature": 0.1,  # grounded extraction, not creative writing
+        "max_completion_tokens": 1200,
     }
+    for _ in range(3):
+        try:
+            response = await client.chat.completions.create(**kwargs)
+            return (response.choices[0].message.content or "").strip()
+        except APIStatusError as exc:
+            detail = str(exc)
+            dropped = next(
+                (p for p in ("temperature", "max_completion_tokens")
+                 if p in kwargs and p in detail and "unsupported" in detail.lower()),
+                None,
+            )
+            if not dropped:
+                raise
+            kwargs.pop(dropped)
+    raise RuntimeError("Could not find a parameter set this model accepts")
+
 
 @app.post("/api/chat")
 async def chat_endpoint(request: ChatRequest):
+    if app.state.llm_error:
+        raise HTTPException(status_code=503, detail=app.state.llm_error)
+
+    async with app.state.pool.acquire() as conn:
+        rows = await core.search(conn, request.query, top_k=TOP_K)
+
+    if not rows:
+        return {"answer": NO_CONTEXT_ANSWER, "sources": []}
+
+    context, sources = core.build_context(rows)
+    system = SYSTEM_PROMPT.format(context=context, no_answer=NO_ANSWER_TAG)
+    messages = [{"role": "system", "content": system}]
+    for message in request.history[-MAX_HISTORY_MESSAGES:]:
+        role = "assistant" if message.role in ("model", "assistant") else "user"
+        messages.append({"role": role, "content": message.content})
+    messages.append({"role": "user", "content": request.query})
+
     try:
-        # 1. Retrieve relevant context from the database
-        retrieval_data = await retrieve_context(request.query)
-        context_str = retrieval_data["context_string"]
-        sources = retrieval_data["sources"]
-        
-        # 2. Build the system prompt
-        system_prompt = (
-            "You are a friendly, helpful admissions assistant for DSEU (Delhi Skill and Entrepreneurship University). "
-            "Your job is to answer prospective students' questions based STRICTLY on the provided chunks below, which are drawn from the Official Admission Brochure and the Updated Programs Spreadsheet. "
-            "IMPORTANT INSTRUCTIONS:\n"
-            "- Carefully read ALL provided chunks before answering. The information may be spread out.\n"
-            "- If you see data that is labelled as 'Updated Program Information' or 'Program Summary Fact', treat it as the most recent and accurate data.\n"
-            "- If you find partial information (e.g. general criteria but not branch-specific), provide the partial information you DO have rather than saying it's missing.\n"
-            "- If the provided context contains tables (formatted in Markdown), carefully read the rows and columns to find the exact data.\n"
-            "- If the answer is truly NOT found in the context below at all, gracefully inform the user that you don't have that specific information in your current documents.\n"
-            "- Do NOT make up information or use outside knowledge.\n\n"
-            "CONTEXT DOCUMENTS:\n"
-            f"{context_str}"
-        )
-        
-        # 3. Format chat history for Gemini
-        gemini_contents = [
-            {"role": "user", "parts": [{"text": system_prompt}]}
-        ]
-        
-        gemini_contents.append({"role": "model", "parts": [{"text": "Understood. I will act as the DSEU admissions assistant and only use the provided context."}]})
-        
-        for msg in request.history:
-            gemini_contents.append({
-                "role": "user" if msg.role == 'user' else "model",
-                "parts": [{"text": msg.content}]
-            })
-            
-        gemini_contents.append({"role": "user", "parts": [{"text": request.query}]})
-        
-        # 4. Generate Answer
-        response = gemini_client.models.generate_content(
-            model='gemini-3.6-flash',
-            contents=gemini_contents
-        )
-        
-        return {
-            "answer": response.text,
-            "sources": sources if response.text and "I don't have" not in response.text else []
-        }
-        
-    except Exception as e:
-        print(f"Error during chat generation: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        answer = await complete(app.state.client, messages)
+    except Exception as exc:
+        print(f"Error during chat generation: {type(exc).__name__}: {exc}")
+        raise HTTPException(status_code=502, detail="The language model call failed.")
 
-# Mount frontend
-frontend_dir = os.path.join(os.path.dirname(__file__), '..', 'frontend')
-if not os.path.exists(frontend_dir):
-    os.makedirs(frontend_dir)
+    if not answer:
+        return {"answer": NO_CONTEXT_ANSWER, "sources": []}
+    if answer.startswith(NO_ANSWER_TAG):
+        return {"answer": answer[len(NO_ANSWER_TAG):].lstrip(), "sources": []}
+    return {"answer": answer, "sources": sources}
 
-app.mount("/static", StaticFiles(directory=frontend_dir), name="static")
+
+@app.get("/api/health")
+async def health():
+    async with app.state.pool.acquire() as conn:
+        by_source = await conn.fetch(
+            "SELECT source, count(*) AS n FROM document_chunks GROUP BY source ORDER BY source"
+        )
+    return {
+        "database": "ok",
+        "chunks": {r["source"]: r["n"] for r in by_source},
+        "total_chunks": sum(r["n"] for r in by_source),
+        "embedding_model": core.EMBED_MODEL_NAME,
+        "llm_model": OPENAI_MODEL,
+        "llm": "ok" if not app.state.llm_error else app.state.llm_error,
+    }
+
+
+os.makedirs(FRONTEND_DIR, exist_ok=True)
+app.mount("/static", StaticFiles(directory=FRONTEND_DIR), name="static")
+
 
 @app.get("/")
 async def read_index():
-    return FileResponse(os.path.join(frontend_dir, 'index.html'))
+    return FileResponse(os.path.join(FRONTEND_DIR, "index.html"))
