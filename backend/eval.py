@@ -101,6 +101,25 @@ CASES = [
                        "environmental science", "entrepreneurship",
                        "medical laboratory"])}),
 
+    # Campus contact details. The brochure lays each campus out as a vertical
+    # record, so chunking it row-wise detached every "(Nearest Metro Station: X)"
+    # from its campus -- the bot could not answer, and risked pairing a metro with
+    # the wrong campus. Asked in Hinglish because that is how testers ask.
+    ("metro-meerabai-hinglish", "Nearest metro konsa hai meerabai campus ka",
+     {"all": ["ashram"]}),
+
+    ("metro-kasturba", "What is the nearest metro station to Kasturba campus?",
+     {"any": ["netaji subhash", "nsp"]}),
+
+    # No metro is listed for Champs, so it must say so rather than borrow one from
+    # whichever campus was retrieved alongside it.
+    ("metro-not-listed", "Which metro station is nearest to Champs DSEU Campus?",
+     {"any": ["not listed", "not specified", "not mention", "do not have", "don't have"],
+      "none": ["ashram", "govind puri", "nirman vihar"]}),
+
+    ("campus-contact", "Give me the address and email of Meerabai campus",
+     {"all": ["maharani bagh"], "any": ["director-mbit@dseu.ac.in", "mbit"]}),
+
     # Honesty checks. A confident answer here is worse than no answer.
     ("refuses-off-topic", "Who won the 2019 cricket world cup?", {"refuses": True}),
 

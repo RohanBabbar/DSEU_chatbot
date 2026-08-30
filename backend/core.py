@@ -51,7 +51,7 @@ SOURCE_SHEET = "spreadsheet"
 # Bump this whenever chunking, fee/campus resolution or the pathway chunks change.
 # `ingest.py --if-empty` re-ingests when the stored version differs, so a tester who
 # pulls new code cannot end up serving answers from chunks built by the old pipeline.
-PIPELINE_VERSION = "2026-08-30.1"
+PIPELINE_VERSION = "2026-08-30.3"
 
 _embedder = None
 

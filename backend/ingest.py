@@ -459,6 +459,142 @@ def build_fee_rows(doc) -> list[tuple]:
     return rows
 
 
+# --- Campus contact details --------------------------------------------------
+# Pages 91-95 are not really tables: each campus is a vertical record spread over
+# consecutive rows.
+#
+#   | Meerabai DSEU Campus (for Girls only) | Smt. Shubha G.V |
+#   | Eastern Avenue Road, Maharani Bagh, New Delhi 110065    |
+#   | Email ID: director-mbit@dseu.ac.in                      |
+#   | (Nearest Metro Station: Ashram)                         |
+#
+# Chunked row-wise, "(Nearest Metro Station: Ashram)" became a chunk of its own
+# with no campus attached -- useless for "which metro for Meerabai?", and worse,
+# an invitation to pair a metro with the wrong campus. These tables are assembled
+# into one record per campus instead, and skipped by the generic table chunker.
+CAMPUS_DETAIL_PREFIX = "Campus Details"
+CAMPUS_NAME_RE = re.compile(r"^(.*?\bCampus\b(?:\s*\(for\s+Girls\s+only\))?)", re.IGNORECASE)
+METRO_RE = re.compile(r"Nearest\s+Metro\s+Stations?\s*:\s*([^)]+)", re.IGNORECASE)
+EMAIL_RE = re.compile(r"[\w.+-]+@[\w.-]+\.\w+")
+URL_RE = re.compile(r"https?://\S+")
+TITLE_RE = re.compile(r"^(Dr\.|Prof\.|Mr\.|Ms\.|Mrs\.|Smt\.|Shri|Sh\.)", re.IGNORECASE)
+LABEL_RE = re.compile(r"\b(Email\s*ID|Website|Nearest\s+Metro\s+Stations?)\s*:?", re.IGNORECASE)
+HEADER_FRAGMENT_RE = re.compile(
+    r"^(in-?charge|director\s*/?\s*campus.*|campus|address|s\.?\s?no\.?)$", re.IGNORECASE
+)
+
+
+def _absorb(record: dict, value: str) -> None:
+    """Pulls whatever fields a cell happens to contain into the campus record.
+
+    PyMuPDF sometimes returns a campus's name, address, email and metro merged
+    into one cell and sometimes as separate rows, so each field is matched
+    wherever it appears rather than by position.
+    """
+    metro = METRO_RE.search(value)
+    if metro:
+        record["metro"] = record["metro"] or metro.group(1).strip(" ()/,;")
+        value = value[:metro.start()] + " " + value[metro.end():]
+    url = URL_RE.search(value)
+    if url:
+        record["site"] = record["site"] or url.group(0).rstrip(").,")
+        value = URL_RE.sub(" ", value)
+    email = EMAIL_RE.search(value)
+    if email:
+        record["email"] = record["email"] or email.group(0)
+        value = EMAIL_RE.sub(" ", value)
+
+    leftover = re.sub(r"\s+", " ", LABEL_RE.sub(" ", value)).strip(" ,.;:()-/")
+    if not leftover or HEADER_FRAGMENT_RE.match(leftover):
+        return
+    if not record["director"] and TITLE_RE.match(leftover):
+        record["director"] = leftover
+    else:
+        record["address"].append(leftover)
+
+
+def is_campus_detail_table(df: pd.DataFrame) -> bool:
+    columns = " ".join(str(c).lower() for c in df.columns)
+    return "campus" in columns and "director" in columns
+
+
+def _starts_campus(value: str) -> bool:
+    if not re.search(r"\bCampus\b", value, re.IGNORECASE):
+        return False
+    return not re.match(r"^\s*(\(|Email|https?:|Nearest)", value, re.IGNORECASE)
+
+
+def build_campus_detail_rows(doc) -> list[tuple]:
+    """One chunk per campus: name, address, nearest metro, email, site, director."""
+    records: list[dict] = []
+    current: dict | None = None
+
+    for index in range(len(doc)):
+        page = doc[index]
+        finder = page.find_tables()
+        for table in (list(finder.tables) if finder and finder.tables else []):
+            df = clean_table(table)
+            if df is None or not is_campus_detail_table(df):
+                continue
+            for _, row in df.iterrows():
+                values = [str(v).strip() for v in row if str(v).strip()]
+                values = [v for v in values if not HEADER_FRAGMENT_RE.match(v)]
+                if not values:
+                    continue
+                first = values[0]
+                extra = [v for v in values[1:] if v != first]
+
+                if _starts_campus(first):
+                    if current:
+                        records.append(current)
+                    match = CAMPUS_NAME_RE.match(first)
+                    name = (match.group(1) if match else first).strip(" ,.-")
+                    trailing = first[len(match.group(1)):].strip(" ,.-") if match else ""
+                    current = {
+                        "name": name, "page": index + 1, "address": [],
+                        "metro": None, "email": None, "site": None, "director": None,
+                    }
+                    if extra:
+                        current["director"] = extra[0]
+                    # The remainder of the campus cell often carries the address,
+                    # email and metro all at once.
+                    if trailing:
+                        _absorb(current, trailing)
+                    continue
+
+                if current is None:
+                    continue  # detail rows before the first campus (a page break)
+                for value in [first, *extra]:
+                    _absorb(current, value)
+    if current:
+        records.append(current)
+
+    rows: list[tuple] = []
+    for record in records:
+        lines = [f"{CAMPUS_DETAIL_PREFIX}: {record['name']}", f"Campus: {record['name']}"]
+        if record["address"]:
+            lines.append("Address: " + ", ".join(record["address"]))
+        # State it either way: "not listed" beats the model borrowing a metro from
+        # whichever campus happened to be retrieved alongside.
+        lines.append(
+            f"Nearest Metro Station: {record['metro']}" if record["metro"]
+            else "Nearest Metro Station: not listed in the brochure for this campus"
+        )
+        if record["email"]:
+            lines.append(f"Email: {record['email']}")
+        if record["site"]:
+            lines.append(f"Website: {record['site']}")
+        if record["director"]:
+            lines.append(f"Director / Campus In-charge: {record['director']}")
+        text = "\n".join(lines)
+        if core.fits(text):
+            rows.append((text, CAMPUS_DETAIL_PREFIX, True, record["page"], SOURCE_BROCHURE))
+
+    with_metro = sum(1 for r in records if r["metro"])
+    print(f"Assembled {len(rows)} campus detail records ({with_metro} with a metro station)")
+    return rows
+
+
 # --- Campus availability -----------------------------------------------------
 # The campus tables list one row per (campus, program), so the campuses offering
 # a given program are scattered across many chunks and pages. Top-k retrieval
@@ -596,6 +732,10 @@ def build_rows() -> list[tuple]:
             if df is None:
                 continue
             n_tables += 1
+            if is_campus_detail_table(df):
+                # Assembled per campus by build_campus_detail_rows instead; chunking
+                # it row-wise here is what detached the metro stations.
+                continue
             contexts, carried = _row_context(df, carried)
             extra = f"table {t_index}" if len(tables) > 1 else "table"
             for part in table_to_chunks(df, table_budget, contexts):
@@ -609,6 +749,7 @@ def build_rows() -> list[tuple]:
 
     rows.extend(build_fee_rows(doc))
     rows.extend(build_campus_rows(doc))
+    rows.extend(build_campus_detail_rows(doc))
     print(f"Extracted {n_tables} tables and built {len(rows)} chunks")
     return rows
 
