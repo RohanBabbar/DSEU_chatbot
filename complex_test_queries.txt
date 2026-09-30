@@ -1,0 +1,190 @@
+# Simple program discovery
+kon kon se programs available hain
+total kitne courses available hain
+dseu me kya kya courses hain
+mujhe courses ki list chahiye
+saare course batao
+all programs list
+available courses in dseu
+course list do
+programs ka full list
+dseu all courses
+
+# After 10th / diploma variants
+after 10 courses
+after class 10 programs
+10th ke baad kya kar sakta hu
+class 10 ke baad diploma
+matric ke baad kya kar sakte hain
+dasvi ke baad dseu courses
+diploma joh dasvin ke baad hota hai voh sare programs
+all 10 plus diploma
+10+ ke baad diploma programs
+school 10 pass hu kaunse courses milenge
+technical diploma programs
+diploma in computer after 10th
+after 10th computer related diploma
+architecture diploma eligibility
+diploma architecture kis campus me hai
+
+# After 12th / UG variants
+after 12 programs
+after class 12 courses
+12th ke baad dseu me kya hai
+barvi ke baad kaunse programs
+degree programs after 12
+ug courses batao
+ug certificate kaun se hain
+ug diploma ka list do
+bachelor degree programs
+bachelors courses
+science ke baad kya courses hain
+12th science ke liye courses
+diploma pharmacy after 12
+bsc life sciences eligibility
+bsc physical sciences campus
+
+# PG / graduation variants
+graduation ke baad courses
+graduate ke baad kya kar sakta hu
+pg courses batao
+pg diploma programs list
+master degree programs
+masters courses in dseu
+mca kis campus me hai
+mba courses batao
+mba finance fees
+mba data science campus
+ms quantum computing eligibility
+pg diploma ai intelligent systems fee
+
+# B.Tech variants
+mujhe btech karna hai
+b.tech course list
+btech branches batao
+btech kaun kaun se hain
+all btech programs
+btech cse campuses
+computer science engineering btech
+btech data science kaha hai
+btech mechanical kis campus me milega
+btech ece fee
+btech robotics and ai fees
+btech artificial intelligence campus
+btech network engineering and security
+btech production engineering advanced manufacturing
+integrated btech mtech emerging technologies eligibility
+btech admission jee se hota hai kya
+
+# Specific program lookup variants
+computer applications course batao
+bachelor of computer applications ke related programs batao
+bca karni hai
+bca kaha available hai
+bca exit ke baad kya degree milegi
+bba karni hai
+bba office management fee
+bba banking financial services insurance campus
+b s computer applications exit awards
+bs fashion design kya hai
+bs digital marketing and data analytics
+hospital management degree campus
+interior design related programs
+beauty wellness course batao
+retail management programs
+e commerce operations course
+solar panel course eligibility
+hvac certificate campus
+
+# Fee and rebate
+btech fees batao
+btech first semester fee
+btech second semester fee
+btech total fee
+SC category me btech fees kitni hogi
+ST btech first semester fee
+pwd rebate kitna hai
+rebate mba
+fee rebate explain karo
+sc category rebate percentage
+fee category A amount
+fee category C tuition fee
+bca fees
+mca fees
+diploma computer engineering fees
+pg diploma fees
+ug certificate fee kitni hai
+diploma architecture first sem fee
+mba finance sc rebate ke baad fees
+
+# Campus and static/mixed
+nearest metro to gb pant campus
+gb pant campus ka nearest metro
+btech cse at gb pant nearest metro
+btech cse at gb pant first semester fee with sc rebate and nearest metro
+dseu dwarka campus metro
+okhla campus director email
+pusa campus nearest metro
+which campus has btech computer science
+computer engineering diploma kis kis campus me hai
+programs at gb pant campus
+courses available at dwarka campus
+campus email for rajokri
+who is vice chancellor
+registrar email kya hai
+director academics ka email
+
+# Eligibility and registration static
+diploma eligibility criteria
+ug admission eligibility
+btech eligibility criteria 2026
+pg masters eligibility
+integrated btech mtech eligibility
+online registration dates
+diploma registration last date
+ug registration correction window
+pg registration kab start hai
+btech registration kaise hoga
+jac delhi btech admission
+
+# Exit awards
+exit ke baad kya milega
+3 year exit ke baad kya award milega
+2 year exit award list
+1 year exit options
+bca 3 year exit award
+bs computer applications 4 year award
+fashion design exit awards
+retail management exit option
+bba supply chain exit certificate
+environmental science exit award
+
+# Complex mixed phrasing
+mujhe 10th ke baad computer line me koi diploma chahiye fees bhi batao
+main 12th pass hu mujhe bachelor degree courses aur unki campuses batao
+gb pant me btech branches aur unki fees batao
+btech cse gb pant me hai kya aur first sem me sc student ko kitna dena hoga
+mca karna hai campus fee aur eligibility batao
+bca aur bs computer applications me kya options hain exit bhi batao
+diploma computer engineering ke campuses aur first semester fee
+pg diploma ai intelligent systems eligibility fees campus
+after graduation data related courses batao with fees
+retail marketing pg diploma campus and fee
+girls only campus wale diploma programs
+pharmacy course eligibility fee campus
+science mandatory wale courses kaunse hain
+office management related bba and pg diploma batao
+dseu me ai related courses kya kya hain fees ke sath
+computer applications me master nahi bachelor options batao
+
+# Unsupported / should not hallucinate
+mbbs course
+aerospace engineering btech
+law degree
+bitcoin course
+hostel discount btech
+nursing program
+phd computer science
+dental course fees
+marine engineering dseu
+astrology diploma fees

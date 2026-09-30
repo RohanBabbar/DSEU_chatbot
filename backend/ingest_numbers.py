@@ -155,7 +155,7 @@ def build_rows(brochure_programs: list[str] | None = None) -> list[tuple]:
                 f"{PROGRAM_PREFIX}:\nProgram Name: {name}\n"
                 "Specific Year Exits: not listed in the updated programs spreadsheet.",
                 PROGRAM_PREFIX, False, 0, SOURCE_SHEET,
-            ))
+            )) 
 
     # --- Reverse index: qualification -> the programs that award it -----------
     # Answers "I want a BCA, what do I take?", which no per-program chunk can.

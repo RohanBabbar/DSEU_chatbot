@@ -5,6 +5,7 @@ and test_retrieval.py lives here, so the debug tool can never drift from what th
 server actually does.
 """
 import os
+import re
 import asyncio
 from functools import lru_cache
 
@@ -34,8 +35,16 @@ OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
 PLACEHOLDER_KEYS = {"", "your_api_key_here", "your_openai_api_key_here"}
 
 # --- Embeddings --------------------------------------------------------------
-EMBED_MODEL_NAME = "all-mpnet-base-v2"
-EMBED_DIM = 768
+EMBEDDING_MODE = os.getenv("EMBEDDING_MODEL", "multilingual")
+
+if EMBEDDING_MODE == "legacy":
+    EMBED_MODEL_NAME = "all-mpnet-base-v2"
+    EMBED_DIM = 768
+    EMBED_COLUMN = "embedding"
+else:
+    EMBED_MODEL_NAME = "BAAI/bge-m3"
+    EMBED_DIM = 1024
+    EMBED_COLUMN = "embedding_multilingual"
 
 # all-mpnet-base-v2 silently truncates anything past 384 tokens, so every chunk
 # must be built to fit. These budgets leave room for the context header that
@@ -48,10 +57,51 @@ TABLE_MAX_TOKENS = 288
 SOURCE_BROCHURE = "brochure"
 SOURCE_SHEET = "spreadsheet"
 
+# --- Fee concession ----------------------------------------------------------
+# A CONFIGURED UNIVERSITY RULE, not a fact from the 2026 brochure. The brochure
+# mentions no fee concession anywhere, and page 105 states that no scholarships
+# are available at university level -- so this is policy supplied by the
+# university, and the chunks say as much. Set the percentage to 0 to switch it off.
+#
+# The arithmetic is done here, at ingest time, so the answer never depends on the
+# language model doing sums.
+FEE_CONCESSION_PERCENT = 60
+FEE_CONCESSION_LABEL = "SC / ST / PwD"
+FEE_CONCESSION_CATEGORIES = ("SC", "ST", "PwD")
+
+
+def parse_rupees(text: str) -> int | None:
+    """'35,000/-' -> 35000. Handles Indian grouping such as '1,00,000/-'."""
+    digits = re.sub(r"\D", "", text or "")
+    return int(digits) if digits else None
+
+
+def format_rupees(amount: int) -> str:
+    """Indian digit grouping: 1234567 -> '12,34,567'."""
+    digits = str(int(amount))
+    if len(digits) <= 3:
+        return digits
+    head, tail = digits[:-3], digits[-3:]
+    groups: list[str] = []
+    while len(head) > 2:
+        groups.insert(0, head[-2:])
+        head = head[:-2]
+    if head:
+        groups.insert(0, head)
+    return ",".join(groups + [tail])
+
+
+def concession_fee(amount: int, percent: int | None = None) -> tuple[int, int]:
+    """Returns (amount deducted, amount payable) for a concession category."""
+    percent = FEE_CONCESSION_PERCENT if percent is None else percent
+    deducted = round(amount * percent / 100)
+    return deducted, amount - deducted
+
+
 # Bump this whenever chunking, fee/campus resolution or the pathway chunks change.
 # `ingest.py --if-empty` re-ingests when the stored version differs, so a tester who
 # pulls new code cannot end up serving answers from chunks built by the old pipeline.
-PIPELINE_VERSION = "2026-08-30.6"
+PIPELINE_VERSION = "2026-08-30.8"
 
 _embedder = None
 
@@ -164,8 +214,7 @@ CREATE TABLE IF NOT EXISTS ingest_meta (
 
 
 async def ensure_schema(conn):
-    await conn.execute(SCHEMA_SQL)
-
+    await conn.execute(SCHEMA_SQL) 
 
 async def get_meta(conn, key: str) -> str | None:
     return await conn.fetchval("SELECT value FROM ingest_meta WHERE key = $1", key)
@@ -201,7 +250,7 @@ vector_search AS (
     FROM (
         SELECT id
         FROM document_chunks
-        ORDER BY embedding <=> $1::vector
+        ORDER BY {embed_col} <=> $1::vector
         LIMIT $4
     ) v
 ),
@@ -228,7 +277,7 @@ LIMIT $3;
 async def search(conn, query: str, top_k: int = 8, pool: int = 25) -> list[dict]:
     """Runs hybrid search and returns the fused top-k chunks."""
     vec = await embed_query_async(query)
-    rows = await conn.fetch(SEARCH_SQL, to_pgvector(vec), query, top_k, pool)
+    rows = await conn.fetch(SEARCH_SQL.format(embed_col=EMBED_COLUMN), to_pgvector(vec), query, top_k, pool)
     return [dict(r) for r in rows]
 
 

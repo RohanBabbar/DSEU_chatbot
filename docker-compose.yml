@@ -30,6 +30,8 @@ services:
       # POSTGRES_HOST says in .env (which is set up for running outside Docker).
       POSTGRES_HOST: db
       POSTGRES_PORT: "5432"
+      LLM_PROVIDER: ${LLM_PROVIDER:-local}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen2.5:7b-instruct}
     ports:
       - "8000:8000"
     restart: unless-stopped

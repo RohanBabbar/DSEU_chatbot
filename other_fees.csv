@@ -1,0 +1,16 @@
+"fee_id","fee_name","amount","refundable","frequency","applicable_to"
+1,"Sports Fee",250,False,"Every semester","all programs"
+2,"Library Fee ",500,False,"Every semester","all programs"
+3,"Laboratory Fee",1000,False,"Every semester","all programs"
+4,"ITES Fee",250,False,"Every semester","all programs"
+5,"Extra-Curricular Activities
+Fee ",250,False,"Every semester","all programs"
+6,"Examination Fee ",2000,False,"Every semester","all programs"
+7,"Development Fee",1000,False,"Every semester","all programs"
+8,"Admission/ Re-admission
+Fee ",500,False,"Every semester","all programs"
+9,"ID Card Fee",100,False,"once during the entire duration of the Program","all programs"
+10,"Enrolment Fee",200,False,"once during the entire duration of the Program","all programs"
+11,"Library Caution Money",500,True,"once during the entire duration of the Program","all programs"
+12,"Laboratory Caution Money",2000,True,"once during the entire duration of the Program","all programs"
+13,"General Caution Money",1000,True,"once during the entire duration of the Program","all programs"

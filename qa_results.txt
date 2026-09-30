@@ -1,0 +1,3533 @@
+DSEU Chatbot Complex Queries Test Results
+================================================================================
+
+QUESTION 1: kon kon se programs available hain
+ANSWER:
+DSEU offers a variety of programs across different campuses and levels. Here is a summary of some programs available based on the provided context:
+
+Diploma Programs:
+- Diploma in Computer Engineering (AI Tools) (3 years, after 10th)
+  - Offered at Kasturba DSEU Campus (FOR GIRLS ONLY)
+  - Offered at DSEU Jaffarpur Campus
+  - Offered at DSEU Rajokri Campus
+
+Undergraduate (UG) Programs (3-year and 4-year degrees after 12th):
+- BBA (Banking, Financial Services and Insurance)
+- BBA Office Management (AI driven)
+- Bachelor of Computer Applications (BCA)
+- B.Sc. Life Sciences
+- B.Sc. Physical Sciences
+- B.A. (Hons) Spanish (4 years)
+- B.Des. Jewellery Design (4 years)
+- B.F.A. (Hons.)/Bachelor in Fine Arts (Hons.) (4 years)
+- B.S. Beauty Therapy (4 years)
+- B.S. Banking, Financial Services and Insurance (4 years)
+- B.S. Business Process Management (4 years)
+- B.S. Computer Applications (4 years)
+- B.S. Digital Media Design (4 years)
+- B.S. Digital Marketing and Data Analytics (4 years)
+- B.S. E-Commerce Operations and Digital Application (4 years)
+- B.S. Environmental Science (4 years)
+- B.S. Entrepreneurship (4 years)
+
+Postgraduate (PG) Programs:
+- PG Diploma Smart Office Management (offered at DSEU Jaffarpur Campus)
+
+Master's Programs:
+- MS Program in Quantum Computing and Technologies (offered at Bhai Parmanand DSEU Campus)
+
+Campus-wise examples:
+- DSEU Rajokri Campus offers Diploma in Computer Engineering (AI Tools) and B.S. Computer Applications.
+- DSEU Jaffarpur Campus offers Diploma in Computer Engineering (AI Tools), Bachelor of Computer Applications (BCA), BBA Office Management (AI driven), and PG Diploma Smart Office Management.
+- Bhai Parmanand DSEU Campus offers MS Program in Quantum Computing and Technologies.
+
+This is not an exhaustive list of all programs but covers many key offerings. If you want details about a specific program or campus, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 2: total kitne courses available hain
+ANSWER:
+I do not have the total count of all courses available at DSEU in the current documents. For the complete list and total number of courses, please check with the DSEU admissions office or official website.
+--------------------------------------------------------------------------------
+
+QUESTION 3: dseu me kya kya courses hain
+ANSWER:
+DSEU (Delhi Skill and Entrepreneurship University) offers a wide range of programs across various campuses and zones. Here is an overview of some types of courses available, based on the provided context:
+
+1. Undergraduate (UG) Degree Programs:
+   - Bachelor of Computer Applications (BCA)
+   - B.S. Banking, Financial Services and Insurance
+   - B.S. Beauty Therapy
+   - B.S. Environmental Science
+   - B.S. Hospital Management
+   - B.Sc. Life Sciences
+   - BBA Office Management (AI driven)
+   - B.S. Computer Applications
+   - B.S. Digital Marketing and Data Analytics
+   - B.S. Entrepreneurship
+   - B.S. Facility and Infrastructure Management
+   - B.S. Medical Laboratory Sciences
+   - B.Sc. (Hons.) Psychology
+   - BBA (Banking, Financial Services and Insurance)
+   - B.Tech. Network Engineering and Security
+
+2. Diploma Programs:
+   - Diploma in Computer Engineering (AI Tools)
+   - Diploma in Pharmacy
+   - Diploma in Semi-Conductor Chip Manufacturing
+   - UG Diploma in Hotel Management
+
+3. Postgraduate (PG) Programs:
+   - Master of Computer Applications (MCA)
+   - MBA Finance
+   - M.Sc. (Medical Laboratory Sciences)
+   - PG Diploma in Event Management
+   - PG Diploma in Semi-conductor Chip Design & Fabrication
+
+4. Certificate Programs:
+   - UG Certificate in Installation, Testing, Maintenance and Repair of Solar Panels
+
+5. Integrated Programs:
+   - Integrated MTech in Emerging Technologies
+
+DSEU offers multiple entry and exit options with flexible durations, including diploma, bachelor's, and master's degrees. The programs are offered at various campuses across Delhi, including DSEU Dheerpur Campus, DSEU Dwarka Campus, and others.
+
+If you want information about a specific course or campus, please specify, and I can provide detailed routes, fees, eligibility, and campus availability.
+--------------------------------------------------------------------------------
+
+QUESTION 4: mujhe courses ki list chahiye
+ANSWER:
+DSEU offers a wide range of programs across various campuses. Here is a list of some programs offered at different campuses:
+
+- B.S. Banking, Financial Services and Insurance
+- B.S. Computer Applications
+- B.Tech. Artificial Intelligence
+- B.Tech. Data Science
+- BBA (Banking, Financial Services and Insurance)
+- BBA Office Management (AI driven)
+- MBA Data Science
+- MS Nano Materials and Nano Technologies
+- MS Program in Quantum Computing and Technologies
+- MS Sustainability Science
+- PG Diploma in AI and Intelligent Systems
+- PG Diploma in Data Analysis and Public Policy
+- UG Certificate AI in Office Operations
+- B.S. Beauty Therapy
+- B.S. Environmental Science
+- B.S. Hospital Management
+- B.Sc. Life Sciences
+- Bachelor of Computer Applications
+- Diploma in Computer Engineering (AI Tools)
+- B.S. Digital Marketing and Data Analytics
+- B.S. Entrepreneurship
+- B.S. Facility and Infrastructure Management
+- B.S. Medical Laboratory Sciences
+- B.Sc. (Hons.) Psychology
+- B.Tech. Network Engineering and Security
+- Diploma in Pharmacy
+- Diploma in Semi-Conductor Chip Manufacturing
+- Integrated MTech in Emerging Technologies
+- M.Sc. (Medical Laboratory Sciences)
+- MBA Finance
+- Master of Computer Applications
+- PG Diploma in Event Management
+- UG Diploma in Hotel Management
+- B.S. E-Commerce Operations and Digital Application
+- B.S. Hospitality & Hotel Management
+- B.S. Retail Management
+- B.S. Supply Chain Management
+- B.Tech. Computer Science Engineering
+- B.Tech. Electrical Engineering
+- Diploma in Automobile Engineering
+- Diploma in Civil Engineering
+- Diploma in Electrical Engineering
+- Diploma in Electronics Engineering
+- Diploma in Mechanical Engineering
+- Diploma in Printing Technology
+- MBA Entrepreneurship
+- MBA International Business Management
+- UG Certificate in Conservation of Paper
+- UG Certificate in Conservation of Textiles
+- UG Certificate in Retail Management
+- B.S. Business Process Management
+- PG Diploma in Retail Marketing
+- UG Certificate in Digital Marketing and Web development
+- B.S. Fashion Design
+- B.S. Interior Design
+- B.Tech. Mechanical Engineering
+- Diploma in Architecture
+- UG Certificate Course in Food Production
+- UG Certificate course in Refrigeration and Air conditioning Skills (HVAC)
+- B.F.A. (Hons.)/Bachelor in Fine Arts (Hons.)
+- Diploma in Wireless and Mobile Communication
+- PG Diploma Smart Office Management
+- UG Diploma in Beauty and wellness
+- Diploma in Chemical Engineering
+- Diploma in Petrochemical Engineering
+- Diploma in Plastic Technology
+- Diploma in Polymer Technology
+
+This is not an exhaustive list but covers many of the programs offered at various DSEU campuses. If you want information about a specific program or campus, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 5: saare course batao
+ANSWER:
+Here is a list of various programs offered by DSEU across different campuses, categorized by type:
+
+Diploma Programs (examples):
+- Diploma in Computer Engineering (AI Tools)
+- Diploma in Mobile Manufacturing
+- Diploma in Automobile Engineering
+- Diploma in Civil Engineering
+- Diploma in Electrical Engineering
+- Diploma in Electronics Engineering
+- Diploma in Mechanical Engineering
+- Diploma in Printing Technology
+- Diploma in Architecture
+- Diploma in Wireless and Mobile Communication
+- Diploma in Pharmacy
+- UG Diploma in Beauty and Wellness
+
+Undergraduate Bachelor Degree Programs (examples):
+- BBA (Banking, Financial Services and Insurance)
+- BBA Office Management (AI driven)
+- Bachelor of Computer Applications (BCA)
+- B.S. E-Commerce Operations and Digital Application
+- B.S. Hospitality & Hotel Management
+- B.S. Retail Management
+- B.S. Supply Chain Management
+- B.S. Interior Design
+- B.S. Medical Laboratory Sciences
+- B.S. Beauty Therapy
+- B.F.A. (Hons.)/Bachelor in Fine Arts (Hons.)
+
+B.Tech Programs:
+- B.Tech. Artificial Intelligence
+- B.Tech. Electrical Engineering
+- B.Tech. Computer Science Engineering
+
+Postgraduate Diploma Programs:
+- PG Diploma Smart Office Management
+
+This is a summary of the programs mentioned in the documents. If you want details about a specific program, such as eligibility, fee, duration, or campus availability, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 6: all programs list
+ANSWER:
+I do not have a complete list of all programs offered by DSEU in the current documents. The provided context includes partial lists of programs at specific campuses and some individual program details, but not a full consolidated list of all programs. Please check with the DSEU admissions office or official website for the complete program list.
+--------------------------------------------------------------------------------
+
+QUESTION 7: available courses in dseu
+ANSWER:
+DSEU offers a variety of programs across different levels. Here is a summary of the available courses:
+
+Diploma Programs (3 years, after 10th, NCrF Level 4.5):
+- Diploma in Architecture
+- Diploma in Automobile Engineering
+- Diploma in Chemical Engineering
+- Diploma in Civil Engineering
+- Diploma in Civil Engineering in Green Infrastructure
+- Diploma in Computer Engineering (AI Tools)
+- Diploma in Electrical Engineering
+- Diploma in Electronics Engineering
+- Diploma in Mechanical Engineering
+- Diploma in Mobile Manufacturing
+- Diploma in Petrochemical Engineering
+- Diploma in Plastic Technology
+- Diploma in Polymer Technology
+- Diploma in Precision Engineering
+- Diploma in Printing Technology
+- Diploma in Production Engineering (Advance Manufacturing)
+- Diploma in Robotics and Automation
+- Diploma in Semi-Conductor Chip Manufacturing
+- Diploma in Welding Technology
+- Diploma in Wireless & Mobile Communication
+- Four Year UG Diploma in Tool and Die Making (NCrF Level 5.0)
+
+UG Certificate Programs (1 year, after 12th, NCrF Level 4.5):
+- UG Certificate AI in Office Operations
+- UG Certificate in Conservation of Paper
+- UG Certificate in Conservation of Textiles
+- UG Certificate in Digital Marketing and Web Development
+- UG Certificate in Food Production
+- UG Certificate in Installation, Testing, Maintenance and Repair of Solar Panels
+- UG Certificate in Refrigeration and Air Conditioning Skills (HVAC)
+- UG Certificate in Retail Management
+- UG Certificate in Welding Technology
+
+UG Diploma Programs (2 years, after 12th, NCrF Level 5.0):
+- UG Diploma in Beauty and Wellness
+- UG Diploma in Electronics System, Design and Manufacturing
+- UG Diploma in Hotel Management
+- Diploma in Pharmacy
+
+Bachelor of Science (B.S.) Programs (4 years):
+- B S Banking Financial Services and Insurance
+- B S Beauty Therapy
+- B S Business Process Management
+- B S Computer Applications
+- B S Digital Marketing and Data Analytics
+- B S Digital Media Design
+- B S E-Commerce Operations and Digital Application
+- B S Entrepreneurship
+- B S Environmental Science
+- B S Facility and Infrastructure Management
+- B S Fashion Design
+- B S Interior Design
+- B S Medical Laboratory Sciences
+- B S Retail Management
+- B S Supply Chain Management
+
+If you want information about specific programs, eligibility, fees, or campuses, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 8: course list do
+ANSWER:
+I do not have a complete single list of all courses offered by DSEU in the current documents. However, I can provide you with the lists of programs offered at specific campuses or zones if you specify which campus or zone you are interested in. Please let me know if you want the course list for a particular campus or zone.
+--------------------------------------------------------------------------------
+
+QUESTION 9: programs ka full list
+ANSWER:
+I do not have a complete full list of all DSEU programs in the current documents. The provided context only includes program lists by specific campuses and some individual program details. For a full list of all programs offered by DSEU, please check the official DSEU admission brochure or contact the admissions office directly.
+--------------------------------------------------------------------------------
+
+QUESTION 10: dseu all courses
+ANSWER:
+DSEU offers a variety of programs across different levels and fields. Here is a comprehensive list of the courses available:
+
+**Undergraduate Degree Programs (B.S. degrees):**
+1. B.S. Banking Financial Services and Insurance
+2. B.S. Beauty Therapy
+3. B.S. Business Process Management
+4. B.S. Computer Applications
+5. B.S. Digital Marketing and Data Analytics
+6. B.S. Digital Media Design
+7. B.S. E-Commerce Operations and Digital Application
+8. B.S. Entrepreneurship
+9. B.S. Environmental Science
+10. B.S. Facility and Infrastructure Management
+11. B.S. Fashion Design
+12. B.S. Interior Design
+13. B.S. Medical Laboratory Sciences
+14. B.S. Retail Management
+15. B.S. Supply Chain Management
+
+**Diploma Programs (3-year Technical Diplomas after 10th, NCrF Level 4.5):**
+1. Diploma in Architecture
+2. Diploma in Automobile Engineering
+3. Diploma in Chemical Engineering
+4. Diploma in Civil Engineering
+5. Diploma in Civil Engineering in Green Infrastructure
+6. Diploma in Computer Engineering (AI Tools)
+7. Diploma in Electrical Engineering
+8. Diploma in Electronics Engineering
+9. Diploma in Mechanical Engineering
+10. Diploma in Mobile Manufacturing
+11. Diploma in Petrochemical Engineering
+12. Diploma in Plastic Technology
+13. Diploma in Polymer Technology
+14. Diploma in Precision Engineering
+15. Diploma in Printing Technology
+16. Diploma in Production Engineering (Advance Manufacturing)
+17. Diploma in Robotics and Automation
+18. Diploma in Semi-Conductor Chip Manufacturing
+19. Diploma in Welding Technology
+20. Diploma in Wireless & Mobile Communication
+21. Four Year UG Diploma in Tool and Die Making (NCrF Level 5.0)
+
+**UG Certificate Programs (1 year after 12th, NCrF Level 4.5):**
+1. UG Certificate AI in Office Operations
+2. UG Certificate in Conservation of Paper
+
+This list covers the main programs offered by DSEU as per the latest available information. If you want details about specific programs, eligibility, fees, or campus availability, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 11: after 10 courses
+ANSWER:
+I do not have information about courses available after 10th grade in the current documents. Please check with the admissions office or official DSEU sources for details on programs available after 10th standard.
+--------------------------------------------------------------------------------
+
+QUESTION 12: after class 10 programs
+ANSWER:
+For admission to programs after Class 10 at DSEU, the main options are Diploma programs. These are typically 3-year duration programs designed for students who have completed their 10th standard.
+
+Here is the relevant information:
+
+1. Programs:
+   - Diploma in Plastic Technology
+   - Diploma in Polymer Technology
+   - Diploma in Mobile Manufacturing
+   - Diploma in Computer Engineering (AI Tools)
+   - Diploma in Automobile Engineering
+   - Diploma in Civil Engineering
+   - Diploma in Electrical Engineering
+   - Diploma in Electronics Engineering
+   - Diploma in Mechanical Engineering
+   - Diploma in Printing Technology
+   - And possibly others (not all listed here)
+
+2. Eligibility:
+   - Generally, completion of Class 10 (Secondary School) is required for Diploma programs.
+
+3. Fee:
+   - For example, Diploma in Plastic Technology, Polymer Technology, and Mobile Manufacturing have a general fee of Rs. 10,000 per semester (Fee Category E).
+   - SC/ST/PwD candidates get a 60% concession on the general fee, paying Rs. 4,000 per semester.
+   - This concession applies only to the general fee, not to caution money, enrolment, or examination fees.
+
+4. Campuses and Intake:
+   - Diploma in Computer Engineering (AI Tools) is offered at DSEU Rajokri Campus with an intake of 120.
+   - Diploma in Automobile Engineering, Civil Engineering, Electrical Engineering, Electronics Engineering, Mechanical Engineering, and Printing Technology are offered at DSEU Pusa-I Campus with varying intakes.
+   - Other diploma programs are offered at various campuses; please specify if you want details for a particular diploma or campus.
+
+If you want details about a specific diploma program or campus, please let me know!
+--------------------------------------------------------------------------------
+
+QUESTION 13: 10th ke baad kya kar sakta hu
+ANSWER:
+After 10th, at DSEU you can pursue various diploma programs. Here are some options available:
+
+1. Diploma in Civil Engineering (3 years)  
+   - Campus: Kasturba DSEU Campus (FOR GIRLS ONLY)  
+   - Fee Category: E  
+
+2. Diploma in Computer Engineering (AI Tools) (3 years)  
+   - Campuses:  
+     - DSEU Dheerpur Campus  
+     - Kasturba DSEU Campus (FOR GIRLS ONLY)  
+     - DSEU Rajokri Campus  
+   - Fee Category: E  
+
+3. Diploma in Architecture (3 years)  
+   - Campus: Meerabai DSEU Campus (FOR GIRLS ONLY)  
+   - Fee Category: D  
+
+4. Diploma in Automobile Engineering (3 years)  
+   - Campuses:  
+     - DSEU Pusa 1 Campus  
+     - G.B. Pant DSEU Campus  
+   - Fee Category: E  
+
+5. Diploma in Electronics Engineering (3 years)  
+   - Campus: Meerabai DSEU Campus (FOR GIRLS ONLY)  
+   - Intake: 60 (from campus table)  
+   - Fee category not listed in the chunks  
+
+6. Diploma in Wireless and Mobile Communication (3 years)  
+   - Campus: Meerabai DSEU Campus (FOR GIRLS ONLY)  
+   - Intake: 60  
+   - Fee category not listed in the chunks  
+
+7. Diploma in Semi-Conductor Chip Manufacturing (3 years)  
+   - Campus: DSEU Dwarka Campus  
+   - Intake: 60  
+   - Fee category not listed in the chunks  
+
+8. Diploma in Pharmacy (3 years)  
+   - Campuses:  
+     - Meerabai DSEU Campus (FOR GIRLS ONLY)  
+     - DSEU Dwarka Campus  
+   - Intake: 60 each  
+   - Fee category not listed in the chunks  
+
+Please specify if you want details on fees, eligibility, or other programs.
+--------------------------------------------------------------------------------
+
+QUESTION 14: class 10 ke baad diploma
+ANSWER:
+For admission to a Diploma program after Class 10, DSEU offers several diploma programs. Here is the relevant information:
+
+Routes:
+Option 1 - Direct: Apply to any of the Diploma programs (typically 3 years duration, but exact duration is not listed in the provided documents).
+Option 2 - Exit option: Not applicable here since diploma is the entry-level qualification after 10th.
+
+Some Diploma programs available include:
+- Diploma in Electrical Engineering
+- Diploma in Mechanical Engineering
+- Diploma in Plastic Technology
+- Diploma in Precision Engineering
+- Diploma in Petrochemical Engineering
+- Diploma in Semi-Conductor Chip Manufacturing
+- Diploma in Pharmacy
+- Diploma in Hotel Management (listed as UG Diploma)
+
+Fee:
+For Diploma programs like Electrical Engineering, Mechanical Engineering, Plastic Technology, Precision Engineering, and Petrochemical Engineering, the fee category is E.
+- General Fee: Rs. 10,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on general fee, so Rs. 4,000 per semester payable by SC/ST/PwD candidates.
+
+Eligibility:
+- After Class 10 (as diploma programs are typically for students after 10th)
+- Specific eligibility details are not explicitly listed in the provided documents but generally diploma programs require 10th pass.
+
+Campuses and Intake:
+- Diploma in Semi-Conductor Chip Manufacturing: DSEU Dwarka Campus, intake 60
+- Diploma in Pharmacy: DSEU Dwarka Campus, intake 60
+- Diploma in Hotel Management: DSEU Dwarka Campus, intake 40
+- Other diploma programs' campus availability is not explicitly listed in the provided documents.
+
+If you want details about a specific diploma program or campus, please specify.
+--------------------------------------------------------------------------------
+
+QUESTION 15: matric ke baad kya kar sakte hain
+ANSWER:
+DSEU ke context mein "matric ke baad" ka matlab hai 10th ke baad. Jo programs DSEU mein admission ke liye "after 12th" eligibility specify karte hain, wo 12th pass students ke liye hain, isliye directly matric (10th) ke baad admission ke liye ye programs nahi hain.
+
+Aapko 12th pass karna hoga tabhi aap DSEU ke bachelor degree programs jaise B.F.A. (Hons.) ya B.S. Computer Applications mein admission le sakte hain.
+
+Agar aap matric ke baad koi course karna chahte hain, to DSEU ke documents mein specifically 10th ke baad admission wali programs ki jankari nahi di gayi hai. Aapko diploma ya skill-based short-term courses ke liye DSEU ki official website ya admission office se contact karna chahiye.
+
+Summary:
+- DSEU ke bachelor degree programs ke liye minimum eligibility 12th pass hai.
+- Matric ke baad admission ke liye koi specific program DSEU ke current documents mein listed nahi hai.
+- Aap diploma ya skill courses ke liye DSEU se pooch sakte hain.
+
+[NO_ANSWER] Matric ke baad kya programs available hain, iska detail mere paas abhi nahi hai. Aap DSEU admission office se sampark karein.
+--------------------------------------------------------------------------------
+
+QUESTION 16: dasvi ke baad dseu courses
+ANSWER:
+For students who have completed 10th (dasvi), DSEU offers several Diploma programs that you can apply to directly. These are typically 3-year technical diploma courses at NCrF Level 4.5.
+
+Here is the relevant information:
+
+Routes:
+Option 1 - Direct: Apply to any of the Diploma programs (3 years) after 10th. Some examples include:
+- Diploma in Architecture
+- Diploma in Automobile Engineering
+- Diploma in Chemical Engineering
+- Diploma in Civil Engineering
+- Diploma in Computer Engineering (AI Tools)
+- Diploma in Electrical Engineering
+- Diploma in Mechanical Engineering
+- Diploma in Mobile Manufacturing
+- Diploma in Petrochemical Engineering
+- Diploma in Plastic Technology
+- Diploma in Polymer Technology
+- Diploma in Precision Engineering
+- Diploma in Printing Technology
+- Diploma in Production Engineering (Advance Manufacturing)
+- Diploma in Robotics and Automation
+- Diploma in Semi-Conductor Chip Manufacturing
+- Diploma in Welding Technology
+- Diploma in Wireless & Mobile Communication
+- Four Year UG Diploma in Tool and Die Making (NCrF Level 5.0)
+
+Option 2 - Exit option: If you enroll in a 4-year UG program after 12th, you may exit early after Year 1 or 2 with a certificate or diploma, but this is for after 12th, not after 10th.
+
+Fee, eligibility, and campuses vary by program and are not fully listed here for all diplomas. For example, Diploma in Mechanical Engineering is offered at Aryabhatt DSEU Campus, DSEU Wazirpur Campus, Guru Nanak Dev DSEU Campus, DSEU Okhla Campus, G.B. Pant DSEU Campus, and DSEU Pusa - I Campus.
+
+If you want details on a specific diploma program, please specify which one.
+
+In summary, after 10th, you can apply directly to Diploma programs at DSEU, which are 3 years in duration and technical in nature.
+--------------------------------------------------------------------------------
+
+QUESTION 17: diploma joh dasvin ke baad hota hai voh sare programs
+ANSWER:
+For diploma programs after 10th (dasvin), DSEU offers many diploma courses that you can apply to directly. These are typically 2- or 3-year diploma programs suitable after completing 10th standard.
+
+Here are some diploma programs available at DSEU campuses (with intake numbers):
+
+- Diploma in Architecture (Aryabhatt Campus - 60 seats; Meerabai Campus - 40 seats)
+- Diploma in Computer Engineering (AI Tools) (Guru Nanak Dev Campus - 120 seats; Meerabai Campus - 120 seats; Jaffarpur Campus - 60 seats; Rajokri Campus - 120 seats)
+- Diploma in Electronics Engineering (Guru Nanak Dev Campus - 120 seats; Meerabai Campus - 60 seats)
+- Diploma in Wireless and Mobile Communication (Meerabai Campus - 60 seats)
+- Diploma in Petrochemical Engineering (Guru Nanak Dev Campus - 60 seats)
+- Diploma in Chemical Engineering (Guru Nanak Dev Campus - 120 seats)
+- Diploma in Electrical Engineering (Aryabhatt Campus - 120 seats; Guru Nanak Dev Campus - 60 seats)
+- Diploma in Mechanical Engineering (Aryabhatt Campus - 180 seats; Guru Nanak Dev Campus - 120 seats)
+- Diploma in Plastic Technology (Guru Nanak Dev Campus - 60 seats)
+- Diploma in Polymer Technology (Guru Nanak Dev Campus - 60 seats)
+- Diploma in Civil Engineering (Aryabhatt Campus - 120 seats)
+- Diploma in Semi-Conductor Chip Manufacturing (Dwarka Campus - 60 seats)
+- Diploma in Pharmacy (Meerabai Campus - 60 seats; Dwarka Campus - 60 seats)
+- Diploma in Production Engineering (Advance Manufacturing) (listed in program spreadsheet as direct UG Diploma route)
+- Diploma in Tool and Die Making (Four Year UG Diploma, listed in program spreadsheet)
+- Diploma in Welding Technology (UG Certificate course, NCrF level 5-post diploma technical)
+
+These diploma programs are generally open for students after 10th standard (dasvin). For exact eligibility, fees, and duration, please check the specific program brochure or contact admissions.
+
+If you want a complete list of all diploma programs offered directly after 10th, DSEU offers 57 such diploma programs as per the program spreadsheet.
+
+If you want details on fees, eligibility, or campuses for any specific diploma program, please specify which one.
+--------------------------------------------------------------------------------
+
+QUESTION 18: all 10 plus diploma
+ANSWER:
+For admission to all 10+ diploma programs at DSEU, here is the relevant information:
+
+Eligibility:
+- You must have passed the Secondary School Examination (Class X) of the Central Board of Secondary Education or its equivalent examination recognized by COBSE, with an aggregate percentage of 40% or more, or
+- Passed a two-year National Trade Certificate from an NCVTE-recognized institution in a relevant/allied trade after 8th class with 40% or more, or
+- Earned 40 credits of relevant qualification at NCrF level 3.0.
+
+The 10+ diploma programs include (with their fee category):
+1. Diploma in Architecture (Fee Category D)
+2. Diploma in Computer Engineering (AI Tools) (Fee Category E)
+3. Diploma in Electrical Engineering (Fee Category E)
+4. Diploma in Electronics Engineering (Fee Category E)
+5. Diploma in Civil Engineering in Green Infrastructure (Fee Category E)
+6. Diploma in Civil Engineering (Fee Category E)
+7. Diploma in Mechanical Engineering (Fee Category E)
+8. Diploma in Semi-Conductor Chip Manufacturing (Fee Category E)
+9. Diploma in Production Engineering (Advance Manufacturing) (Fee Category E)
+10. Diploma in Robotics and Automation (Fee Category E)
+11. Diploma in Automobile Engineering (Fee Category E)
+12. Diploma in Printing Technology (Fee Category E)
+13. Diploma in Wireless & Mobile Communication (Fee Category E)
+
+(Note: The list above includes all diploma programs listed; you mentioned "all 10 plus diploma" so I included all diploma programs from the brochure.)
+
+Fees:
+- For Fee Category E programs (most diplomas), the general fee is Rs. 10,000 per semester.
+- SC / ST / PwD candidates get a 60% concession on the general fee, paying Rs. 4,000 per semester.
+- Diploma in Architecture (Fee Category D) fee details are not provided in the current documents.
+- The fee mentioned is the general fee only; caution money, enrolment, examination, and other fees are separate.
+
+Campuses and Intake:
+- For example, Diploma in Computer Engineering (AI Tools) is offered at 10 campuses including DSEU Dheerpur, Guru Nanak Dev, Narela, Kasturba (girls only), Meerabai (girls only), Ambedkar, Jaffarpur, Ranhola, Pusa - I, and Rajokri campuses with a total intake of 860.
+- Other diploma programs' campus availability and intake are not fully listed here; please specify if you want details for a particular diploma.
+
+Duration:
+- These diploma programs are typically three years in duration.
+
+If you want details about a specific diploma program's campus availability or fee, please let me know!
+--------------------------------------------------------------------------------
+
+QUESTION 19: 10+ ke baad diploma programs
+ANSWER:
+DSEU offers Diploma Programs after 10th standard. Here is the relevant information:
+
+- Duration: 3 years (Technical Diploma, NCrF Level 4.5)
+- Eligibility: After 10th standard
+- Programs offered include (not exhaustive):
+  1. Diploma in Architecture
+  2. Diploma in Automobile Engineering
+  3. Diploma in Chemical Engineering
+  4. Diploma in Civil Engineering
+  5. Diploma in Civil Engineering in Green Infrastructure
+  6. Diploma in Computer Engineering (AI Tools)
+  7. Diploma in Electrical Engineering
+  8. Diploma in Electronics Engineering
+  9. Diploma in Mechanical Engineering
+  10. Diploma in Mobile Manufacturing
+  11. Diploma in Petrochemical Engineering
+  12. Diploma in Plastic Technology
+  13. Diploma in Polymer Technology
+  14. Diploma in Precision Engineering
+  15. Diploma in Printing Technology
+  16. Diploma in Production Engineering (Advance Manufacturing)
+  17. Diploma in Robotics and Automation
+  18. Diploma in Semi-Conductor Chip Manufacturing
+  19. Diploma in Welding Technology
+  20. Diploma in Wireless & Mobile Communication
+  21. Four Year UG Diploma in Tool and Die Making (NCrF Level 5.0)
+
+For example, Diploma in Semi-Conductor Chip Manufacturing is a 3-year diploma after 10th with fee category E, general fee Rs. 10,000 per semester, with 60% concession for SC/ST/PwD candidates.
+
+If you want details about a specific diploma program, please specify.
+--------------------------------------------------------------------------------
+
+QUESTION 20: school 10 pass hu kaunse courses milenge
+ANSWER:
+For students who have passed 10th (Secondary School Examination), DSEU offers several diploma programs. Here is the information for courses available after 10th pass:
+
+Routes:
+Option 1 - Direct: apply to any of the following Diploma programs (3 years duration):
+1. Diploma in Wireless & Mobile Communication
+2. Diploma in Computer Engineering (AI Tools)
+3. Diploma in Mobile Manufacturing
+4. Diploma in Precision Engineering
+5. Diploma in Welding Technology
+6. Four Year UG Diploma in Tool and Die Making
+7. Diploma in Chemical Engineering
+8. Diploma in Petrochemical Engineering
+9. Diploma in Plastic Technology
+10. Diploma in Polymer Technology
+
+(These are all diploma programs with eligibility after 10th pass.)
+
+Option 2 - Exit option: Not applicable here as these are direct diploma programs after 10th.
+
+Fee:
+These diploma programs fall under Fee Category E. The exact fee amount is not listed in the provided documents, but Category E applies to all these diploma programs.
+
+Eligibility:
+- Passed 10th (Secondary School Examination) with minimum 40% aggregate or equivalent grade.
+- Or passed a two-year National Trade Certificate (NTC) after 8th with minimum 40%.
+- Or earned 40 credits of relevant qualification at NSQF level 3.0.
+
+Duration:
+- Generally 3 years for diploma programs.
+
+Campuses and Intake (examples):
+- Diploma in Wireless & Mobile Communication: Meerabai DSEU Campus (FOR GIRLS ONLY), intake 60.
+- Diploma in Computer Engineering (AI Tools): Kasturba DSEU Campus (FOR GIRLS ONLY), intake 100; Meerabai DSEU Campus (FOR GIRLS ONLY), intake 120.
+- Other diploma programs are offered at various campuses; specific campus details for each program are not fully listed here.
+
+If you want details about a specific diploma program or campus, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 21: technical diploma programs
+ANSWER:
+DSEU offers several Technical Diploma Programs (3-year duration) after 10th class, classified as NCrF Level 4.5. Here is the list of these diploma programs:
+
+1. Diploma in Architecture
+2. Diploma in Automobile Engineering
+3. Diploma in Chemical Engineering
+4. Diploma in Civil Engineering
+5. Diploma in Civil Engineering in Green Infrastructure
+6. Diploma in Computer Engineering (AI Tools)
+7. Diploma in Electrical Engineering
+8. Diploma in Electronics Engineering
+9. Diploma in Mechanical Engineering
+10. Diploma in Mobile Manufacturing
+11. Diploma in Petrochemical Engineering
+12. Diploma in Plastic Technology
+13. Diploma in Polymer Technology
+14. Diploma in Precision Engineering
+15. Diploma in Printing Technology
+16. Diploma in Production Engineering (Advance Manufacturing)
+17. Diploma in Robotics and Automation
+18. Diploma in Semi-Conductor Chip Manufacturing
+19. Diploma in Welding Technology
+20. Diploma in Wireless & Mobile Communication
+21. Four Year UG Diploma in Tool and Die Making (NCrF Level 5.0)
+
+Eligibility:
+- Passed Class 10 (Secondary School Examination) or equivalent with at least 40% aggregate or equivalent Grade Point Average.
+- Or passed a two-year National Trade Certificate in relevant trade with at least 40%.
+- Or earned 40 credits of relevant qualification at NCrF level 3.0.
+
+Fee Categories:
+- Diploma in Architecture: Fee Category D
+- Most other Diploma Programs (e.g., Computer Engineering (AI Tools), Electrical Engineering, Electronics Engineering, Civil Engineering, Mechanical Engineering, etc.): Fee Category E
+
+Campuses and Intake (examples):
+- Aryabhatt DSEU Campus offers Diploma in Architecture (60 seats), Diploma in Civil Engineering (120 seats), Diploma in Electrical Engineering (120 seats), Diploma in Mechanical Engineering (180 seats).
+- Ambedkar DSEU Campus offers Diploma in Computer Engineering (AI Tools) (120 seats), Diploma in Electronics Engineering (120 seats), Diploma in Civil Engineering (Green Infrastructure) (120 seats), Diploma in Electrical Engineering (60 seats).
+- Guru Nanak Dev DSEU Campus offers Diploma in Petrochemical Engineering (60 seats), Diploma in Chemical Engineering (120 seats), Diploma in Computer Engineering (AI Tools) (120 seats), Diploma in Electrical Engineering (60 seats), Diploma in Electronics Engineering (120 seats), Diploma in Mechanical Engineering (120 seats), Diploma in Plastic Technology (60 seats), Diploma in Polymer Technology (60 seats).
+
+If you want details on fees in rupees or specific campuses for a particular diploma program, please specify which one.
+--------------------------------------------------------------------------------
+
+QUESTION 22: diploma in computer after 10th
+ANSWER:
+For a Diploma in Computer Engineering (AI Tools) after 10th, here is the complete information:
+
+Routes:
+Option 1 - Direct: Apply to the Diploma in Computer Engineering (AI Tools) program (3 years).
+Option 2 - Exit option: There is no exit option listed for this diploma program; it is a full 3-year diploma.
+
+Fee:
+- General Fee Category E: Rs. 10,000 per semester.
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee.
+  - General fee: Rs. 10,000 per semester
+  - Less 60% concession: Rs. 6,000
+  - Fee payable by SC, ST or PwD candidate: Rs. 4,000 per semester
+(Note: This fee is for tuition only; caution money, enrolment, examination fees are separate.)
+
+Eligibility:
+- After 10th standard.
+
+Duration and Level:
+- 3 years diploma program.
+
+Campuses and Intake:
+The Diploma in Computer Engineering (AI Tools) is offered at these campuses with the following intake:
+- DSEU Dheerpur Campus: 60 seats
+- Guru Nanak Dev DSEU Campus: 120 seats
+- DSEU Narela Campus: 60 seats
+- Kasturba DSEU Campus (For Girls Only): 100 seats
+- Meerabai DSEU Campus (For Girls Only): 120 seats
+- Ambedkar DSEU Campus: 120 seats
+- DSEU Jaffarpur Campus: 60 seats
+- DSEU Ranhola Campus: 60 seats
+- DSEU Pusa - I Campus: 40 seats
+- DSEU Rajokri Campus: 120 seats
+
+If you want to pursue a diploma in computer engineering after 10th, this program is available at multiple campuses with a 3-year duration and general admission.
+--------------------------------------------------------------------------------
+
+QUESTION 23: after 10th computer related diploma
+ANSWER:
+For a computer-related diploma after 10th at DSEU, you can consider the "Diploma in Computer Engineering (AI Tools)." Here is the detailed information:
+
+Routes:
+Option 1 - Direct: Apply to the Diploma in Computer Engineering (AI Tools) program (3 years).
+
+Fee:
+- Fee Category: E
+- The exact fee amount is not listed in the provided documents. Please check with the admissions office for the fee details.
+
+Eligibility:
+- After 10th standard.
+
+Duration and Level:
+- Duration: 3 years
+- Level: Diploma Program
+
+Campuses and Intake:
+This program is offered at multiple campuses with the following intake capacities:
+- DSEU Dheerpur Campus: 60 seats
+- Guru Nanak Dev DSEU Campus: 120 seats
+- DSEU Narela Campus: 60 seats
+- Kasturba DSEU Campus (For Girls Only): 100 seats
+- Meerabai DSEU Campus (For Girls Only): 120 seats
+- Ambedkar DSEU Campus: 120 seats
+- DSEU Jaffarpur Campus: 60 seats
+- DSEU Ranhola Campus: 60 seats
+- DSEU Pusa - I Campus: 40 seats
+- DSEU Rajokri Campus: 120 seats
+
+If you want fee details or information about any other computer-related diploma, please specify.
+--------------------------------------------------------------------------------
+
+QUESTION 24: architecture diploma eligibility
+ANSWER:
+The eligibility criteria for admission to the Diploma in Architecture program at DSEU are:
+
+- Candidates must have passed class X (10th) or equivalent.
+
+This applies for the 2026-27 admission session. The program duration is 3 years.
+--------------------------------------------------------------------------------
+
+QUESTION 25: diploma architecture kis campus me hai
+ANSWER:
+Diploma in Architecture program is offered at the following campuses:
+
+1. Aryabhatt DSEU Campus (North Zone) - Intake: 60
+2. Meerabai DSEU Campus (South Zone) (FOR GIRLS ONLY) - Intake: 40
+
+Total intake across both campuses is 100 students.
+--------------------------------------------------------------------------------
+
+QUESTION 26: after 12 programs
+ANSWER:
+DSEU offers a variety of programs after 12th standard. Here is a summary of the programs available after 12th:
+
+Diploma Programs (3 years - Technical Diploma - after 10th):
+- Diploma in Architecture
+- Diploma in Automobile Engineering
+- Diploma in Chemical Engineering
+- Diploma in Civil Engineering
+- Diploma in Civil Engineering in Green Infrastructure
+- Diploma in Computer Engineering (AI Tools)
+- Diploma in Electrical Engineering
+- Diploma in Electronics Engineering
+- Diploma in Mechanical Engineering
+- Diploma in Mobile Manufacturing
+- Diploma in Petrochemical Engineering
+- Diploma in Plastic Technology
+- Diploma in Polymer Technology
+- Diploma in Precision Engineering
+- Diploma in Printing Technology
+- Diploma in Production Engineering (Advance Manufacturing)
+- Diploma in Robotics and Automation
+- Diploma in Semi-Conductor Chip Manufacturing
+- Diploma in Welding Technology
+- Diploma in Wireless & Mobile Communication
+- Four Year UG Diploma in Tool and Die Making
+
+UG Certificate Programs (1 year - after 12th):
+- UG Certificate AI in Office Operations
+- UG Certificate in Conservation of Paper
+
+Bachelor Degree Programs (3 years - after 12th):
+- BBA (Banking, Financial Services and Insurance)
+- BBA Office Management (AI driven)
+- Bachelor of Computer Applications (BCA)
+- B.Sc. Life Sciences
+- B.Sc. Physical Sciences
+
+Bachelor Degree Programs (4 years - after 12th) with exit option after 3 years:
+- B.A. (Hons) Spanish
+- B.Des. Jewellery Design
+- B.F.A. (Hons.)/Bachelor in Fine Arts (Hons.)
+- B.S. Beauty Therapy
+- B.S. Banking, Financial Services and Insurance
+- B.S. Business Process Management
+- B.S. Computer Applications
+- B.S. Digital Media Design
+- B.S. Digital Marketing and Data Analytics
+- B.S. E-Commerce Operations and Digital Application
+- B.S. Environmental Science
+- B.S. Entrepreneurship
+- B.S. Fashion Design
+- B.S. Facility and Infrastructure Management
+- B.S. Interior Design
+- B.S. Medical Laboratory Sciences
+- B.S. Retail Management
+- B.S. Supply Chain Management
+
+If you want details about a specific program or category, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 27: after class 12 courses
+ANSWER:
+After Class 12, DSEU offers a variety of programs across different levels and durations. Here is a summary of the Bachelor Degree Programs and other courses available after 12th:
+
+Bachelor Degree Programs (3 years duration, NCrF Level 5.5):
+1. BBA (Banking, Financial Services and Insurance)
+2. BBA Office Management (AI driven)
+3. Bachelor of Computer Applications (BCA)
+4. B.Sc. Life Sciences
+5. B.Sc. Physical Sciences
+
+Bachelor Degree Programs (4 years duration, NCrF Level 6.0) with exit option after 3 years:
+6. B.A. (Hons) Spanish
+7. B.Des. Jewellery Design
+8. B.F.A. (Hons.)/Bachelor in Fine Arts (Hons.)
+9. B.S. Beauty Therapy
+10. B.S. Banking, Financial Services and Insurance
+11. B.S. Business Process Management
+12. B.S. Computer Applications
+13. B.S. Digital Media Design
+14. B.S. Digital Marketing and Data Analytics
+15. B.S. E-Commerce Operations and Digital Application
+16. B.S. Environmental Science
+17. B.S. Entrepreneurship
+18. B.S. Fashion Design
+19. B.S. Facility and Infrastructure Management
+20. B.S. Hospital Management
+21. B.S. Hospitality & Hotel Management
+22. B.S. Interior Design
+23. B.S. Medical Laboratory Sciences
+24. B.S. Retail Management
+25. B.S. Supply Chain Management
+26. B.Sc. (Hons.) Psychology
+
+B.Tech. Programs (4 years duration, admissions based on JEE Mains, NCrF Level 6.0):
+1. B.Tech. in Artificial Intelligence
+2. B.Tech. in Computer Science Engineering
+3. B.Tech. in Data Science
+4. B.Tech. in Electronics & Communication Engineering
+5. B.Tech. Electrical Engineering
+6. B.Tech. in Mechanical Engineering
+
+For specific details such as eligibility, fees, campus availability, and intake for any program, please specify the program you are interested in.
+--------------------------------------------------------------------------------
+
+QUESTION 28: 12th ke baad dseu me kya hai
+ANSWER:
+DSEU mein 12th ke baad kai programs available hain. Aapke liye yeh programs Bachelor Degree, UG Diploma, Diploma, aur PG Diploma ke roop mein uplabdh hain. Yahan kuch pramukh programs hain jo 12th ke baad admission ke liye hain:
+
+1. Bachelor Degree Programs (3 ya 4 saal ke duration ke saath):
+   - BBA (Banking, Financial Services and Insurance) (3 saal)
+   - B.S. Banking, Financial Services and Insurance (4 saal, exit option ke saath)
+   - BBA Office Management (AI driven) (3 saal)
+   - B.S. Computer Applications (4 saal, exit option ke saath)
+   - Aur bhi kai B.S. aur BBA programs hain jaise Digital Marketing, Entrepreneurship, Environmental Science, etc.
+
+2. UG Diploma Programs (2 saal):
+   - UG Diploma in Hotel Management
+   - Diploma in Pharmacy
+   - Diploma in Architecture
+   - Diploma in Computer Engineering (AI Tools)
+   - Diploma in Electronics Engineering
+   - Diploma in Wireless and Mobile Communication
+   - UG Diploma in Beauty and Wellness
+
+3. PG Diploma Programs (1 saal):
+   - PG Diploma Smart Office Management
+   - PG Diploma in Event Management
+   - PG Diploma in Semi-conductor Chip Design & Fabrication
+
+Aap apni pasand aur career goal ke hisaab se inme se koi program chun sakte hain. Agar aap kisi specific program ke baare mein jaanna chahte hain, toh bataiye, main uska detail bata sakta hoon.
+--------------------------------------------------------------------------------
+
+QUESTION 29: barvi ke baad kaunse programs
+ANSWER:
+I do not have information about programs after 12th (barvi) in the current documents. Please check with the DSEU admissions office or official website for detailed programs available after 12th.
+--------------------------------------------------------------------------------
+
+QUESTION 30: degree programs after 12
+ANSWER:
+DSEU offers several degree programs after 12th standard. Here is a summary of the Bachelor Degree Programs available:
+
+Bachelor Degree Programs (3 years after 12th, NCrF Level 5.5):
+1. BBA (Banking, Financial Services and Insurance)
+2. BBA Office Management (AI driven)
+3. Bachelor of Computer Applications (BCA)
+4. B.Sc. Life Sciences
+5. B.Sc. Physical Sciences
+
+Bachelor Degree Programs (4 years after 12th, NCrF Level 6.0) with exit option after 3 years for a 3-year degree:
+6. B.A. (Hons) Spanish
+7. B.Des. Jewellery Design
+8. B.F.A. (Hons.)/Bachelor in Fine Arts (Hons.)
+9. B.S. Beauty Therapy
+10. B.S. Banking, Financial Services and Insurance
+11. B.S. Business Process Management
+12. B.S. Computer Applications
+13. B.S. Digital Media Design
+14. B.S. Digital Marketing and Data Analytics
+15. B.S. E-Commerce Operations and Digital Application
+16. B.S. Environmental Science
+17. B.S. Entrepreneurship
+
+If you want details on any specific program including eligibility, fee, campuses, or exit options, please specify which program you are interested in.
+--------------------------------------------------------------------------------
+
+QUESTION 31: ug courses batao
+ANSWER:
+DSEU में UG (Undergraduate) कोर्सेस के कई प्रकार हैं। यहाँ उनके बारे में जानकारी दी गई है:
+
+1. UG Certificate Programs (1 वर्ष, 12वीं के बाद, NCrF Level 4.5):
+   - UG Certificate in Refrigeration and Air Conditioning Skills (HVAC)
+   - UG Certificate AI in Office Operations
+   - UG Certificate in Food Production
+   - UG Certificate in Installation, Testing, Maintenance and Repair of Solar Panels
+   - UG Certificate in Conservation of Paper
+   - UG Certificate in Conservation of Textiles
+   - UG Certificate in Retail Management
+   - UG Certificate in Welding Technology
+   - UG Certificate in Digital Marketing and Web Development
+   (कुल 16 ऐसे प्रोग्राम हैं, कुछ सीधे आवेदन से और कुछ 4 साल के प्रोग्राम में पहले साल छोड़कर भी प्राप्त किए जा सकते हैं)
+
+2. UG Diploma Programs (2 वर्ष, 12वीं के बाद, NCrF Level 5.0):
+   - UG Diploma in Hotel Management
+   - UG Diploma in Beauty and Wellness
+   - UG Diploma in Electronics System, Design and Manufacturing
+   - Diploma in Pharmacy
+   (कुल 57 ऐसे प्रोग्राम हैं, कुछ सीधे आवेदन से और कुछ 4 साल के प्रोग्राम में दूसरे साल छोड़कर भी प्राप्त किए जा सकते हैं)
+
+3. UG Degree Programs (3 वर्ष, 12वीं के बाद):
+   - BBA (Banking, Financial Services and Insurance)
+   - BBA Office Management (AI driven)
+   - Bachelor of Computer Applications (BCA)
+   - B.S. Banking, Financial Services and Insurance
+   - B.S. Business Process Management
+   - B.S. Computer Applications
+   - B.S. Digital Media Design
+   - B.S. Digital Marketing and Data Analytics
+   - B.S. E-Commerce Operations and Digital Application
+   - B.S. Environmental Science
+   - B.S. Entrepreneurship
+   - B.S. Fashion Design
+   - B.S. Facility and Infrastructure Management
+   - B.S. Beauty Therapy
+   - B.A. (Hons) Spanish
+   - B.Des. Jewellery Design
+   - B.F.A. (Hons.)/Bachelor in Fine Arts (Hons.)
+
+आप किस कोर्स में रुचि रखते हैं? मैं आपको उस कोर्स के लिए प्रवेश मार्ग, फीस, पात्रता, अवधि और कैंपस की जानकारी भी दे सकता हूँ।
+--------------------------------------------------------------------------------
+
+QUESTION 32: ug certificate kaun se hain
+ANSWER:
+DSEU में UG Certificate (Undergraduate Certificate) कई प्रकार के हैं। इन्हें पाने के दो तरीके हैं:
+
+Routes:
+Option 1 - Direct: सीधे UG Certificate प्रोग्राम में आवेदन करें। DSEU में 16 UG Certificate प्रोग्राम हैं, जिनमें से कुछ प्रमुख हैं:
+- UG Certificate in Refrigeration and Air Conditioning Skills (HVAC)
+- UG Certificate in AI in Office Operations
+- UG Certificate in Food Production
+- UG Certificate in Installation, Testing, Maintenance and Repair of Solar Panels
+- UG Certificate in Conservation of Paper
+- UG Certificate in Conservation of Textiles
+- UG Certificate in Retail Management
+- UG Certificate in Welding Technology
+- UG Certificate in Digital Marketing and Web Development
+
+Option 2 - Exit option: 4 साल के किसी प्रोग्राम में प्रवेश लें और पहले साल के बाद बाहर निकलें, तब UG Certificate प्राप्त करें। उदाहरण के लिए:
+- B S E-Commerce Operations and Digital Application (Year 1 exit)
+- B S Entrepreneurship (Year 1 exit)
+- B S Environmental Science (Year 1 exit)
+- B S Fashion Design (Year 1 exit)
+- B S Interior Design (Year 1 exit)
+- B S Medical Laboratory Sciences (Year 1 exit)
+- B S Banking Financial Services and Insurance (Year 1 exit)
+- B S Beauty Therapy (Year 1 exit)
+- B S Business Process Management (Year 1 exit)
+- B S Computer Applications (Year 1 exit)
+- B S Digital Marketing and Data Analytics (Year 1 exit)
+- B S Digital Media Design (Year 1 exit)
+
+यदि आप किसी विशेष UG Certificate प्रोग्राम के बारे में जानना चाहते हैं, तो कृपया बताएं।
+--------------------------------------------------------------------------------
+
+QUESTION 33: ug diploma ka list do
+ANSWER:
+Here is the list of UG Diploma programs at DSEU based on the provided information:
+
+Direct Route (apply straight to these UG Diploma programs):
+- UG Diploma in Beauty and Wellness
+- UG Diploma in Electronics System Design and Manufacturing
+- UG Diploma in Hotel Management
+- Diploma in Pharmacy
+- Diploma in Production Engineering (Advance Manufacturing)
+- Diploma in Civil Engineering in Green Infrastructure
+- Diploma in Semi-Conductor Chip Manufacturing
+- Four Year UG Diploma in Tool and Die Making
+- Diploma in Computer Engineering (AI Tools)
+- UG Certificate course in Welding Technology (NCrF level 5-post diploma technical)
+- And 51 more UG Diploma programs (not all listed here)
+
+Exit Option Route (enrol in a 4-year program and exit after Year 2 to get UG Diploma):
+- Enrol in B.S. E-Commerce Operations and Digital Application, exit after Year 2: UG Diploma in E-Commerce Operation and Digital Application
+- Enrol in B.S. Entrepreneurship, exit after Year 2: Diploma in Entrepreneurship
+- Enrol in B.S. Environmental Science, exit after Year 2: UG Diploma in Environmental Science
+- Enrol in B.S. Fashion Design, exit after Year 2: UG Diploma in Fashion Design
+- Enrol in B.S. Interior Design, exit after Year 2: UG Diploma in Interior Design
+- Enrol in B.S. Medical Laboratory Sciences, exit after Year 2: UG Diploma in Medical Laboratory Sciences
+- Enrol in B.S. Retail Management, exit after Year 2: UG Diploma in Retail Management
+- Enrol in B.S. Banking Financial Services and Insurance, exit after Year 2: UG Diploma in Banking, Financial Services and Insurance
+- Enrol in B.S. Beauty Therapy, exit after Year 2: UG Diploma in Beauty Therapy
+- Enrol in B.S. Business Process Management, exit after Year 2: UG Diploma in Business Process Management
+- Enrol in B.S. Computer Applications, exit after Year 2: UG Diploma in Computer Applications
+- Enrol in B.S. Digital Marketing and Data Analytics, exit after Year 2: UG Diploma in Digital Marketing and Data Analytics
+- Enrol in B.S. Digital Media Design, exit after Year 2: UG Diploma in Digital Media Design
+
+If you want details about any specific UG Diploma program like fee, eligibility, duration, or campus availability, please let me know!
+--------------------------------------------------------------------------------
+
+QUESTION 34: bachelor degree programs
+ANSWER:
+Here is the information on Bachelor Degree Programs at DSEU:
+
+Routes to Bachelor Degrees:
+
+Option 1 - Direct: apply to a program named for the qualification.
+- For 3-year bachelor's degrees (NCrF Level 5.5), direct programs include:
+  1. BBA (Banking, Financial Services and Insurance)
+  2. BBA Office Management (AI driven)
+  3. Bachelor of Computer Applications (BCA)
+  4. B.Sc. Life Sciences
+  5. B.Sc. Physical Sciences
+
+- For 4-year bachelor's degrees (NCrF Level 6.0), direct programs include:
+  6. B.A. (Hons) Spanish
+  7. B.Des. Jewellery Design
+  8. B.F.A. (Hons.)/Bachelor in Fine Arts (Hons.)
+  9. B.S. Beauty Therapy
+  10. B.S. Banking, Financial Services and Insurance
+  11. B.S. Business Process Management
+  12. B.S. Computer Applications
+  13. B.S. Digital Media Design
+  14. B.S. Digital Marketing and Data Analytics
+  15. B.S. E-Commerce Operations and Digital Application
+  16. B.S. Environmental Science
+  17. B.S. Entrepreneurship
+  (and others as per the full list of 17 B.S. programs)
+
+Option 2 - Exit option: Enrol in a 4-year program and exit early with a bachelor's degree after 3 or 4 years, depending on the program. For example:
+- Enrol in "B S Computer Applications" (4 years) and exit after Year 3 with a Bachelor of Computer Applications (BCA).
+- Enrol in various B.S. programs and exit after Year 4 with the corresponding B.S. degree.
+
+Fees:
+- For Bachelor of Computer Applications (BCA), the fee category is C.
+- For BBA (Banking, Financial Services and Insurance), the fee category is C.
+- For BBA Office Management (AI driven), the fee category is D.
+(The exact rupee amounts are not listed in the provided documents; please check the fee structure brochure or contact admissions for details.)
+
+Eligibility, Duration, and Level:
+- 3-year bachelor's programs require completion of 12th standard.
+- 4-year bachelor's programs also require 12th standard and are at NCrF Level 6.0.
+- Duration is either 3 or 4 years depending on the program.
+
+Campuses and Intake:
+- Bachelor of Computer Applications (BCA) is offered at:
+  - DSEU Dheerpur Campus (intake 60)
+  - DSEU Narela Campus (intake 60)
+  - DSEU Jaffarpur Campus (intake 60)
+  - DSEU Ranhola Campus (intake 60)
+- Intake numbers for other programs and campuses are not listed in the provided documents.
+
+If you want details on a specific bachelor degree program, please specify which one.
+--------------------------------------------------------------------------------
+
+QUESTION 35: bachelors courses
+ANSWER:
+DSEU offers a variety of bachelor's degree programs. Here is a summary of the bachelor's courses available, including both 3-year and 4-year programs:
+
+Bachelor Degree Programs (3 years after 12th, NCrF Level 5.5):
+1. BBA (Banking, Financial Services and Insurance)
+2. BBA Office Management (AI driven)
+3. Bachelor of Computer Applications (BCA)
+4. B.Sc. Life Sciences
+5. B.Sc. Physical Sciences
+
+Bachelor Degree Programs (4 years after 12th, NCrF Level 6.0) with exit options after 3 years:
+6. B.A. (Hons) Spanish
+7. B.Des. Jewellery Design
+8. B.F.A. (Hons.)/Bachelor in Fine Arts (Hons.)
+9. B.S. Beauty Therapy
+10. B.S. Banking, Financial Services and Insurance
+11. B.S. Business Process Management
+12. B.S. Computer Applications
+13. B.S. Digital Media Design
+14. B.S. Digital Marketing and Data Analytics
+15. B.S. E-Commerce Operations and Digital Application
+16. B.S. Environmental Science
+17. B.S. Entrepreneurship
+
+These 4-year B.S. programs also offer exit qualifications at earlier years such as certificates, diplomas, or bachelor's degrees depending on the program.
+
+If you want details on a specific bachelor's course such as eligibility, fee, duration, or campus availability, please specify which program you are interested in.
+--------------------------------------------------------------------------------
+
+QUESTION 36: science ke baad kya courses hain
+ANSWER:
+If you have completed science and want to know the courses offered by DSEU after 12th science, here is the information:
+
+Routes to Bachelor's level science-related courses at DSEU:
+
+Option 1 - Direct: apply to these B.S. (Bachelor of Science) programs (3 or 4 years):
+- B.S. Environmental Science (4 years)
+- B.S. Medical Laboratory Sciences (4 years)
+- B.Sc. Life Sciences (3 years)
+- B.Sc. (Hons.) Psychology (3 years)
+- B.S. Digital Marketing and Data Analytics
+- B.S. Entrepreneurship
+- B.S. Facility and Infrastructure Management
+- B.S. Banking, Financial Services and Insurance
+- B.S. Computer Applications
+- B.S. Digital Media Design
+- B.S. E-Commerce Operations and Digital Application
+- B.S. Fashion Design
+- B.S. Hospitality & Hotel Management
+- B.S. Interior Design
+- B.S. Retail Management
+- B.S. Supply Chain Management
+(There are many B.S. programs; these are examples from the brochure and spreadsheet.)
+
+Option 2 - Exit option: Enrol in a 4-year B.S. program and exit after Year 3 or 4 with a Bachelor's degree or after earlier years with certificates or diplomas. For example:
+- Enrol in B.S. Environmental Science (4 years) and exit after Year 4 with Bachelor of Science in Environmental Science.
+- Enrol in B.S. Medical Laboratory Sciences (4 years) and exit after Year 4 with Bachelor of Science in Medical Laboratory Sciences.
+
+Eligibility: Generally, 12th pass with science subjects (Physics, Chemistry, Biology/Maths) is required for science programs.
+
+Campuses: Various campuses offer science programs, for example:
+- B.S. Environmental Science at DSEU Dheerpur, Kasturba (girls only), Champs, Dwarka campuses.
+- B.S. Medical Laboratory Sciences at Dwarka campus.
+- B.Sc. Life Sciences at Dheerpur and Dwarka campuses.
+
+Duration: Mostly 3 or 4 years depending on the program.
+
+If you want details about a specific science course or program, please specify.
+--------------------------------------------------------------------------------
+
+QUESTION 37: 12th science ke liye courses
+ANSWER:
+For students who have completed 12th Science, DSEU offers various programs. Here is a list of relevant courses along with their details:
+
+Bachelor Degree Programs (after 12th Science):
+
+1. B.Sc. Life Sciences (3 years)
+   - Routes:
+     Option 1 - Direct: apply to B.Sc. Life Sciences program (3 years).
+     Option 2 - Exit option: Not applicable (no exit option listed).
+   - Fee Category: D
+   - Campuses: DSEU Dwarka Campus, DSEU Dheerpur Campus
+   - Eligibility: After 12th Science
+   - Admission Basis: General Admission
+
+2. B.S. Environmental Science (4 years)
+   - Routes:
+     Option 1 - Direct: apply to B.S. Environmental Science program (4 years).
+     Option 2 - Exit option: Enrol in B.S. Environmental Science (4 years) and exit after Year 3, receiving a 3-year degree (exact exit qualification not specified but implied).
+   - Fee Category: D
+   - Campuses: Kasturba DSEU Campus, DSEU Dwarka Campus, DSEU Dheerpur Campus
+   - Eligibility: After 12th Science
+   - Admission Basis: General Admission
+
+3. Other Bachelor Degree Programs (3 years) after 12th (Science or other streams) include:
+   - BBA (Banking, Financial Services and Insurance)
+   - BBA Office Management (AI driven)
+   - Bachelor of Computer Applications (BCA)
+   - B.Sc. Physical Sciences
+   (Check eligibility for specific programs if you want more details.)
+
+4. Bachelor Degree Programs (4 years) after 12th (Science or other streams) include:
+   - B.S. Computer Applications
+   - B.S. Digital Media Design
+   - B.S. Digital Marketing and Data Analytics
+   - B.S. E-Commerce Operations and Digital Application
+   - B.S. Entrepreneurship
+   - And others listed on Brochure page 71.
+
+Please specify if you want details on any particular program or stream.
+
+If you want information on engineering programs after 12th Science, DSEU offers B.Tech. programs (4 years) with admission based on JEE Mains, such as:
+- B.Tech. in Artificial Intelligence
+- B.Tech. in Computer Science Engineering
+- B.Tech. in Data Science
+- B.Tech. in Electronics & Communication Engineering
+- B.Tech. Electrical Engineering
+- B.Tech. in Mechanical Engineering
+
+Let me know if you want details on fees, campuses, or eligibility for any specific course.
+--------------------------------------------------------------------------------
+
+QUESTION 38: diploma pharmacy after 12
+ANSWER:
+Here is the complete information about Diploma in Pharmacy after 12th at DSEU:
+
+Routes:
+Option 1 - Direct: apply to the Diploma in Pharmacy program (2 years).
+There is no exit option listed for Diploma in Pharmacy.
+
+Fee:
+- General Fee Category D: Rs. 25,000 per semester.
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee.
+  - Fee payable by SC, ST or PwD candidate: Rs. 10,000 per semester.
+(Note: This concession applies only to the general fee, not to caution money, enrolment, examination, or other fees.)
+
+Eligibility:
+- After 12th standard.
+- Pharmacy council regulations apply and separate counselling will occur.
+
+Duration and Level:
+- Duration: 2 years.
+- Level: UG Diploma Program.
+
+Campuses and Intake:
+- DSEU Dwarka Campus: intake 60.
+- Meerabai DSEU Campus (South Zone, for girls only): intake 60.
+
+If you want to apply, you can choose either of these two campuses.
+--------------------------------------------------------------------------------
+
+QUESTION 39: bsc life sciences eligibility
+ANSWER:
+The eligibility for B.Sc. Life Sciences at DSEU is completion of 12th standard (after 12th).
+--------------------------------------------------------------------------------
+
+QUESTION 40: bsc physical sciences campus
+ANSWER:
+B.Sc. Physical Sciences is offered at the following campus:
+
+- Guru Nanak Dev DSEU Campus (North Zone)
+
+The intake at this campus is 60 students.
+--------------------------------------------------------------------------------
+
+QUESTION 41: graduation ke baad courses
+ANSWER:
+Aap graduation ke baad DSEU mein kai tarah ke courses kar sakte hain, jo aapke interest aur career goals par depend karte hain. DSEU mein undergraduate (bachelor degree) programs ke alawa diploma aur certificate courses bhi available hain. Graduation ke baad aap master degree programs ya specialized skill-based courses mein admission le sakte hain.
+
+Agar aap specific graduation ke baad ke courses ke baare mein pooch rahe hain, to aapko yeh batana hoga ki aap kis field mein graduation kar rahe hain ya kar chuke hain. Phir main aapko us field ke relevant post-graduation ya skill enhancement courses ke options bata sakta hoon.
+
+Filhaal, DSEU ke undergraduate programs ke kuch examples hain:
+- B.S. Computer Applications (4 saal, multiple exit options)
+- BBA (Banking, Financial Services and Insurance) (3 saal)
+- B.S. Banking, Financial Services and Insurance (4 saal)
+- B.S. Digital Marketing and Data Analytics
+- B.S. Environmental Science
+- B.S. Medical Laboratory Sciences
+- B.Sc. Life Sciences
+- B.Sc. (Hons.) Psychology
+
+Graduation ke baad aap in fields mein master degree ya advanced diploma courses ke liye apply kar sakte hain, lekin specific post-graduation programs ki details mere paas abhi nahi hain.
+
+Agar aapko kisi particular course ya field ke baare mein detail chahiye, to please batayein. Main aapko uske routes, fees, eligibility, duration aur campuses ke baare mein bata sakta hoon.
+--------------------------------------------------------------------------------
+
+QUESTION 42: graduate ke baad kya kar sakta hu
+ANSWER:
+Graduate ke baad aapke paas kai options hote hain, jo aapke course aur interest par depend karte hain. DSEU mein aapko practical skills ke saath-saath entrepreneurship ka bhi focus diya jata hai, jisse aap sirf job seeker nahi balki job creator bhi ban sakte hain.
+
+Graduate ke baad aap kar sakte hain:
+1. Job karna: Aap apne field mein industry-ready skills ke saath employment le sakte hain.
+2. Entrepreneurship: Apna business shuru kar sakte hain, kyunki DSEU entrepreneurship ko promote karta hai.
+3. Higher Studies: Aap master’s degree ya professional courses mein admission le sakte hain.
+4. Reskilling/Upskilling: DSEU aapko reskilling aur upskilling ke liye bhi opportunities deta hai, taaki aap apne career mein aage badh sakein.
+5. Internships/Apprenticeships: Graduate hone ke dauran ya baad mein aap internships ya apprenticeships karke practical experience le sakte hain.
+
+DSEU ka curriculum industry-aligned hai aur aapko hands-on training, workshops, labs, aur industry partnerships ke through tayar karta hai, jisse aapka career strong banta hai.
+
+Agar aap specific program ke baad kya options hain jaanna chahte hain, toh bataiye, main uske baare mein detail mein bata sakta hoon.
+--------------------------------------------------------------------------------
+
+QUESTION 43: pg courses batao
+ANSWER:
+DSEU offers the following PG Diploma programs (each typically 1 year duration) with eligibility generally after a 3-year Bachelor Degree:
+
+1. PG Diploma in AI and Intelligent Systems  
+   - Fee Category: C  
+   - Campus: Bhai Parmanand DSEU Campus (East Zone)  
+   - Intake: 30  
+
+2. PG Diploma in Data Analysis and Public Policy  
+   - Fee Category: C  
+   - Campuses: Bhai Parmanand DSEU Campus (East Zone)  
+   - Intake: 30  
+   - Fee: Rs. 35,000 per semester (General), Rs. 14,000 per semester (SC/ST/PwD concession)  
+
+3. PG Diploma in Event Management  
+   - Fee Category: C  
+   - Campuses: DSEU Dwarka Campus (West Zone), DSEU Pusa - I Campus (Central Zone), DSEU Pusa II Campus  
+   - Intake: 30 per campus  
+
+4. PG Diploma in Retail Marketing  
+   - Fee Category: C  
+   - Campus: DSEU Vivek Vihar Campus  
+   - Intake: Not listed  
+
+5. PG Diploma in Semiconductor Chip Design & Fabrication  
+   - Fee Category: C  
+   - Campus: Not listed in the documents  
+
+6. PG Diploma in Smart Office Management  
+   - Fee Category: C  
+   - Campuses: Meerabai DSEU Campus (South Zone, for girls only), DSEU Jaffarpur Campus (West Zone), DSEU Ranhola Campus (West Zone)  
+   - Intake: 30 per campus  
+
+If you want details on fees, eligibility, or admission routes for any specific PG Diploma program, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 44: pg diploma programs list
+ANSWER:
+Here is the list of PG Diploma programs offered by DSEU:
+
+1. PG Diploma in AI and Intelligent Systems
+2. PG Diploma in Data Analysis and Public Policy
+3. PG Diploma in Event Management
+4. PG Diploma in Retail Marketing
+5. PG Diploma in Semiconductor Chip Design & Fabrication
+6. PG Diploma in Smart Office Management
+
+All these programs have a duration of 1 year and require a 3-year Bachelor Degree for eligibility. They fall under Fee Category C, with a general fee of Rs. 35,000 per semester. SC/ST/PwD candidates get a 60% concession on the general fee, paying Rs. 14,000 per semester.
+
+Campuses offering these programs include:
+- PG Diploma in AI and Intelligent Systems: Campus not explicitly listed in the documents.
+- PG Diploma in Data Analysis and Public Policy: Campus not explicitly listed in the documents.
+- PG Diploma in Event Management: DSEU Dwarka Campus and DSEU Pusa II Campus
+- PG Diploma in Retail Marketing: DSEU Vivek Vihar Campus
+- PG Diploma in Semiconductor Chip Design & Fabrication: DSEU Dwarka Campus
+- PG Diploma in Smart Office Management: DSEU Ranhola Campus and DSEU Jaffarpur Campus
+
+If you want details about a specific program's fee, eligibility, or campus, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 45: master degree programs
+ANSWER:
+Here is the information about Master Degree Programs offered by DSEU:
+
+Routes:
+Option 1 - Direct: apply to one of the following Master Degree Programs (all 2 years duration, eligibility: after 3 Year Bachelor Degree):
+1. Master of Computer Applications at DSEU Dwarka Campus
+2. Master of Computer Applications at Bhai Parmanand DSEU Campus
+3. MBA International Business Management at DSEU Pusa II Campus
+4. MBA Entrepreneurship at DSEU Champs Campus
+5. MBA Entrepreneurship at DSEU Pusa II Campus
+6. MS Program in Quantum Computing and Technologies at Bhai Parmanand DSEU Campus
+7. MS Sustainability Sciences at Bhai Parmanand DSEU Campus
+8. MBA Finance at DSEU Dwarka Campus
+
+Fees:
+All these Master Degree Programs fall under Fee Category B. (The exact fee amount is not listed in the provided chunks; please check the official fee structure for Fee Category B.)
+
+Eligibility:
+- After completion of a 3 Year Bachelor Degree.
+
+Duration:
+- 2 years for all Master Degree Programs.
+
+Campuses and Intake:
+- Master of Computer Applications: DSEU Dwarka Campus, intake 50
+- MBA International Business Management: DSEU Pusa II Campus (intake not listed)
+- MBA Entrepreneurship: DSEU Champs Campus and DSEU Pusa II Campus (intake not listed)
+- MS Program in Quantum Computing and Technologies: Bhai Parmanand DSEU Campus (intake not listed)
+- MS Sustainability Sciences: Bhai Parmanand DSEU Campus (intake not listed)
+- MBA Finance: DSEU Dwarka Campus, intake 40
+
+If you want details on fees or intake for a specific program, please specify the program name.
+--------------------------------------------------------------------------------
+
+QUESTION 46: masters courses in dseu
+ANSWER:
+DSEU offers the following master's degree programs:
+
+1. Master of Computer Applications (MCA)
+   - Duration: 2 years
+   - Eligibility: After a 3-year Bachelor Degree
+   - Admission Basis: General Admission
+   - Fee Category: B
+   - Campuses and Intake:
+     * DSEU Dwarka Campus (intake 50)
+     * Bhai Parmanand DSEU Campus (intake not listed)
+   
+2. MBA International Business Management
+   - Duration: 2 years
+   - Eligibility: After a 3-year Bachelor Degree
+   - Admission Basis: General Admission
+   - Fee Category: B
+   - Campus:
+     * DSEU Pusa II Campus (intake not listed)
+
+3. M.Sc. (Medical Laboratory Sciences)
+   - Duration: 2 years
+   - Eligibility: After a 3-year Bachelor Degree
+   - Admission Basis: General Admission
+   - Fee Category: B
+   - Campus:
+     * DSEU Dwarka Campus (intake not listed)
+
+If you want fee details or eligibility specifics for any of these programs, please let me know.
+--------------------------------------------------------------------------------
+
+QUESTION 47: mca kis campus me hai
+ANSWER:
+The Master of Computer Applications (MCA) program is offered at the following campuses:
+
+- DSEU Dwarka Campus (intake 50)
+- Bhai Parmanand DSEU Campus (intake 50)
+
+So, MCA is available at Dwarka Campus and Bhai Parmanand Campus.
+--------------------------------------------------------------------------------
+
+QUESTION 48: mba courses batao
+ANSWER:
+DSEU में MBA के निम्नलिखित कोर्स उपलब्ध हैं:
+
+1. MBA Entrepreneurship  
+2. MBA International Business Management  
+3. MBA Finance  
+
+नीचे हर कोर्स के बारे में विस्तार से जानकारी दी गई है:
+
+---
+
+### MBA Entrepreneurship
+
+**Routes:**  
+Option 1 - Direct: apply to the MBA Entrepreneurship program (2 years).  
+Option 2 - Exit option: No exit option available.
+
+**Fee:**  
+Fee Category B: Rs. 50,000/- प्रति सेमेस्टर (सामान्य श्रेणी)  
+SC/ST/PwD को 60% की छूट मिलती है, जिससे फीस Rs. 20,000/- प्रति सेमेस्टर हो जाती है।
+
+**Eligibility:**  
+3 साल की स्नातक डिग्री के बाद।
+
+**Duration:**  
+2 वर्ष।
+
+**Campuses and Intake:**  
+- SOUTH ZONE > CHAMPS DSEU CAMPUS: intake 30  
+- CENTRAL ZONE > DSEU PUSA - I CAMPUS: intake 40  
+- DSEU Pusa II Campus (सूची में है लेकिन intake नहीं दिया गया)  
+
+---
+
+### MBA International Business Management
+
+**Routes:**  
+Option 1 - Direct: apply to the MBA International Business Management program (2 years).  
+Option 2 - Exit option: No exit option available.
+
+**Fee:**  
+Fee Category B: Rs. 50,000/- प्रति सेमेस्टर (सामान्य श्रेणी)  
+SC/ST/PwD को 60% की छूट मिलती है, जिससे फीस Rs. 20,000/- प्रति सेमेस्टर हो जाती है।
+
+**Eligibility:**  
+3 साल की स्नातक डिग्री के बाद।
+
+**Duration:**  
+2 वर्ष।
+
+**Campuses and Intake:**  
+- CENTRAL ZONE > DSEU PUSA - I CAMPUS: intake 40  
+- DSEU Pusa II Campus (सूची में है लेकिन intake नहीं दिया गया)  
+
+---
+
+### MBA Finance
+
+**Routes:**  
+Option 1 - Direct: apply to the MBA Finance program (2 years).  
+Option 2 - Exit option: No exit option available.
+
+**Fee:**  
+Fee Category B: Rs. 50,000/- प्रति सेमेस्टर (सामान्य श्रेणी)  
+SC/ST/PwD को 60% की छूट मिलती है, जिससे फीस Rs. 20,000/- प्रति सेमेस्टर हो जाती है।
+
+**Eligibility:**  
+3 साल की स्नातक डिग्री के बाद।
+
+**Duration:**  
+2 वर्ष।
+
+**Campuses and Intake:**  
+- WEST ZONE > DSEU DWARKA CAMPUS: intake 40  
+
+---
+
+अगर आप किसी विशेष MBA कोर्स के बारे में और जानकारी चाहते हैं तो बताएं।
+--------------------------------------------------------------------------------
+
+QUESTION 49: mba finance fees
+ANSWER:
+The MBA Finance program at DSEU has the following fee structure:
+
+- General Fee Category: B
+- General Fee: Rs. 50,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - Fee payable by SC, ST or PwD candidates: Rs. 20,000 per semester
+
+Note: This fee is the general fee only. Additional fees such as caution money, enrolment, examination, and other components are listed separately in the Fee Structure section of the brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 50: mba data science campus
+ANSWER:
+The MBA Data Science program at DSEU is offered only at the Bhai Parmanand DSEU Campus in the East Zone. The intake capacity for this program at that campus is 40 students.
+--------------------------------------------------------------------------------
+
+QUESTION 51: ms quantum computing eligibility
+ANSWER:
+The eligibility for the MS Program in Quantum Computing and Technologies at DSEU is:
+
+- You must have completed a 3-year Bachelor Degree.
+
+This program is a 2-year Master Degree Program. Admission is based on General Admission criteria.
+--------------------------------------------------------------------------------
+
+QUESTION 52: pg diploma ai intelligent systems fee
+ANSWER:
+The fee for the PG Diploma in AI and Intelligent Systems program at DSEU is as follows:
+
+- General Fee (Category C): Rs. 35,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - Fee payable by SC, ST or PwD candidates: Rs. 14,000 per semester (after Rs. 21,000 concession)
+
+Note: This fee is the general fee only. Caution money, enrolment, examination, and other components are listed separately in the Fee Structure section of the brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 53: mujhe btech karna hai
+ANSWER:
+For pursuing B.Tech at DSEU, here are the available programs and details:
+
+Routes:
+Option 1 - Direct: apply to any of the following B.Tech programs (4 years):
+1. B.Tech. in Artificial Intelligence at Bhai Parmanand DSEU Campus
+2. B.Tech. in Computer Science Engineering (campus not listed in current data)
+3. B.Tech. in Data Science (campus not listed in current data)
+4. B.Tech. in Electronics & Communication Engineering at Ambedkar DSEU Campus
+5. B.Tech. Electrical Engineering (campus not listed in current data)
+6. B.Tech. in Mechanical Engineering (campus not listed in current data)
+7. B.Tech. in Network Engineering and Security at DSEU Dwarka Campus
+
+Option 2 - Exit option: No exit options are listed for B.Tech programs; you must complete the full 4 years.
+
+Fee:
+- Fee Category: A
+- The exact fee amount is not listed in the current documents, but Fee Category A applies.
+
+Eligibility:
+- After 12th standard
+- Admission basis: JEE Mains exam
+
+Duration:
+- 4 years
+
+Campuses and Intake (from available data):
+- B.Tech. in Artificial Intelligence: Bhai Parmanand DSEU Campus
+- B.Tech. in Electronics & Communication Engineering: Ambedkar DSEU Campus
+- B.Tech. in Network Engineering and Security: DSEU Dwarka Campus
+
+If you want details on a specific B.Tech branch or campus, please specify.
+--------------------------------------------------------------------------------
+
+QUESTION 54: b.tech course list
+ANSWER:
+Here is the list of B.Tech. programs offered at DSEU according to the brochure:
+
+1. B.Tech. in Computer Science Engineering
+2. B.Tech. in Electronics & Communication Engineering
+3. B.Tech. in Data Science
+4. B.Tech. in Artificial Intelligence
+5. B.Tech. in Robotics and Artificial Intelligence
+6. B.Tech. in Network Engineering and Security
+7. B.Tech. in Mechanical Engineering
+8. B.Tech. Production Engineering with Specialization in Advanced Manufacturing
+9. B.Tech. Electrical Engineering
+
+All these B.Tech. programs fall under Fee Category A. If you want details about any specific program's fee, eligibility, or campus availability, please let me know!
+--------------------------------------------------------------------------------
+
+QUESTION 55: btech branches batao
+ANSWER:
+DSEU offers the following B.Tech branches with their respective campuses and intake:
+
+1. B.Tech. Electronics and Communication Engineering
+   - Ambedkar DSEU Campus (East Zone): intake 60
+   - G.B. Pant DSEU Campus (South Zone): intake 120
+
+2. B.Tech. Mechanical Engineering
+   - Aryabhatt DSEU Campus (North Zone): intake 60
+   - G.B. Pant DSEU Campus (South Zone): intake 60
+
+3. B.Tech. Electrical Engineering
+   - DSEU Pusa - I Campus (Central Zone): intake 60
+
+These are the B.Tech branches currently available at DSEU campuses.
+--------------------------------------------------------------------------------
+
+QUESTION 56: btech kaun kaun se hain
+ANSWER:
+DSEU offers the following B.Tech. programs:
+
+1. B.Tech. in Network Engineering and Security
+   - Duration: 4 years
+   - Eligibility: after 12th
+   - Admission Basis: JEE Mains
+   - Fee Category: A
+   - Campus: DSEU Dwarka Campus
+
+If you want information on any other B.Tech. programs, please specify the program name or campus.
+--------------------------------------------------------------------------------
+
+QUESTION 57: all btech programs
+ANSWER:
+Here is the list of all B.Tech. programs offered by DSEU according to the brochure:
+
+1. B.Tech. in Computer Science Engineering  
+2. B.Tech. in Electronics & Communication Engineering  
+3. B.Tech. in Data Science  
+4. B.Tech. in Artificial Intelligence  
+5. B.Tech. in Robotics and Artificial Intelligence  
+6. B.Tech. in Network Engineering and Security  
+7. B.Tech. in Mechanical Engineering  
+8. B.Tech. Production Engineering with Specialization in Advanced Manufacturing  
+9. B.Tech. Electrical Engineering  
+
+All these B.Tech. programs have Fee Category A.
+
+For campus availability and intake, the only detailed campus-wise data available in the context is for two B.Tech. programs at Bhai Parmanand DSEU Campus:  
+- B.Tech. Artificial Intelligence (intake 60)  
+- B.Tech. Data Science (intake 60)  
+
+The other B.Tech. programs' campus availability and intake are not listed in the provided documents.
+
+If you want details on fees, eligibility, duration, or specific campuses for any particular B.Tech. program, please specify which one.
+--------------------------------------------------------------------------------
+
+QUESTION 58: btech cse campuses
+ANSWER:
+The B.Tech. Computer Science Engineering program is offered at these campuses:
+
+- Guru Nanak Dev DSEU Campus (North Zone) with an intake of 60
+- G.B. Pant DSEU Campus (South Zone) with an intake of 120
+- DSEU Pusa - I Campus (Central Zone) with an intake of 60
+
+Total intake across all campuses is 240.
+--------------------------------------------------------------------------------
+
+QUESTION 59: computer science engineering btech
+ANSWER:
+Here is the complete information about the B.Tech. in Computer Science Engineering program at DSEU:
+
+Routes:
+Option 1 - Direct: Apply to the B.Tech. in Computer Science Engineering program (4 years).
+Option 2 - Exit option: There is no exit option listed for this program; it is a full 4-year program without intermediate exit qualifications.
+
+Fee:
+- Fee Category: A
+- General Fee: Rs. 87,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - Fee payable by SC, ST or PwD candidates: Rs. 34,800 per semester
+(Note: This concession applies only to the general fee, not to caution money, enrolment, examination, or other fees.)
+
+Eligibility, Duration, and Level:
+- Eligibility: After 12th standard
+- Admission Basis: JEE Mains
+- Duration: 4 years
+- Level: Bachelor of Technology (B.Tech.)
+
+Campuses and Intake:
+- Guru Nanak Dev DSEU Campus (North Zone): intake 60
+- G.B. Pant DSEU Campus (South Zone): intake 120
+- DSEU Pusa 1 Campus (Central Zone): intake 60
+
+Total intake across all campuses: 240 students.
+
+If you want to apply, you should appear for JEE Mains and then apply to one of these campuses offering the program.
+--------------------------------------------------------------------------------
+
+QUESTION 60: btech data science kaha hai
+ANSWER:
+B.Tech. in Data Science is offered at the following campuses:
+
+1. Bhai Parmanand DSEU Campus (East Zone) with an intake of 60 students.
+2. DSEU Okhla Campus (South Zone) with an intake of 60 students.
+
+Eligibility: After 12th standard.
+Admission Basis: JEE Mains.
+Duration: 4 years.
+Fee Category: A.
+
+So, you can pursue B.Tech. Data Science at Bhai Parmanand DSEU Campus or DSEU Okhla Campus.
+--------------------------------------------------------------------------------
+
+QUESTION 61: btech mechanical kis campus me milega
+ANSWER:
+B.Tech. Mechanical Engineering is offered at the following campuses:
+
+1. Aryabhatt DSEU Campus (North Zone) - Intake: 60
+2. G.B. Pant DSEU Campus (South Zone) - Intake: 60
+
+So you can pursue B.Tech. Mechanical Engineering at either Aryabhatt DSEU Campus or G.B. Pant DSEU Campus.
+--------------------------------------------------------------------------------
+
+QUESTION 62: btech ece fee
+ANSWER:
+I do not have the fee information for the B.Tech in Electronics and Communication Engineering (ECE) program in the current documents. Please check with the DSEU admissions office or official website for the exact fee details.
+--------------------------------------------------------------------------------
+
+QUESTION 63: btech robotics and ai fees
+ANSWER:
+The fees for the B.Tech. in Robotics and Artificial Intelligence program at DSEU are as follows:
+
+- General Fee: Rs. 87,000 per semester (Fee Category A)
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - Fee payable by SC, ST or PwD candidates: Rs. 34,800 per semester (after concession)
+
+Note: This fee is the general tuition fee only. Additional fees such as caution money, enrolment, examination, and other components are listed separately in the Fee Structure section of the brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 64: btech artificial intelligence campus
+ANSWER:
+The B.Tech. in Artificial Intelligence program is offered at the following campuses:
+
+1. Bhai Parmanand DSEU Campus (East Zone) with an intake of 60 students.
+2. DSEU Ranhola Campus (West Zone) with an intake of 40 students.
+
+Total intake across both campuses is 100 students.
+--------------------------------------------------------------------------------
+
+QUESTION 65: btech network engineering and security
+ANSWER:
+Here is the complete information about the B.Tech. in Network Engineering and Security program at DSEU:
+
+Routes:
+Option 1 - Direct: apply to the B.Tech. in Network Engineering and Security program (4 years).
+Option 2 - Exit option: There is no exit option listed for this program.
+
+Fee:
+- Fee Category: A
+- General Fee: Rs. 87,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - Fee payable by SC, ST or PwD candidate: Rs. 34,800 per semester
+(Note: This fee is the general fee only; caution money, enrolment, examination and other fees are separate.)
+
+Eligibility:
+- After 12th standard
+- Admission basis: JEE Mains
+
+Duration and Level:
+- Duration: 4 years
+- Level: B.Tech. (Bachelor of Technology)
+
+Campuses and Intake:
+- Offered only at DSEU Dwarka Campus (West Zone)
+- Intake: 40 students
+
+If you need any more details, feel free to ask!
+--------------------------------------------------------------------------------
+
+QUESTION 66: btech production engineering advanced manufacturing
+ANSWER:
+Here is the complete information about the B.Tech. Production Engineering with Specialization in Advanced Manufacturing program at DSEU:
+
+Routes:
+Option 1 - Direct: apply to the B.Tech. Production Engineering with Specialization in Advanced Manufacturing program (4 years).
+Option 2 - Exit option: There is no exit option listed for this program.
+
+Fee:
+- Fee Category: A
+- General Fee: Rs. 87,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - General fee: Rs. 87,000 per semester
+  - Less 60% concession: Rs. 52,200
+  - Fee payable by an SC, ST or PwD candidate: Rs. 34,800 per semester
+(Note: This fee is the general fee only; caution money, enrolment, examination, and other components are separate.)
+
+Eligibility:
+- After 12th standard
+- Admission basis: JEE Mains
+
+Duration and Level:
+- Duration: 4 years
+- Level: B.Tech. (Undergraduate)
+
+Campus and Intake:
+- Offered at DSEU Okhla Campus (South Zone)
+- Intake: 60 students
+
+If you want information about diploma or other related programs, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 67: integrated btech mtech emerging technologies eligibility
+ANSWER:
+The eligibility for admission to the Integrated B.Tech – M.Tech in Emerging Technologies program at DSEU is:
+
+- Completion of 10+2 with one science subject.
+
+This program is a five-year integrated course combining B.Tech and M.Tech degrees. Admission is based on merit score of JEE Mains through JAC. If vacancies remain unfilled based on JEE Main scores, they will be filled by candidates who have scored at least 50% in their 10+2 (Science) or Diploma examinations.
+--------------------------------------------------------------------------------
+
+QUESTION 68: btech admission jee se hota hai kya
+ANSWER:
+Haan, DSEU mein B.Tech programs mein admission JEE Mains ke through hota hai. Admission JAC (Joint Admission Counselling) ke zariye hota hai. Agar JEE Mains ke basis par seats fill nahi hoti hain, toh 10+2 (Science) ya Diploma mein kam se kam 50% marks wale candidates ko admission diya ja sakta hai.
+
+Summary:
+- Admission basis: JEE Mains (through JAC)
+- Backup eligibility: 10+2 (Science) or Diploma with at least 50% marks if seats remain vacant after JEE Mains candidates.
+
+Iske alawa, aap direct university portal se bhi apply kar sakte hain agar aap JAC counselling mein interested nahi hain.
+--------------------------------------------------------------------------------
+
+QUESTION 69: computer applications course batao
+ANSWER:
+Here is the complete information about Computer Applications courses at DSEU:
+
+1. Bachelor of Computer Applications (BCA)
+- Routes:
+  Option 1 - Direct: apply to the Bachelor of Computer Applications (BCA) program (3 years).
+  Option 2 - Exit option: enrol in B.S. Computer Applications (4 years) and exit after Year 3, receiving a certificate in Bachelor in Computer Applications (BCA).
+- Fee: Fee Category C. (Exact fee amount not listed here; please specify campus for exact fee.)
+- Eligibility: After 12th.
+- Duration: 3 years for direct BCA; 4 years for B.S. Computer Applications with exit after 3 years for BCA certificate.
+- Campuses for Bachelor of Computer Applications (BCA):
+  - DSEU Dheerpur Campus (North Zone), intake 60
+  - DSEU Narela Campus (North Zone), intake 60
+  - DSEU Jaffarpur Campus (West Zone), intake 60
+  - DSEU Ranhola Campus (West Zone), intake 60
+
+2. B.S. Computer Applications (Bachelor of Science in Computer Applications)
+- Routes:
+  Option 1 - Direct: apply to B.S. Computer Applications program (4 years).
+  Option 2 - Exit options:
+    - After Year 1: UG Certificate in Computer Applications
+    - After Year 2: UG Diploma in Computer Applications
+    - After Year 3: Certificate in Bachelor in Computer Applications (BCA)
+    - After Year 4: Bachelor of Science in Computer Applications degree
+- Fee: Fee Category C. (Exact fee amount not listed here; please specify campus for exact fee.)
+- Eligibility: After 12th.
+- Duration: 4 years.
+- Campuses for B.S. Computer Applications:
+  - Guru Nanak Dev DSEU Campus (North Zone), intake 60
+  - Bhai Parmanand DSEU Campus (East Zone), intake 60
+  - DSEU Dwarka Campus (West Zone), intake 60
+  - DSEU Rajokri Campus (Central Zone), intake 60
+
+If you want to pursue a Master's level in Computer Applications, there is also:
+3. Master of Computer Applications (MCA)
+- Offered only at DSEU Dwarka Campus (West Zone), intake 50.
+- Duration and eligibility not specified here.
+- Fee and other details not listed here.
+
+Please specify if you want fee details or eligibility for a particular campus or program.
+--------------------------------------------------------------------------------
+
+QUESTION 70: bachelor of computer applications ke related programs batao
+ANSWER:
+Here are the programs related to Bachelor of Computer Applications (BCA) at DSEU:
+
+Routes:
+Option 1 - Direct: apply to the Bachelor of Computer Applications (BCA) program (3 years).
+Option 2 - Exit option: enrol in B.S. Computer Applications (4 years) and exit after Year 3, receiving the Bachelor in Computer Applications (BCA) certificate.
+
+Fee:
+- Bachelor of Computer Applications (BCA) program fee category is C. (Exact fee amount is not listed in the provided documents.)
+- B.S. Computer Applications program fee category is also C.
+
+Eligibility:
+- Both programs require completion of 12th standard (after 12th).
+- Admission is based on general admission.
+
+Duration and Level:
+- Bachelor of Computer Applications (BCA): 3 years, undergraduate level.
+- B.S. Computer Applications: 4 years, undergraduate level with multiple exit options.
+
+Campuses and Intake:
+Bachelor of Computer Applications (BCA) is offered at these campuses with intake 60 each:
+- DSEU Dheerpur Campus
+- DSEU Narela Campus
+- DSEU Jaffarpur Campus
+- DSEU Ranhola Campus
+
+B.S. Computer Applications is offered at these campuses:
+- DSEU Rajokri Campus
+- DSEU Dwarka Campus
+
+If you want details on fees or other specifics for a particular campus or program, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 71: bca karni hai
+ANSWER:
+Here is the complete information about pursuing BCA (Bachelor of Computer Applications) at DSEU:
+
+Routes:
+Option 1 - Direct: apply to the Bachelor of Computer Applications (BCA) program (3 years).
+Option 2 - Exit option: enrol in the B.S. Computer Applications program (4 years) and exit after Year 3, receiving the Bachelor in Computer Applications (BCA) certificate.
+
+Fee for Bachelor of Computer Applications (BCA) program:
+- Fee Category: C
+- General Fee: Rs. 35,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on general fee, so Rs. 14,000 per semester payable
+(Note: This concession applies only to the general fee, not to caution money, enrolment, examination, or other fees.)
+
+Eligibility: After 12th standard.
+
+Duration: 3 years for the direct BCA program.
+
+Campuses offering Bachelor of Computer Applications (BCA) with intake:
+- DSEU Dheerpur Campus (North Zone) - intake 60
+- DSEU Narela Campus (North Zone) - intake 60
+- DSEU Jaffarpur Campus (West Zone) - intake 60
+- DSEU Ranhola Campus (West Zone) - intake 60
+
+Total intake across all campuses: 240 students.
+
+If you want to pursue BCA, you can apply directly to the BCA program at any of these campuses or join the 4-year B.S. Computer Applications program and exit after 3 years with the BCA certificate.
+--------------------------------------------------------------------------------
+
+QUESTION 72: bca kaha available hai
+ANSWER:
+Bachelor of Computer Applications (BCA) program is available at the following DSEU campuses:
+
+- DSEU Dheerpur Campus (North Zone) with an intake of 60 students
+- DSEU Narela Campus (North Zone) with an intake of 60 students
+- DSEU Jaffarpur Campus (West Zone) with an intake of 60 students
+- DSEU Ranhola Campus (West Zone) with an intake of 60 students
+
+Total intake across all campuses is 240 students.
+--------------------------------------------------------------------------------
+
+QUESTION 73: bca exit ke baad kya degree milegi
+ANSWER:
+BCA exit ke baad aapko "certificate in Bachelor in Computer Applications (BCA)" milega agar aap "B S Computer Applications" program mein 3rd year ke baad exit karte hain.
+
+Yeh exit option is prakar hai:
+
+Routes:
+Option 1 - Direct: Apply karein "Bachelor of Computer Applications (BCA)" program mein (3 saal).
+Option 2 - Exit option: "B S Computer Applications" program (4 saal) mein enrol karein aur 3rd saal ke baad exit karein, jisme aapko "certificate in Bachelor in Computer Applications (BCA)" milega.
+
+Iske baad agar aap 4 saal tak padhai karte hain to aapko "Bachelor of Science in Computer Applications" ki degree milegi.
+
+Agar aapko aur details chahiye jaise fee, eligibility ya campus, toh bataiye.
+--------------------------------------------------------------------------------
+
+QUESTION 74: bba karni hai
+ANSWER:
+For pursuing a BBA at DSEU, you have two main program options:
+
+1. BBA (Banking, Financial Services and Insurance) - Duration: 3 years
+2. BBA Office Management (AI driven) - Duration: 3 years
+
+Here are the details for each:
+
+---
+
+**BBA (Banking, Financial Services and Insurance)**
+
+- Routes:
+  - Option 1 - Direct: Apply to the BBA (Banking, Financial Services and Insurance) program (3 years).
+  - Option 2 - Exit option: No exit option listed for this program.
+- Fee:
+  - Fee Category C: ₹15,000 per year.
+- Eligibility: After 12th standard.
+- Campuses and Intake:
+  - Bhai Parmanand DSEU Campus (East Zone): intake 60
+  - DSEU Dwarka Campus (West Zone): intake 60
+  - Total intake: 120
+
+---
+
+**BBA Office Management (AI driven)**
+
+- Routes:
+  - Option 1 - Direct: Apply to the BBA Office Management (AI driven) program (3 years).
+  - Option 2 - Exit option: No exit option listed for this program.
+- Fee:
+  - Fee Category D: ₹12,000 per year.
+- Eligibility: After 12th standard.
+- Campuses and Intake:
+  - DSEU Dheerpur Campus (North Zone): intake 40
+  - DSEU Narela Campus (North Zone): intake 40
+  - Meerabai DSEU Campus (South Zone, for girls only): intake 40
+  - Bhai Parmanand DSEU Campus (East Zone): intake 80
+  - DSEU Jaffarpur Campus (West Zone): intake 40
+  - DSEU Ranhola Campus (West Zone): intake 40
+  - Total intake: 280
+
+---
+
+If you want information about fee concessions or other details, please specify the program or your category.
+--------------------------------------------------------------------------------
+
+QUESTION 75: bba office management fee
+ANSWER:
+The fee for the BBA Office Management (AI driven) program at DSEU is as follows:
+
+- General Fee Category D: Rs. 25,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - General fee: Rs. 25,000 per semester
+  - Less 60% concession: Rs. 15,000
+  - Fee payable by an SC, ST or PwD candidate: Rs. 10,000 per semester
+
+Note: This fee is the general fee only. Caution money, enrolment, examination, and other components are listed separately in the Fee Structure section of the brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 76: bba banking financial services insurance campus
+ANSWER:
+BBA (Banking, Financial Services and Insurance) is offered at the following campuses:
+
+- Bhai Parmanand DSEU Campus (East Zone) with an intake of 60 students
+- DSEU Dwarka Campus (West Zone) with an intake of 60 students
+
+Total intake across both campuses is 120 students.
+--------------------------------------------------------------------------------
+
+QUESTION 77: b s computer applications exit awards
+ANSWER:
+For the Bachelor of Science in Computer Applications (B.S. Computer Applications) at DSEU, here are the exit awards available:
+
+Routes:
+Option 1 - Direct: apply to the B.S. Computer Applications program (4 years).
+Option 2 - Exit options from the 4-year program:
+- Exit after Year 1: receive UG Certificate in Computer Applications.
+- Exit after Year 3: receive a certificate in Bachelor in Computer Applications (BCA).
+- Exit after Year 4: receive the Bachelor of Science in Computer Applications degree.
+
+These exit awards apply to the B.S. Computer Applications programs with Program Ids 132, 133, 134, and 135, which all have the same exit awards structure.
+
+If you want details on fees, eligibility, campuses, or intake for a specific B.S. Computer Applications program, please specify which program or campus you are interested in.
+--------------------------------------------------------------------------------
+
+QUESTION 78: bs fashion design kya hai
+ANSWER:
+B.S. Fashion Design DSEU mein ek undergraduate (UG) degree program hai jo 4 saal ka duration rakhta hai. Is program mein aap fashion design ke field mein professional skills aur knowledge hasil kar sakte hain. Is program ke andar aapko multiple exit options bhi milte hain, jisse aap apni padhai ko 1, 2, 3 ya 4 saal ke baad alag-alag qualifications ke saath complete kar sakte hain.
+
+Yeh raha B.S. Fashion Design ke baare mein poora details:
+
+Routes:
+Option 1 - Direct: Apply karein B.S. Fashion Design program mein (4 saal).
+Option 2 - Exit option: Is program mein enrol karein (4 saal) aur exit karein:
+- Year 1 ke baad: UG Certificate in Fashion Design
+- Year 2 ke baad: UG Diploma in Fashion Design
+- Year 3 ke baad: Certificate in B.Voc. Fashion Design
+- Year 4 ke baad: Bachelor of Science in Fashion Design
+
+Fee:
+- General Fee Category D: Rs. 25,000 per semester
+- SC/ST/PwD candidates ke liye 60% concession milta hai, jisse fee Rs. 10,000 per semester ho jati hai (general fee Rs. 25,000 minus Rs. 15,000 concession).
+- Yeh fee sirf general fee hai; caution money, enrolment, examination fees alag hain.
+
+Eligibility:
+- 12th pass candidates apply kar sakte hain.
+
+Duration:
+- 4 saal (with exit options after 1, 2, or 3 years).
+
+Campuses and Intake:
+- Aryabhatt DSEU Campus (North Zone) - intake 60 students
+- Kasturba DSEU Campus (North Zone, for girls only) - intake 50 students
+
+Agar aap fashion design mein career banana chahte hain, toh yeh program aapke liye suitable hai.
+--------------------------------------------------------------------------------
+
+QUESTION 79: bs digital marketing and data analytics
+ANSWER:
+Here is the complete information about the B.S. Digital Marketing and Data Analytics program at DSEU:
+
+Routes:
+Option 1 - Direct: apply to the B.S. Digital Marketing and Data Analytics program (4 years).
+Option 2 - Exit option: enrol in B.S. Digital Marketing and Data Analytics (4 years) and exit after:
+- Year 1 with UG Certificate in Digital Marketing and Data Analytics
+- Year 2 with UG Diploma in Digital Marketing and Data Analytics
+- Year 3 with certificate in BBA Digital Marketing and Data Analytics
+- Year 4 with Bachelor of Science in Digital Marketing and Data Analytics
+
+Fee:
+- General Fee Category C: Rs. 35,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on general fee
+  - Fee payable by SC, ST or PwD candidate: Rs. 14,000 per semester
+(Note: This concession applies only to the general fee, not to caution money, enrolment, examination, or other fees.)
+
+Eligibility:
+- After 12th standard
+
+Duration:
+- 4 years
+
+Level:
+- Undergraduate (UG)
+
+Campus and Intake:
+- Offered only at DSEU Dwarka Campus
+- Intake: 40 students
+
+If you want more details on admission or other queries, feel free to ask!
+--------------------------------------------------------------------------------
+
+QUESTION 80: hospital management degree campus
+ANSWER:
+The B.S. Hospital Management degree program at DSEU is offered at the following campus:
+
+- DSEU Dheerpur Campus (North Zone) with an intake of 60 students.
+
+This is the only campus where B.S. Hospital Management is available.
+--------------------------------------------------------------------------------
+
+QUESTION 81: interior design related programs
+ANSWER:
+For Interior Design related programs at DSEU, here is the detailed information:
+
+Program Name: B.S. Interior Design
+
+Routes:
+Option 1 - Direct: apply to the B.S. Interior Design program (4 years).
+Option 2 - Exit option: enrol in B.S. Interior Design (4 years) and exit after:
+- Year 1, receiving UG Certificate in Interior Design
+- Year 2, receiving UG Diploma in Interior Design
+- Year 3, receiving certificate in B.Voc. Interior Design
+- Year 4, receiving UG Degree B.S. Interior Design
+
+Fee:
+- General Fee Category D: Rs. 25,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on general fee, so Rs. 10,000 per semester payable by eligible candidates
+(Note: This fee is for the B.S. Interior Design program; caution money, enrolment, examination fees are separate.)
+
+Eligibility:
+- After 12th standard
+
+Duration:
+- 4 years (with multiple exit points as above)
+
+Level:
+- Undergraduate (UG)
+
+Campuses and Intake:
+- Aryabhatt DSEU Campus (North Zone), intake 60
+- Meerabai DSEU Campus (South Zone, for girls only), intake 60
+
+This is the only Interior Design related program listed in the current DSEU offerings.
+--------------------------------------------------------------------------------
+
+QUESTION 82: beauty wellness course batao
+ANSWER:
+Here is the complete information about the Beauty and Wellness course at DSEU:
+
+Program Name: UG Diploma in Beauty and Wellness
+
+Routes to get this qualification:
+Option 1 - Direct: Apply to the UG Diploma in Beauty and Wellness program (2 years).
+Option 2 - Exit option: This program does not have an exit option listed.
+
+Fee:
+- General Fee Category D: Rs. 25,000 per semester.
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee.
+  - General fee: Rs. 25,000 per semester
+  - Less 60% concession: Rs. 15,000
+  - Fee payable by SC, ST or PwD candidate: Rs. 10,000 per semester
+(Note: This concession applies only to the general fee, not to caution money, enrolment, examination, or other fees.)
+
+Eligibility: After 12th standard.
+
+Duration: 2 years.
+
+Campuses and Intake:
+- DSEU Siri Fort Campus (Central Zone): intake 60
+- Meerabai DSEU Campus (South Zone, for girls only): intake 60
+
+Total intake across campuses: 120.
+
+If you want information about the B.S. Beauty Therapy program (which is a 4-year bachelor's degree with multiple exit options), please let me know.
+--------------------------------------------------------------------------------
+
+QUESTION 83: retail management programs
+ANSWER:
+Here is the complete information about Retail Management programs at DSEU:
+
+Routes:
+Option 1 - Direct: apply to the B.S. Retail Management program (4 years).
+Option 2 - Exit option: enrol in B.S. Retail Management (4 years) and exit early with these qualifications:
+  - After Year 1: UG Certificate in Retail Management
+  - After Year 2: UG Diploma in Retail Management
+  - After Year 3: Certificate in BBA Retail Management
+  - After Year 4: Bachelor of Science in Retail Management
+
+Fee:
+- B.S. Retail Management (General Fee Category D): Rs. 25,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on general fee, so Rs. 10,000 per semester payable
+- UG Certificate in Retail Management (General Fee Category D): Rs. 25,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on general fee, so Rs. 10,000 per semester payable
+
+Eligibility:
+- After 12th standard for both UG Certificate and B.S. Retail Management programs
+
+Duration and Level:
+- UG Certificate in Retail Management: 1 year, Undergraduate Certificate level
+- B.S. Retail Management: 4 years, Undergraduate degree level with multiple exit points
+
+Campuses and Intake:
+- B.S. Retail Management is offered at DSEU PUSA - I Campus (Central Zone) with an intake of 60 students
+- UG Certificate in Retail Management is also offered at DSEU PUSA - I Campus with an intake of 60 students
+
+Note: There is a mention of DSEU Pusa II Campus in the data but the official campus availability for B.S. Retail Management and UG Certificate in Retail Management is only at DSEU PUSA - I Campus as per the brochure.
+
+If you want details about diploma or certificate exit options beyond Year 1, please specify.
+--------------------------------------------------------------------------------
+
+QUESTION 84: e commerce operations course
+ANSWER:
+Here is the complete information about the B.S. E-Commerce Operations and Digital Application program at DSEU:
+
+Routes:
+Option 1 - Direct: apply to the B.S. E-Commerce Operations and Digital Application program (4 years).
+Option 2 - Exit option: enrol in B.S. E-Commerce Operations and Digital Application (4 years) and exit after:
+- Year 1 with UG Certificate in E-Commerce Operation and Digital Application
+- Year 2 with UG Diploma in E-Commerce Operation and Digital Application
+- Year 3 with certificate in BBA E-Commerce Operation and Digital Application
+- Year 4 with Bachelor of Science in E-Commerce Operation and Digital Application
+
+Fee:
+- General Fee Category D: Rs. 25,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on general fee, so Rs. 10,000 per semester payable by SC/ST/PwD candidates
+(Note: This concession applies only to the general fee, not to caution money, enrolment, examination, or other fees.)
+
+Eligibility:
+- After 12th standard
+
+Duration:
+- 4 years (with multiple exit options as above)
+
+Campuses and Intake:
+- Offered at DSEU PUSA - I Campus (Central Zone) with an intake of 40 students
+- Also listed at DSEU Pusa II Campus in some documents, but the official campus availability for this program is DSEU PUSA - I Campus with intake 40
+
+If you want more details or help with admission, please ask!
+--------------------------------------------------------------------------------
+
+QUESTION 85: solar panel course eligibility
+ANSWER:
+The eligibility for the UG Certificate Course on Installation, Testing, Maintenance and Repair of Solar Panels is:
+
+- After 12th (Senior Secondary) pass or 10+2 with science is a mandatory requirement.
+
+This is confirmed by the eligibility criteria for UG programs after 12th and specifically for this course.
+
+If you want full details:
+
+- Program: UG Certificate Course on Installation, Testing, Maintenance and Repair of Solar Panels
+- Eligibility: 12th pass (10+2) with science is mandatory
+- Duration: 1 year
+- Campus: DSEU Dwarka Campus
+- Intake: 30 students
+
+Let me know if you want information on fees or admission process.
+--------------------------------------------------------------------------------
+
+QUESTION 86: hvac certificate campus
+ANSWER:
+The UG Certificate Course in Refrigeration and Air Conditioning Skills (HVAC) is offered at two campuses:
+
+1. Aryabhatt DSEU Campus (North Zone) with an intake of 40 students.
+2. G.B. Pant DSEU Campus (South Zone) with an intake of 40 students.
+
+Both campuses offer the same one-year UG Certificate program in HVAC after 12th standard.
+--------------------------------------------------------------------------------
+
+QUESTION 87: btech fees batao
+ANSWER:
+The B.Tech programs at DSEU have the following fee structure:
+
+1. B.Tech. in Network Engineering and Security
+2. B.Tech. in Data Science
+
+Both these programs fall under Fee Category A.
+
+- General Fee: Rs. 87,000/- per semester
+- Concession for SC / ST / PwD candidates: 60% of the general fee is deducted.
+  - General fee: Rs. 87,000 per semester
+  - Less 60% concession: Rs. 52,200
+  - Fee payable by an SC, ST or PwD candidate: Rs. 34,800 per semester
+
+Note: This is the general fee only. Caution money, enrolment, examination, and other components are listed separately in the Fee Structure section of the brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 88: btech first semester fee
+ANSWER:
+The first semester fee for B.Tech programs at DSEU is Rs. 87,000 under General Fee Category A.
+
+For SC / ST / PwD candidates, a 60% concession applies on the general fee only (not on caution money, enrolment, examination, or other fees), so the fee payable is Rs. 34,800 per semester.
+
+This applies to all B.Tech programs listed, such as:
+- B.Tech. in Computer Science Engineering
+- B.Tech. in Mechanical Engineering
+- B.Tech. in Data Science
+- B.Tech. Electrical Engineering
+- B.Tech. in Electronics & Communication Engineering
+
+So, the first semester fee is:
+- General category: Rs. 87,000
+- SC / ST / PwD category: Rs. 34,800
+--------------------------------------------------------------------------------
+
+QUESTION 89: btech second semester fee
+ANSWER:
+The exact fee for the second semester of B.Tech programs is not separately listed in the provided documents. However, the general semester fee for B.Tech programs such as Computer Science Engineering, Electrical Engineering, Data Science, and Mechanical Engineering is Rs. 87,000 per semester for the general fee category (Category A). For SC/ST/PwD candidates, a 60% concession applies, making the fee Rs. 34,800 per semester. This fee applies per semester, so it would also apply to the second semester. 
+
+If you want details for a specific B.Tech program or category, please specify.
+--------------------------------------------------------------------------------
+
+QUESTION 90: btech total fee
+ANSWER:
+The total fee for a B.Tech program at DSEU depends on the specific B.Tech program you choose, but all B.Tech programs listed fall under Fee Category A.
+
+Here is the fee information for B.Tech programs (such as B.Tech. in Computer Science Engineering, B.Tech. in Network Engineering and Security, B.Tech. in Electronics & Communication Engineering, and B.Tech. Electrical Engineering):
+
+- General Fee Category: A
+- General Fee per semester: Rs. 87,000/-
+- For SC / ST / PwD candidates, a 60% concession applies on the general fee, making it Rs. 34,800/- per semester.
+
+Note: This is the general fee only. Additional fees such as caution money, enrolment, examination, development, laboratory, library, sports, ITES, and extra-curricular activities fees are charged separately as per the Fee Structure section of the brochure.
+
+Duration: B.Tech programs are typically 4 years.
+
+To calculate the total tuition fee for the entire program (excluding other fees), multiply the semester fee by the number of semesters (usually 8 semesters in 4 years).
+
+For example:
+- General category: Rs. 87,000 x 8 = Rs. 6,96,000 (tuition fee only)
+- SC / ST / PwD category: Rs. 34,800 x 8 = Rs. 2,78,400 (tuition fee only)
+
+For the exact total including other fees, please refer to the Fee Structure section or contact the admissions office.
+--------------------------------------------------------------------------------
+
+QUESTION 91: SC category me btech fees kitni hogi
+ANSWER:
+The B.Tech program fee general category is Rs. 87,000 per semester (Fee Category - A).
+
+For SC / ST / PwD candidates, there is a 60% concession on the general fee:
+- General fee: Rs. 87,000 per semester
+- Less 60% concession: Rs. 52,200
+- Fee payable by an SC, ST or PwD candidate: Rs. 34,800 per semester
+
+This concession applies only to the general fee and not to caution money, enrolment, examination, or other fees.
+--------------------------------------------------------------------------------
+
+QUESTION 92: ST btech first semester fee
+ANSWER:
+For an ST candidate enrolling in a B.Tech program at DSEU, the fee details for the first semester are as follows:
+
+- General Fee per semester: Rs. 87,000
+- Concession for ST candidates: 60% deduction on the general fee
+- Fee payable by an ST candidate: Rs. 34,800 per semester
+
+This applies to all B.Tech programs listed (such as B.Tech. in Data Science, Computer Science Engineering, Mechanical Engineering, Network Engineering and Security, Electrical Engineering).
+
+Note: This fee is the general tuition fee only. Caution money, enrolment, examination, and other fees are separate.
+--------------------------------------------------------------------------------
+
+QUESTION 93: pwd rebate kitna hai
+ANSWER:
+The rebate for Persons with Disabilities (PwD) category is 60% on the general fee only. This means PwD candidates pay 40% of the general fee amount for their program. The concession does not apply to caution money, enrolment, examination, or other fees. For example, if the general fee is Rs. 10,000 per semester, after 60% concession, a PwD candidate pays Rs. 4,000 per semester.
+--------------------------------------------------------------------------------
+
+QUESTION 94: rebate mba
+ANSWER:
+For MBA programs at DSEU, there is a 60% fee concession for SC, ST, and PwD candidates on the general fee only. This applies to the following MBA programs:
+
+1. MBA Finance
+2. MBA Entrepreneurship
+3. MBA International Business Management
+4. MBA Data Science
+
+Example for MBA Finance (same applies to the others):
+
+- General fee: Rs. 50,000 per semester
+- Less 60% concession: Rs. 30,000
+- Fee payable by an SC, ST or PwD candidate: Rs. 20,000 per semester
+
+Note: This concession applies only to the general fee and not to caution money, enrolment, examination, or other fees.
+--------------------------------------------------------------------------------
+
+QUESTION 95: fee rebate explain karo
+ANSWER:
+DSEU mein fee rebate ya concession SC, ST aur PwD candidates ke liye available hai. Ye rebate general fee par 60% ki chhoot deta hai. Matlab, SC, ST aur PwD category ke students ko general fee ka sirf 40% hi pay karna hota hai.
+
+Yeh concession sirf general fee par lagu hota hai. Admission fee, enrolment fee, examination fee, caution money, aur other components par yeh concession nahi milta.
+
+Udaharan ke liye, agar kisi program ki general fee Rs. 10,000 per semester hai, to SC/ST/PwD candidates ko 60% rebate milne ke baad Rs. 4,000 per semester pay karna hoga.
+
+Is tarah se har program ke liye general fee aur us par 60% concession ke baad payable fee alag-alag hoti hai, jo program ke fee details mein diya hota hai.
+--------------------------------------------------------------------------------
+
+QUESTION 96: sc category rebate percentage
+ANSWER:
+The rebate percentage for the SC (Scheduled Caste) category at DSEU is 60%. This means SC candidates receive a 60% deduction on the general fee of any program.
+--------------------------------------------------------------------------------
+
+QUESTION 97: fee category A amount
+ANSWER:
+The fee amount for General Fee Category - A is Rs. 87,000/- per semester.
+
+For candidates in the SC, ST, or PwD categories, there is a 60% concession on the general fee, so they pay Rs. 34,800/- per semester.
+
+Note: This concession applies only to the general fee and not to caution money, enrolment, examination fees, or other components.
+--------------------------------------------------------------------------------
+
+QUESTION 98: fee category C tuition fee
+ANSWER:
+The tuition fee for Fee Category C is Rs. 35,000 per semester. For SC / ST / PwD candidates, a 60% concession applies on the general fee, so the fee payable is Rs. 14,000 per semester.
+--------------------------------------------------------------------------------
+
+QUESTION 99: bca fees
+ANSWER:
+The fees for the Bachelor of Computer Applications (BCA) program at DSEU are as follows:
+
+- General Fee Category: C
+- General Fee: Rs. 35,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - General fee: Rs. 35,000 per semester
+  - Less 60% concession: Rs. 21,000
+  - Fee payable by an SC, ST or PwD candidate: Rs. 14,000 per semester
+
+Note: This is the general fee only. Additional fees such as caution money, enrolment, examination, and other components are listed separately in the Fee Structure section of the brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 100: mca fees
+ANSWER:
+The fee details for the Master of Computer Applications (MCA) program at DSEU are as follows:
+
+- Fee Category: B
+- General Fee: Rs. 50,000/- per semester
+- Concession for SC / ST / PwD candidates: 60% of the general fee is deducted.
+  - General fee: Rs. 50,000 per semester
+  - Less 60% concession: Rs. 30,000
+  - Fee payable by an SC, ST or PwD candidate: Rs. 20,000 per semester
+
+Please note this is the general fee only. Additional fees such as caution money, enrolment, examination, and other components are listed separately in the Fee Structure section of the brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 101: diploma computer engineering fees
+ANSWER:
+For the Diploma in Computer Engineering (AI Tools) program at DSEU, the fee details are as follows:
+
+- Fee Category: E
+- General Fee: Rs. 10,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - Fee payable by SC, ST, or PwD candidates: Rs. 4,000 per semester (after Rs. 6,000 concession)
+
+Note: This fee is the general fee only. Additional charges such as caution money, enrolment, examination, and other components are listed separately in the Fee Structure section of the brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 102: pg diploma fees
+ANSWER:
+The PG Diploma programs at DSEU have the following fee structure:
+
+- General Fee: Rs. 35,000 per semester (Fee Category C)
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - General fee: Rs. 35,000 per semester
+  - Less 60% concession: Rs. 21,000
+  - Fee payable by an SC, ST or PwD candidate: Rs. 14,000 per semester
+
+This fee applies to all the following PG Diploma programs:
+- PG Diploma in AI and Intelligent Systems
+- PG Diploma in Data Analysis and Public Policy
+- PG Diploma in Event Management
+- PG Diploma in Retail Marketing
+- PG Diploma in Semiconductor Chip Design & Fabrication
+- PG Diploma in Smart Office Management
+
+Note: This is the general fee only. Caution money, enrolment, examination, and other components are listed separately in the Fee Structure section of the brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 103: ug certificate fee kitni hai
+ANSWER:
+The fee for UG Certificate programs at DSEU varies by program category:
+
+- For UG Certificate programs in Fee Category D (such as Conservation of Paper, Conservation of Textiles, Food Production, Installation, Testing, Maintenance and Repair of Solar Panels, AI in Office Operations, Refrigeration and Air Conditioning Skills (HVAC), Retail Management):
+  - General Fee: Rs. 25,000 per semester
+  - Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - Fee payable by SC / ST / PwD candidates: Rs. 10,000 per semester
+
+- For UG Certificate programs in Fee Category E (such as Welding Technology, Digital Marketing and Web Development):
+  - General Fee: Rs. 10,000 per semester
+  - Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - Fee payable by SC / ST / PwD candidates: Rs. 4,000 per semester
+
+Note: These fees are for the general fee component only. Caution money, enrolment, examination, and other fees are separate.
+--------------------------------------------------------------------------------
+
+QUESTION 104: diploma architecture first sem fee
+ANSWER:
+For the Diploma in Architecture program at DSEU, the first semester fee details are as follows:
+
+- General Fee Category: D
+- General Fee: Rs. 25,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - Fee payable by SC, ST or PwD candidate: Rs. 10,000 per semester
+
+Note: This fee is the general fee only. Caution money, enrolment, examination, and other components are listed separately in the Fee Structure section of the brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 105: mba finance sc rebate ke baad fees
+ANSWER:
+For the MBA Finance program at DSEU Dwarka Campus:
+
+- General Fee: Rs. 50,000 per semester (Fee Category B)
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+- Fee payable by an SC, ST or PwD candidate: Rs. 20,000 per semester
+
+This concession applies only to the general fee and not to caution money, enrolment, examination, or other fees.
+--------------------------------------------------------------------------------
+
+QUESTION 106: nearest metro to gb pant campus
+ANSWER:
+The nearest metro station to G. B. Pant DSEU Campus is Govind Puri.
+--------------------------------------------------------------------------------
+
+QUESTION 107: gb pant campus ka nearest metro
+ANSWER:
+The nearest metro station to G. B. Pant DSEU Campus is Govind Puri.
+--------------------------------------------------------------------------------
+
+QUESTION 108: btech cse at gb pant nearest metro
+ANSWER:
+The nearest metro station to G. B. Pant DSEU Campus, where the B.Tech. Computer Science Engineering program is offered, is Govind Puri.
+--------------------------------------------------------------------------------
+
+QUESTION 109: btech cse at gb pant first semester fee with sc rebate and nearest metro
+ANSWER:
+The B.Tech. in Computer Science Engineering (CSE) program at DSEU has the following fee details for the first semester:
+
+- General Fee Category: A
+- General Fee: Rs. 87,000 per semester
+- Concession for SC candidates: 60% deduction on the general fee
+- Fee payable by an SC candidate: Rs. 34,800 per semester (after concession)
+
+This fee is the general tuition fee only; caution money, enrolment, examination, and other fees are separate.
+
+Regarding the campus, the B.Tech. in Computer Science Engineering program is offered at the GB Pant campus.
+
+For the nearest metro station to GB Pant campus, this information is not provided in the current documents. You may want to check with the admissions office or local transit maps for the nearest metro station to GB Pant campus.
+--------------------------------------------------------------------------------
+
+QUESTION 110: dseu dwarka campus metro
+ANSWER:
+The nearest metro station to DSEU Dwarka Campus is Sector-10, Dwarka.
+--------------------------------------------------------------------------------
+
+QUESTION 111: okhla campus director email
+ANSWER:
+The email for the director of DSEU Okhla Campus is director-dite@dseu.ac.in.
+--------------------------------------------------------------------------------
+
+QUESTION 112: pusa campus nearest metro
+ANSWER:
+There are two Pusa campuses for DSEU:
+
+- DSEU Pusa – I Campus: The nearest metro station is Rajendra Place.
+- DSEU Pusa – II Campus: The nearest metro station is Blue Line - Patel Nagar.
+--------------------------------------------------------------------------------
+
+QUESTION 113: which campus has btech computer science
+ANSWER:
+B.Tech. Computer Science Engineering is offered at the following campuses:
+
+- Guru Nanak Dev DSEU Campus (North Zone) with an intake of 60
+- G.B. Pant DSEU Campus (South Zone) with an intake of 120
+- DSEU Pusa 1 Campus (Central Zone) with an intake of 60
+--------------------------------------------------------------------------------
+
+QUESTION 114: computer engineering diploma kis kis campus me hai
+ANSWER:
+Diploma in Computer Engineering (AI Tools) is offered at the following DSEU campuses:
+
+- DSEU Dheerpur Campus (North Zone)
+- Guru Nanak Dev DSEU Campus (North Zone)
+- DSEU Narela Campus (North Zone)
+- Kasturba DSEU Campus (FOR GIRLS ONLY) (North Zone)
+- Meerabai DSEU Campus (FOR GIRLS ONLY) (South Zone)
+- Ambedkar DSEU Campus (East Zone)
+- DSEU Jaffarpur Campus (West Zone)
+- DSEU Ranhola Campus (West Zone)
+- DSEU Pusa 1 Campus (Central Zone)
+- DSEU Rajokri Campus (Central Zone)
+
+These campuses collectively have an intake of 860 students for this diploma program.
+--------------------------------------------------------------------------------
+
+QUESTION 115: programs at gb pant campus
+ANSWER:
+The programs offered at G.B. Pant DSEU Campus are:
+
+Diploma Programs:
+- Diploma in Automobile Engineering (intake 60)
+- Diploma in Civil Engineering (intake 60)
+- Diploma in Electrical Engineering (intake 60)
+- Diploma in Mechanical Engineering (intake 120)
+- Diploma in Mobile Manufacturing (intake 60)
+
+UG Certificate Program:
+- UG Certificate Course in Refrigeration and Air Conditioning Skills (HVAC) (intake 40)
+
+B.Tech Programs:
+- B.Tech. Computer Science Engineering (intake 120)
+- B.Tech. Electronics & Communication Engineering (intake 120)
+- B.Tech. Mechanical Engineering (intake 60)
+--------------------------------------------------------------------------------
+
+QUESTION 116: courses available at dwarka campus
+ANSWER:
+The courses available at DSEU Dwarka Campus are:
+
+Diploma Programs:
+- Diploma in Semi-Conductor Chip Manufacturing (intake 60)
+- Diploma in Pharmacy (intake 60)
+
+Undergraduate Programs:
+- B.S. Digital Marketing and Data Analytics (intake 40)
+- B.S. Computer Applications (intake 60)
+- B.S. Entrepreneurship (intake 40)
+- B.S. Facility and Infrastructure Management (intake 40)
+- B.S. Medical Laboratory Sciences (intake 60)
+- B.S. Banking, Financial Services and Insurance (intake 60)
+- B.S. Environmental Science (intake 40)
+- B.Sc. (Hons.) Psychology (intake 20)
+- BBA (Banking, Financial Services and Insurance) (intake 60)
+- B.Sc. Life Sciences (intake 20)
+- UG Certificate in Installation, Testing, Maintenance and Repair of Solar Panels (intake 30)
+- UG Diploma in Hotel Management (intake 40)
+- B.Tech. Network Engineering and Security (intake 40)
+
+Postgraduate Programs:
+- Integrated MTech in Emerging Technologies (intake 60)
+- M.Sc. (Medical Laboratory Sciences) (intake 20)
+- MBA Finance (intake 40)
+- Master of Computer Applications (intake 50)
+- PG Diploma in Event Management (intake 30)
+- PG Diploma in Semi-conductor Chip Design & Fabrication (intake 20)
+
+This is the complete list of 21 programs offered at DSEU Dwarka Campus.
+--------------------------------------------------------------------------------
+
+QUESTION 117: campus email for rajokri
+ANSWER:
+The campus email for DSEU Rajokri Campus is director-RIT@dseu.ac.in.
+--------------------------------------------------------------------------------
+
+QUESTION 118: who is vice chancellor
+ANSWER:
+The Vice-Chancellor of Delhi Skill and Entrepreneurship University (DSEU) is Prof. (Dr) Ashok K Nagawat.
+--------------------------------------------------------------------------------
+
+QUESTION 119: registrar email kya hai
+ANSWER:
+The email for the Registrar of DSEU is Registrar@dseu.ac.in.
+--------------------------------------------------------------------------------
+
+QUESTION 120: director academics ka email
+ANSWER:
+The email for the Director Academics at DSEU is dir.academics@dseu.ac.in.
+--------------------------------------------------------------------------------
+
+QUESTION 121: diploma eligibility criteria
+ANSWER:
+Here is the eligibility criteria for admission to Diploma Programs (Technical) at DSEU for 2026-27:
+
+- For all Diploma Programs except Diploma in Architecture:
+  - Passed Secondary School Examination (Class X) of CBSE or equivalent recognized board with at least 40% aggregate or equivalent Grade Point Average, with any specified subject/discipline if required.
+  - OR passed a two-year National Trade Certificate (NTC) from an institution recognized by NCVTE in the relevant or allied trade related to the diploma discipline, with at least 40% aggregate or equivalent Grade Point Average after 8th class.
+  - OR earned 40 credits of relevant qualification at NSQF level 3.0.
+
+- For Diploma in Architecture:
+  - Candidates must have passed Class X or equivalent.
+  - Council of Architecture (COA) guidelines will be followed for admission.
+
+If you want eligibility for Diploma in Pharmacy, separate Pharmacy Council regulations apply and separate counseling will be conducted.
+
+If you want details for a specific diploma program, please specify.
+--------------------------------------------------------------------------------
+
+QUESTION 122: ug admission eligibility
+ANSWER:
+For undergraduate (UG) admission eligibility at DSEU for the academic year 2026-27, here is the information from the brochure:
+
+- Eligibility for UG Programs (after 12th): Candidates must have passed the 12th standard (Senior Secondary) examination. Specific eligibility details may vary by program, so it is advisable to check the exact program requirements.
+
+- For Diploma Programs Technical (after 10th): Candidates must have passed 10th standard. For Diploma in Architecture, Council of Architecture (COA) guidelines apply.
+
+- For Diploma in Pharmacy (D-Pharma): Pharmacy council regulations apply, and separate counseling will be conducted.
+
+- For B.Tech Programs (after 12th): Eligibility details are given separately, generally requiring passing 12th with relevant subjects.
+
+If you want eligibility for a specific UG program, please specify the program name for more precise details.
+--------------------------------------------------------------------------------
+
+QUESTION 123: btech eligibility criteria 2026
+ANSWER:
+For admission to B.Tech programs at DSEU in 2026-27, the eligibility criteria are as follows:
+
+- Admission is primarily based on the merit score of JEE Mains through JAC counselling.
+- If vacancies remain unfilled based on JEE Main scores, candidates who have scored at least 50% in their 10+2 (Science) or Diploma examinations will be considered.
+- For the Integrated B.Tech and M.Tech program in Emerging Technologies, the minimum eligibility is 10+2 with one science subject.
+
+In summary:
+- General B.Tech: JEE Mains merit score or 50% in 10+2 Science/Diploma.
+- Integrated B.Tech and M.Tech in Emerging Technologies: 10+2 with one science subject.
+
+This information is from the official eligibility criteria for B.Tech programs 2026-27.
+--------------------------------------------------------------------------------
+
+QUESTION 124: pg masters eligibility
+ANSWER:
+For eligibility to PG/Masters programs at DSEU for the academic year 2026-27, the criteria are as follows:
+
+- Passed a three-year undergraduate degree from any discipline or B.VoC or B.Sc. Engineering from a recognized university or an equivalent examination, with the required subject/discipline if specified in the master's curriculum, and with an aggregate percentage of 50% or more, or an equivalent Grade Point Average.
+- Or passed 10th + 5-year NTC/NAC/CITS or
+- 12th + 3-year NTC/NAC/CITS or NSQF Level 6.0 with an aggregate percentage of 50% or more, or an equivalent Grade Point.
+- Or passed a 4-year undergraduate degree with Honours/Honours with Research from a recognized university or equivalent examination, with the required subject/discipline if specified, and with an aggregate percentage of 50% or more, or equivalent Grade Point Average.
+
+These criteria apply generally to all PG/Masters programs except for some specific branches which have their own eligibility criteria (not detailed here).
+
+If you want eligibility for a specific PG/Masters program, please specify the program name.
+--------------------------------------------------------------------------------
+
+QUESTION 125: integrated btech mtech eligibility
+ANSWER:
+The eligibility for admission to the Integrated B.Tech – M.Tech in Emerging Technologies program at DSEU is:
+
+- Completion of 10+2 with one science subject.
+
+This is the minimum eligibility required to apply for this program.
+--------------------------------------------------------------------------------
+
+QUESTION 126: online registration dates
+ANSWER:
+For Online Registration dates at DSEU in 2026:
+
+- Diploma Online Registration starts on 04 May 2026.
+- Last Date for Diploma Online Registration is 25 May 2026.
+- Correction Window for Diploma students is from 26 to 28 May 2026.
+- Tentative First Merit List Publication for Diploma is on 01 June 2026.
+
+For UG, B.Tech, and PG Online Registration, the commencement dates are yet to be announced. Please keep checking the DSEU website for updates.
+--------------------------------------------------------------------------------
+
+QUESTION 127: diploma registration last date
+ANSWER:
+The last date for online registration for Diploma programs (Technical after 10th) at DSEU for the academic year 2026-27 is 25 May 2026.
+--------------------------------------------------------------------------------
+
+QUESTION 128: ug registration correction window
+ANSWER:
+The correction window for UG (Undergraduate) registration is not specifically listed in the provided documents. The correction window dates are given only for Diploma registrations, which are from 26 to 28 May 2026.
+
+For UG registration, the commencement of online registration is "To be announced Soon," and no correction window dates are provided in the current documents.
+
+You may want to check with the admissions office or the official DSEU website for the exact correction window dates for UG registration when they are announced.
+--------------------------------------------------------------------------------
+
+QUESTION 129: pg registration kab start hai
+ANSWER:
+According to the information available, the commencement date for PG (Postgraduate) online registration at DSEU is "To be announced Soon." So, the exact start date for PG registration has not been announced yet. You may want to keep checking the official DSEU website or contact the admissions office for the latest updates.
+--------------------------------------------------------------------------------
+
+QUESTION 130: btech registration kaise hoga
+ANSWER:
+For B.Tech registration at DSEU, here is the information from the brochure:
+
+- The commencement date for B.Tech online registration is not yet announced. You will need to wait for the official announcement from DSEU for the start of B.Tech registration.
+
+- The registration and counselling fee for B.Tech programs is Rs. 2000/- (non-refundable).
+
+- Keep an eye on the official DSEU website or admission notifications for the exact dates when B.Tech registration will open.
+
+If you want, I can also provide details about eligibility, fee, and campuses once the registration dates are announced or if you specify a particular B.Tech program.
+--------------------------------------------------------------------------------
+
+QUESTION 131: jac delhi btech admission
+ANSWER:
+For admission to B.Tech programs at DSEU through JAC Delhi, here is the relevant information:
+
+Routes:
+Option 1 - Direct: Admission to B.Tech programs is primarily through Joint Admission Counselling (JAC) based on the merit score of JEE Mains.
+Option 2 - If vacancies remain unfilled after JAC counselling, admission will be offered to candidates who have scored at least 50% in their 10+2 (Science) or Diploma examinations.
+
+Eligibility:
+- For B.Tech programs, candidates must have a merit score in JEE Mains.
+- If seats remain vacant, candidates with at least 50% marks in 10+2 (Science) or Diploma are eligible.
+- For Integrated B.Tech and M.Tech programs in Emerging Technologies, eligibility is 10+2 with one science subject.
+
+Admission Process:
+- Candidates interested in admission through JAC must participate in the JAC counselling.
+- Candidates not interested in JAC can apply directly through the DSEU admission portal after JAC counselling closes.
+
+Please note that the exact B.Tech programs, campuses, intake, and fees are not detailed in the provided documents. For detailed program-wise information, you may check the DSEU website or contact the admission office.
+
+If you want information on specific B.Tech programs, their fees, eligibility, or campuses, please specify the program name.
+--------------------------------------------------------------------------------
+
+QUESTION 132: exit ke baad kya milega
+ANSWER:
+Aap jis program mein padhai kar rahe hain ya karna chahte hain, uske hisaab se exit ke baad alag-alag qualifications mil sakte hain. DSEU ke 4 saal ke programs mein aap beech mein exit kar sakte hain aur uss samay tak ki padhai ke hisaab se qualification prapt kar sakte hain. Yeh exit options kuch is prakar hain:
+
+1. Certificate (1 saal ke baad)
+2. Diploma (2 saal ke baad)
+3. Bachelor's degree (3 saal ke baad, jaise BBA ya BCA certificate)
+4. Honours ya Bachelor's degree (4 saal ke baad)
+
+Udaharan ke liye:
+
+- Agar aap "B S Entrepreneurship" program mein hain:
+  - 1 saal ke baad: Certificate in Entrepreneurship milega
+  - 2 saal ke baad: Diploma in Entrepreneurship milega
+  - 3 saal ke baad: BBA in Entrepreneurship milega
+  - 4 saal ke baad: B.S. in Entrepreneurship milega
+
+- Agar aap "B S Computer Applications" mein hain:
+  - 1 saal ke baad: UG Certificate in Computer Applications milega
+  - 2 saal ke baad: UG Diploma in Computer Applications milega
+  - 3 saal ke baad: Certificate in Bachelor in Computer Applications (BCA) milega
+  - 4 saal ke baad: Bachelor of Science in Computer Applications milega
+
+Isi tarah har program ke exit options alag hain, jaise Retail Management, E-Commerce Operations, etc.
+
+Agar aap kisi specific program ke baare mein jaanna chahte hain ki exit ke baad kya milega, toh aap mujhe program ka naam bata sakte hain, main aapko uske exit options detail mein bata dunga.
+--------------------------------------------------------------------------------
+
+QUESTION 133: 3 year exit ke baad kya award milega
+ANSWER:
+DSEU ke 4 saal ke programs mein aap 3 saal ke baad exit kar sakte hain aur alag-alag programs ke liye alag-alag awards milte hain. Yahan kuch examples diye gaye hain jo 3 saal ke exit par milte hain:
+
+- BBA Digital Marketing and Data Analytics program mein 3 saal ke baad "Certificate in BBA Digital Marketing and Data Analytics" milega.
+- BBA E-Commerce Operation and Digital Application program mein 3 saal ke baad "Certificate in BBA E-Commerce Operation and Digital Application" milega.
+- BBA Entrepreneurship program mein 3 saal ke baad "B.B.A. in Entrepreneurship" milega.
+- BBA Banking, Financial Services and Insurance program mein 3 saal ke baad "Certificate in BBA Banking, Financial Services and Insurance" milega.
+- B.Voc Digital Media Design program mein 3 saal ke baad "Certificate in B.Voc Digital Media Design" milega.
+- B.Voc Beauty Therapy program mein 3 saal ke baad "Certificate in B.Voc Beauty Therapy" milega.
+- B.Sc Environmental Science program mein 3 saal ke baad "Certificate in B.Sc Environmental Science" milega.
+
+Aap jis specific program mein interested hain, uske hisaab se 3 saal ke exit par milne wala award alag hoga. Agar aapko kisi particular program ka detail chahiye, toh bataiye main aapko uska poora information de sakta hoon.
+--------------------------------------------------------------------------------
+
+QUESTION 134: 2 year exit award list
+ANSWER:
+Here is the list of exit awards available at the 2-year exit point from various 4-year programs at DSEU:
+
+- UG Diploma in Digital Marketing and Data Analytics (Program Id: 137, Exit Year: 2)
+- UG Diploma in Banking, Financial Services and Insurance (Program Id: 127, Exit Year: 2)
+- UG Diploma in Environmental Science (Program Id: 145, Exit Year: 2)
+- Diploma in Entrepreneurship (Program Id: 143, Exit Year: 2)
+- UG Diploma in Environmental Science (Program Id: 144, Exit Year: 2)
+
+These are the recognized qualifications you can receive if you exit after completing the second year of the respective 4-year programs.
+--------------------------------------------------------------------------------
+
+QUESTION 135: 1 year exit options
+ANSWER:
+At DSEU, many 4-year undergraduate programs offer the option to exit after 1 year with a certificate qualification. Here is an overview of the 1-year exit options (UG Certificate) available by exiting early from specific 4-year programs:
+
+Routes to UG Certificate (1-year exit):
+
+Option 1 - Direct: apply straight to a UG Certificate program. DSEU offers 16 such direct UG Certificate programs, including:
+- UG Certificate course in Welding Technology (NCrF level 5-post diploma technical)
+- UG Certificate in Installation, Testing, Maintenance and Repair of Solar Panels
+- UG Certificate course in Refrigeration and Air Conditioning Skills (HVAC)
+- and 13 more direct UG Certificate programs.
+
+Option 2 - Exit option: enrol in a 4-year program and exit after Year 1, receiving the UG Certificate in that field. Examples include:
+
+- Enrol in "B S Banking Financial Services and Insurance" (4 years), exit after Year 1: UG Certificate in Banking, Financial Services and Insurance
+- Enrol in "B S Beauty Therapy" (4 years), exit after Year 1: UG Certificate in Beauty Therapy
+- Enrol in "B S Business Process Management" (4 years), exit after Year 1: UG Certificate in Business Process Management
+- Enrol in "B S Computer Applications" (4 years), exit after Year 1: UG Certificate in Computer Applications
+- Enrol in "B S Digital Marketing and Data Analytics" (4 years), exit after Year 1: UG Certificate in Digital Marketing and Data Analytics
+- Enrol in "B S Digital Media Design" (4 years), exit after Year 1: UG Certificate in Digital Media Design
+- Enrol in "B S E-Commerce Operations and Digital Application" (4 years), exit after Year 1: UG Certificate in E-Commerce Operation and Digital Application
+- Enrol in "B S Entrepreneurship" (4 years), exit after Year 1: Certificate in Entrepreneurship
+- Enrol in "B S Environmental Science" (4 years), exit after Year 1: UG Certificate in Environmental Science
+- Enrol in "B S Fashion Design" (4 years), exit after Year 1: UG Certificate in Fashion Design
+- Enrol in "B S Interior Design" (4 years), exit after Year 1: UG Certificate in Interior Design
+- Enrol in "B S Medical Laboratory Sciences" (4 years), exit after Year 1: UG Certificate in Medical Laboratory Sciences
+- Enrol in "B S Retail Management" (4 years), exit after Year 1: UG Certificate in Retail Management
+- Enrol in "B S Supply Chain Management" (4 years), exit after Year 1: UG Certificate in Supply Chain Management
+
+This means you can either apply directly to a 1-year UG Certificate program or start a 4-year bachelor's program and leave after the first year with a certificate qualification in that discipline.
+--------------------------------------------------------------------------------
+
+QUESTION 136: bca 3 year exit award
+ANSWER:
+For the Bachelor in Computer Applications (BCA) 3-year exit award at DSEU, here is the information from the context:
+
+Routes:
+Option 1 - Direct: There is no direct 3-year BCA program explicitly named in the documents.
+Option 2 - Exit option: Enrol in one of the 4-year programs below and exit after Year 3, receiving a certificate in Bachelor in Computer Applications (BCA):
+- Program Id 132 (4 years)
+- Program Id 133 (4 years)
+- Program Id 134 (4 years)
+- Program Id 135 (4 years)
+
+(The exact program names for these IDs are not given here, but they all offer the BCA exit certificate after 3 years.)
+
+Fee:
+The specific fee for the BCA exit certificate is not separately listed. The fee would correspond to the 4-year program fee from which the student exits. Unfortunately, the exact fees for these programs are not provided in the current documents.
+
+Eligibility, Duration, Level:
+- Duration: 4 years for the full program, with exit after 3 years for the BCA certificate.
+- Level: Undergraduate.
+- Eligibility details for these programs are not explicitly listed here.
+
+Campuses and Intake:
+The campuses offering these programs are not specified in the current data.
+
+If you want detailed fee, eligibility, or campus information, please specify the exact 4-year program you are interested in or check with the admissions office for the full program details that lead to the BCA exit certificate after 3 years.
+--------------------------------------------------------------------------------
+
+QUESTION 137: bs computer applications 4 year award
+ANSWER:
+For the Bachelor of Science in Computer Applications (B S Computer Applications) 4-year award at DSEU, here is the complete information:
+
+Routes:
+Option 1 - Direct: apply to the B S Computer Applications program (4 years).
+Option 2 - Exit option: enrol in B S Computer Applications (4 years) and exit after Year 1 with UG Certificate in Computer Applications, after Year 2 with UG Diploma in Computer Applications, or after Year 3 with certificate in Bachelor in Computer Applications (BCA).
+
+Fee:
+The specific fee for B S Computer Applications is not listed in the provided documents. Please check with the admissions office for the exact fee details.
+
+Eligibility, Duration, and Level:
+- Duration: 4 years
+- Level: Undergraduate (Bachelor's degree)
+- Eligibility details are not explicitly provided in the current documents.
+
+Campuses and Intake:
+The campuses offering B S Computer Applications and intake numbers are not listed in the provided documents.
+
+If you want detailed eligibility criteria, fee structure, or campus availability, please contact the admissions office or check the official DSEU brochure.
+--------------------------------------------------------------------------------
+
+QUESTION 138: fashion design exit awards
+ANSWER:
+For Fashion Design at DSEU, there are multiple exit awards available at different years of study. Here are the exit awards you can receive if you choose to leave the program early:
+
+- After Year 1: UG Certificate in Fashion Design
+- After Year 2: UG Diploma in Fashion Design
+- After Year 3: Certificate in B.Voc. Fashion Design
+- After Year 4: Bachelor of Science in Fashion Design (the full degree)
+
+These exit awards correspond to the B S Fashion Design program, which offers these progressive qualifications as exit options.
+--------------------------------------------------------------------------------
+
+QUESTION 139: retail management exit option
+ANSWER:
+For Retail Management at DSEU, you have multiple exit options during the 4-year program "B S Retail Management":
+
+Routes:
+Option 1 - Direct: There is no separate direct program named just "Retail Management" listed, so direct entry to a specific Retail Management program is not shown.
+Option 2 - Exit option: Enrol in "B S Retail Management" (4 years) and exit after:
+- Year 1: Receive UG Certificate in Retail Management
+- Year 2: Receive UG Diploma in Retail Management
+- Year 3: Receive certificate in BBA Retail Management
+- Year 4: Receive Bachelor of Science in Retail Management (Honours)
+
+This means you can leave the program early and still earn a recognized qualification at each exit point.
+
+If you want details on fees, eligibility, campuses, or intake for "B S Retail Management," please specify.
+--------------------------------------------------------------------------------
+
+QUESTION 140: bba supply chain exit certificate
+ANSWER:
+For the BBA Supply Chain Management exit certificate at DSEU, here is the complete information:
+
+Routes:
+Option 1 - Direct: There is no direct program named "BBA Supply Chain Management" listed.
+Option 2 - Exit option: Enrol in the "B S Supply Chain Management" program (4 years) and exit after Year 3, receiving the certificate in BBA Supply Chain Management.
+
+Fee:
+The specific fee for "B S Supply Chain Management" is not listed in the provided documents. Please check with the admissions office for exact fee details.
+
+Eligibility, Duration, and Level:
+- Eligibility: Not explicitly listed for this program in the provided documents.
+- Duration: 4 years total; exit with BBA certificate after 3 years.
+- Level: Undergraduate certificate at exit, part of a bachelor's degree program.
+
+Campuses and Intake:
+The campuses offering "B S Supply Chain Management" and intake details are not listed in the provided documents.
+
+If you want detailed fee, eligibility, or campus information, please specify or check with the admissions office.
+--------------------------------------------------------------------------------
+
+QUESTION 141: environmental science exit award
+ANSWER:
+For Environmental Science at DSEU, here are the exit awards available:
+
+Routes:
+Option 1 - Direct: There is no explicitly named direct program "Bachelor of Science in Environmental Science" listed as a direct entry program in the provided data.
+Option 2 - Exit option: Enrol in one of the following 4-year programs and exit after Year 4, receiving the Bachelor of Science in Environmental Science:
+- Program Id 139
+- Program Id 140
+- Program Id 141
+- Program Id 142
+- Program Id 144
+- Program Id 145
+- Program Id 146
+- Program Id 147
+
+Also, there is an exit option after Year 2 for a UG Diploma in Environmental Science for programs 139 and 140.
+
+Unfortunately, the exact program names corresponding to these IDs, fees, eligibility, duration, campuses, and intake details are not provided in the current documents. You may want to check with the admissions office for the full program names and details.
+--------------------------------------------------------------------------------
+
+QUESTION 142: mujhe 10th ke baad computer line me koi diploma chahiye fees bhi batao
+ANSWER:
+Aap 10th ke baad Computer Engineering (AI Tools) mein Diploma kar sakte hain. DSEU mein ye Diploma Program available hai.
+
+Routes:
+Option 1 - Direct: apply to the Diploma in Computer Engineering (AI Tools) program (3 years).
+
+Fee:
+- General Fee Category E: Rs. 10,000/- per semester.
+- SC / ST / PwD candidates get 60% concession on the general fee, so they pay Rs. 4,000/- per semester.
+(Note: This fee is for tuition only; caution money, enrolment, examination fees are extra.)
+
+Eligibility: After 10th pass.
+
+Campuses offering Diploma in Computer Engineering (AI Tools):
+- DSEU Dheerpur Campus
+- DSEU Rajokri Campus
+- Meerabai DSEU Campus (FOR GIRLS ONLY)
+- Guru Nanak Dev DSEU Campus
+- Kasturba DSEU Campus (FOR GIRLS ONLY)
+- DSEU Jaffarpur Campus
+- DSEU Ranhola Campus
+
+You can choose any of these campuses for admission.
+--------------------------------------------------------------------------------
+
+QUESTION 143: main 12th pass hu mujhe bachelor degree courses aur unki campuses batao
+ANSWER:
+Here are the Bachelor Degree programs at DSEU for students who have passed 12th, along with their campuses:
+
+1. BBA (Banking, Financial Services and Insurance) - 3 years
+   - Campuses: Bhai Parmanand DSEU Campus, DSEU Dwarka Campus
+
+2. BBA Office Management (AI driven) - 3 years
+   - Campuses: Meerabai DSEU Campus (for girls only), DSEU Jaffarpur Campus
+
+3. Bachelor of Computer Applications (BCA) - 3 years
+   - Campuses: DSEU Jaffarpur Campus, DSEU Dheerpur Campus
+
+4. B.S. Banking, Financial Services and Insurance - 4 years (with exit options)
+   - Campus: DSEU Dwarka Campus
+
+5. B.F.A. (Hons.)/Bachelor in Fine Arts (Hons.) - 4 years (with exit options)
+   - Campus: Meerabai DSEU Campus (for girls only)
+
+All these programs require 12th pass eligibility for admission. If you want details on fees or admission routes for any specific program, please let me know!
+--------------------------------------------------------------------------------
+
+QUESTION 144: gb pant me btech branches aur unki fees batao
+ANSWER:
+At G.B. Pant DSEU Campus, the B.Tech program offered is:
+
+- B.Tech. in Electronics & Communication Engineering
+
+Fee details for this program are not explicitly listed in the provided documents for this specific B.Tech program. However, the program has Fee Category A.
+
+Unfortunately, the exact fee amount for B.Tech. in Electronics & Communication Engineering at G.B. Pant DSEU Campus is not available in the current documents.
+
+If you want information on other B.Tech branches or their fees at G.B. Pant campus, that information is not present in the provided context. You may want to check with the admissions office for complete details.
+--------------------------------------------------------------------------------
+
+QUESTION 145: btech cse gb pant me hai kya aur first sem me sc student ko kitna dena hoga
+ANSWER:
+The context documents do not list a B.Tech in Computer Science and Engineering (CSE) program at GB Pant DSEU Campus or any other campus. Therefore, B.Tech CSE is not offered at GB Pant Campus according to the available information.
+
+Regarding fees for SC students, since the B.Tech CSE program is not listed, I cannot provide the fee details for that program or campus.
+
+If you want information about other programs or campuses, please specify, or you may check with the admissions office for B.Tech CSE availability and fees.
+--------------------------------------------------------------------------------
+
+QUESTION 146: mca karna hai campus fee aur eligibility batao
+ANSWER:
+I do not have information about the Master of Computer Applications (MCA) program's fee, eligibility, or campus availability in the current documents. Please check with the DSEU admissions office or official website for details on MCA.
+--------------------------------------------------------------------------------
+
+QUESTION 147: bca aur bs computer applications me kya options hain exit bhi batao
+ANSWER:
+Here is the complete information about BCA and B.S. Computer Applications programs at DSEU, including exit options:
+
+Bachelor of Computer Applications (BCA):
+- Duration: 3 years
+- Eligibility: After 12th
+- Fee Category: C
+- Campuses and Intake:
+  - DSEU Dheerpur Campus: 60 seats
+  - DSEU Narela Campus: 60 seats
+  - DSEU Jaffarpur Campus: 60 seats
+  - DSEU Ranhola Campus: 60 seats
+- Exit Options: No exit options; it is a 3-year program with no intermediate exit qualifications.
+
+B.S. Computer Applications:
+- Duration: 4 years
+- Eligibility: After 12th
+- Fee Category: C
+- Campuses:
+  - DSEU Rajokri Campus
+  - DSEU Dwarka Campus
+  - Guru Nanak Dev DSEU Campus
+  - Bhai Parmanand DSEU Campus
+- Exit Options:
+  - After Year 1: UG Certificate in Computer Applications
+  - After Year 2: UG Diploma in Computer Applications
+  - After Year 3: Certificate in Bachelor in Computer Applications (BCA)
+  - After Year 4: Bachelor of Science in Computer Applications (Honours)
+
+Routes to get BCA qualification:
+Option 1 - Direct: Apply to the Bachelor of Computer Applications (BCA) program (3 years).
+Option 2 - Exit option: Enrol in B.S. Computer Applications (4 years) and exit after Year 3, receiving the BCA certificate.
+
+Fees:
+Both programs fall under Fee Category C. Specific fee amounts are not listed in the provided documents.
+
+Summary:
+- If you want a straightforward 3-year BCA, apply directly to the Bachelor of Computer Applications (BCA) program at one of its four campuses.
+- If you want a 4-year program with multiple exit options including BCA after 3 years, choose B.S. Computer Applications at one of its campuses.
+- BCA is offered as a direct 3-year program and also as an exit qualification after 3 years in the 4-year B.S. Computer Applications program.
+--------------------------------------------------------------------------------
+
+QUESTION 148: diploma computer engineering ke campuses aur first semester fee
+ANSWER:
+Diploma in Computer Engineering (AI Tools) program ke campuses aur first semester fee ki jankari yeh hai:
+
+Campuses (10 campuses par available hai):
+- DSEU DHEERPUR CAMPUS (North Zone) - Intake 60
+- GURU NANAK DEV DSEU CAMPUS (North Zone) - Intake 120
+- DSEU NARELA CAMPUS (North Zone) - Intake 60
+- KASTURBA DSEU CAMPUS (FOR GIRLS ONLY, North Zone) - Intake 100
+- MEERABAI DSEU CAMPUS (FOR GIRLS ONLY, South Zone) - Intake 120
+- AMBEDKAR DSEU CAMPUS (East Zone) - Intake 120
+- DSEU JAFFARPUR CAMPUS (West Zone) - Intake 60
+- DSEU RANHOLA CAMPUS (West Zone) - Intake 60
+- DSEU PUSA - I CAMPUS (Central Zone) - Intake 40
+- DSEU RAJOKRI CAMPUS (Central Zone) - Intake 120
+
+First Semester Fee:
+- General Fee Category E: Rs. 10,000/- per semester
+- SC / ST / PwD candidates ke liye 60% concession hai, jisme fee Rs. 4,000/- per semester hoti hai.
+
+Yeh general fee hai; caution money, enrolment, examination fees alag se hote hain.
+--------------------------------------------------------------------------------
+
+QUESTION 149: pg diploma ai intelligent systems eligibility fees campus
+ANSWER:
+Here is the information for the PG Diploma in AI and Intelligent Systems at DSEU:
+
+Routes:
+Option 1 - Direct: apply to the PG Diploma in AI and Intelligent Systems program (1 year).
+
+Fee:
+- Fee Category: C
+- General Fee: Rs. 35,000 per semester
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee, so Rs. 14,000 per semester payable by SC/ST/PwD candidates.
+(Note: This fee is the general fee only; caution money, enrolment, examination, and other fees are separate.)
+
+Eligibility:
+- After completion of a 3-year Bachelor Degree.
+
+Duration and Level:
+- Duration: 1 year
+- Level: PG Diploma
+
+Campus and Intake:
+- Offered at Bhai Parmanand DSEU Campus (East Zone)
+- Intake: 30 students
+
+If you need more details or assistance with admission, please let me know!
+--------------------------------------------------------------------------------
+
+QUESTION 150: after graduation data related courses batao with fees
+ANSWER:
+Here are data-related courses offered by DSEU after graduation, along with their fees:
+
+1. MBA Data Science (Postgraduate Degree Program)
+   - Routes:
+     Option 1 - Direct: apply to the MBA Data Science program (2 years).
+     Option 2 - Exit option: No exit option listed for this qualification.
+   - Fee:
+     General Fee: Rs. 50,000 per semester
+     Concession for SC/ST/PwD candidates: 60% deduction on general fee
+     Fee payable by SC/ST/PwD: Rs. 20,000 per semester
+   - Eligibility: Graduation (Bachelor's degree)
+   - Duration: 2 years
+   - Campuses and Intake: Bhai Parmanand DSEU Campus (intake 40)
+
+2. PG Diploma in Data Analysis and Public Policy (PG Diploma Program)
+   - Routes:
+     Option 1 - Direct: apply to the PG Diploma in Data Analysis and Public Policy program (1 year).
+     Option 2 - Exit option: No exit option listed for this qualification.
+   - Fee:
+     General Fee: Rs. 35,000 per semester
+     Concession for SC/ST/PwD candidates: 60% deduction on general fee
+     Fee payable by SC/ST/PwD: Rs. 14,000 per semester
+   - Eligibility: Graduation (Bachelor's degree)
+   - Duration: 1 year
+   - Campuses and Intake: Bhai Parmanand DSEU Campus (intake 30)
+
+If you want information on any other specific data-related courses or programs, please let me know!
+--------------------------------------------------------------------------------
+
+QUESTION 151: retail marketing pg diploma campus and fee
+ANSWER:
+Here is the information for the PG Diploma in Retail Marketing at DSEU:
+
+- Campus: DSEU Vivek Vihar Campus (East Zone)
+- Intake: 30 students
+
+Fee details:
+- General Fee: Rs. 35,000 per semester (Fee Category C)
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee
+  - Fee payable by SC / ST / PwD candidates: Rs. 14,000 per semester (after Rs. 21,000 concession)
+
+This fee is the general tuition fee only; caution money, enrolment, examination, and other fees are separate.
+--------------------------------------------------------------------------------
+
+QUESTION 152: girls only campus wale diploma programs
+ANSWER:
+The girls-only campuses at DSEU and their diploma programs are:
+
+1. Meerabai DSEU Campus (FOR GIRLS ONLY) offers these diploma programs:
+- Diploma in Architecture (intake 40)
+- Diploma in Computer Engineering (AI Tools) (intake 120)
+- Diploma in Electronics Engineering (intake 60)
+- Diploma in Wireless and Mobile Communication (intake 60)
+- Diploma in Pharmacy (intake 60)
+
+2. Kasturba DSEU Campus (FOR GIRLS ONLY) offers these diploma programs:
+- Diploma in Civil Engineering (intake 50)
+- Diploma in Computer Engineering (AI Tools) (intake 100)
+- Diploma in Electronics Engineering (intake 100)
+
+These are the diploma programs specifically available at the girls-only campuses according to the provided information.
+--------------------------------------------------------------------------------
+
+QUESTION 153: pharmacy course eligibility fee campus
+ANSWER:
+Here is the complete information about the Diploma in Pharmacy course at DSEU:
+
+Routes:
+Option 1 - Direct: apply to the Diploma in Pharmacy program (2 years) at DSEU.
+Option 2 - Exit option: There is no exit option listed for this qualification.
+
+Fee:
+- General Fee Category D: Rs. 25,000 per semester.
+- Concession for SC / ST / PwD candidates: 60% deduction on the general fee.
+  - General fee: Rs. 25,000
+  - Less 60% concession: Rs. 15,000
+  - Fee payable by SC, ST or PwD candidate: Rs. 10,000 per semester.
+Note: This fee is for the general fee only; caution money, enrolment, examination, and other fees are separate.
+
+Eligibility:
+- After 12th standard.
+- Pharmacy council regulations apply, and separate counselling for this program will occur.
+
+Duration and Level:
+- Duration: 2 years.
+- Level: Undergraduate Diploma.
+
+Campuses and Intake:
+- Diploma in Pharmacy is offered at two campuses:
+  1. Meerabai DSEU Campus (South Zone) - For Girls Only, intake 60.
+  2. DSEU Dwarka Campus (West Zone), intake 60.
+- Total intake across both campuses: 120 students.
+
+If you need more details or have other questions, feel free to ask!
+--------------------------------------------------------------------------------
+
+QUESTION 154: science mandatory wale courses kaunse hain
+ANSWER:
+Science mandatory hone wale courses DSEU mein ye hain:
+
+From the eligibility criteria (Brochure page 88):
+- B.Sc. Physical Sciences
+- B.Sc. Life Sciences
+- UG Certificate Course on Solar Panel Installation, Testing, Maintenance and Repair
+- Diploma in Pharmacy*
+
+In ye programs ke liye 10+2 with science mandatory hai.
+
+Agar aapko kisi specific program ke baare mein detail chahiye, toh bataiye.
+--------------------------------------------------------------------------------
+
+QUESTION 155: office management related bba and pg diploma batao
+ANSWER:
+Here is the information about Office Management related BBA and PG Diploma programs at DSEU:
+
+1. BBA Office Management (AI driven)
+- Routes:
+  Option 1 - Direct: apply to the BBA Office Management (AI driven) program (3 years).
+  (No exit option listed for this qualification.)
+- Fee:
+  General Fee: Rs. 25,000 per semester (Fee Category D)
+  Concession for SC/ST/PwD: 60% off general fee, so Rs. 10,000 per semester payable.
+- Eligibility: After 12th standard (UG Diploma Program)
+- Duration: 3 years
+- Campuses and Intake:
+  - DSEU Dheerpur Campus (North Zone): 40 seats
+  - DSEU Narela Campus (North Zone): 40 seats
+  - Meerabai DSEU Campus (South Zone, for girls only): 40 seats
+  - Bhai Parmanand DSEU Campus (East Zone): 80 seats
+  - DSEU Jaffarpur Campus (West Zone): 40 seats
+  - DSEU Ranhola Campus (West Zone): 40 seats
+  Total intake: 280 seats
+
+2. PG Diploma in Smart Office Management
+- Routes:
+  Option 1 - Direct: apply to the PG Diploma in Smart Office Management program (1 year).
+  (No exit option listed for this qualification.)
+- Fee:
+  General Fee: Rs. 35,000 per semester (Fee Category C)
+  Concession for SC/ST/PwD: 60% off general fee, so Rs. 14,000 per semester payable.
+- Eligibility: After 3-year Bachelor Degree
+- Duration: 1 year
+- Campuses and Intake:
+  - Meerabai DSEU Campus (South Zone, for girls only): 30 seats
+  - DSEU Jaffarpur Campus (West Zone): 30 seats
+  - DSEU Ranhola Campus (West Zone): 30 seats
+  Total intake: 90 seats
+
+If you want to pursue Office Management at the undergraduate level, BBA Office Management (AI driven) is the option. For postgraduate level, PG Diploma in Smart Office Management is available.
+--------------------------------------------------------------------------------
+
+QUESTION 156: dseu me ai related courses kya kya hain fees ke sath
+ANSWER:
+DSEU में AI से संबंधित कई कोर्स उपलब्ध हैं। यहाँ उनके नाम, फीस, अवधि, पात्रता और कैंपस की जानकारी दी गई है:
+
+1. Diploma in Computer Engineering (AI Tools)  
+   - Routes:  
+     Option 1 - Direct: apply to Diploma in Computer Engineering (AI Tools) (3 years).  
+   - Fee:  
+     General Fee: Rs. 10,000/- प्रति सेमेस्टर (Fee Category E)  
+     SC/ST/PwD Concession: 60% छूट, फीस Rs. 4,000/- प्रति सेमेस्टर  
+   - Eligibility: 10वीं के बाद  
+   - Campuses (intake):  
+     - DSEU Dheerpur Campus (60)  
+     - Guru Nanak Dev DSEU Campus (120)  
+     - DSEU Narela Campus (60)  
+     - Kasturba DSEU Campus (Girls only) (100)  
+     - Meerabai DSEU Campus (Girls only) (120)  
+     - Ambedkar DSEU Campus (120)  
+     - DSEU Jaffarpur Campus (60)  
+     - DSEU Ranhola Campus (60)  
+     - DSEU Pusa - I Campus (40)  
+     - DSEU Rajokri Campus (120)  
+
+2. B.Tech. in Artificial Intelligence  
+   - Routes:  
+     Option 1 - Direct: apply to B.Tech. in Artificial Intelligence (4 years).  
+   - Fee:  
+     General Fee: Rs. 87,000/- प्रति सेमेस्टर (Fee Category A)  
+     SC/ST/PwD Concession: 60% छूट, फीस Rs. 34,800/- प्रति सेमेस्टर  
+   - Eligibility: 12वीं के बाद  
+   - Campuses (intake):  
+     - Bhai Parmanand DSEU Campus (60)  
+
+3. PG Diploma in AI and Intelligent Systems  
+   - Routes:  
+     Option 1 - Direct: apply to PG Diploma in AI and Intelligent Systems (2 years).  
+   - Fee:  
+     General Fee: Rs. 35,000/- प्रति सेमेस्टर (Fee Category C)  
+     SC/ST/PwD Concession: 60% छूट, फीस Rs. 14,000/- प्रति सेमेस्टर  
+   - Eligibility: Graduation (details not specified)  
+   - Campuses (intake):  
+     - Bhai Parmanand DSEU Campus (30)  
+
+4. BBA Office Management (AI driven)  
+   - Routes:  
+     Option 1 - Direct: apply to BBA Office Management (AI driven) (3 years).  
+   - Fee:  
+     Fee details not provided in the current documents.  
+   - Eligibility: 12वीं के बाद  
+   - Campuses (intake):  
+     - Bhai Parmanand DSEU Campus (80)  
+     - Meerabai DSEU Campus (intake not listed)  
+
+यदि आप किसी विशेष कोर्स के बारे में और जानकारी चाहते हैं तो कृपया बताएं।
+--------------------------------------------------------------------------------
+
+QUESTION 157: computer applications me master nahi bachelor options batao
+ANSWER:
+For Computer Applications at DSEU, here are the Bachelor options available:
+
+Routes:
+Option 1 - Direct: apply to the Bachelor of Computer Applications (BCA) program (3 years).
+Option 2 - Exit option: enrol in B.S. Computer Applications (4 years) and exit after Year 3, receiving a Bachelor certificate in Computer Applications; or complete Year 4 for Bachelor of Science in Computer Applications.
+
+Fees:
+- Bachelor of Computer Applications (BCA) fee category C.
+- B.S. Computer Applications fee category C.
+
+Eligibility:
+- Both require completion of 12th standard.
+
+Campuses and Intake:
+Bachelor of Computer Applications (BCA) is offered at:
+- DSEU Dheerpur Campus (intake 60)
+- DSEU Narela Campus (intake 60)
+- DSEU Jaffarpur Campus (intake 60)
+- DSEU Ranhola Campus (intake 60)
+
+B.S. Computer Applications is offered at:
+- DSEU Rajokri Campus
+- DSEU Dwarka Campus
+- Bhai Parmanand DSEU Campus
+
+If you want details on fees or eligibility for a specific campus or program, please let me know!
+--------------------------------------------------------------------------------
+
+QUESTION 158: mbbs course
+ANSWER:
+I do not have information about an MBBS course in the current documents related to DSEU programs. You may want to check directly with the DSEU admissions office or their official website for details on MBBS or medical degree programs.
+--------------------------------------------------------------------------------
+
+QUESTION 159: aerospace engineering btech
+ANSWER:
+I do not have information about a B.Tech. program in Aerospace Engineering in the current documents. You may want to check directly with the DSEU admissions office or official website for the latest updates on this program.
+--------------------------------------------------------------------------------
+
+QUESTION 160: law degree
+ANSWER:
+I do not have information about a law degree program at DSEU in the current documents. Please check with the DSEU admissions office or official website for details on law programs.
+--------------------------------------------------------------------------------
+
+QUESTION 161: bitcoin course
+ANSWER:
+I do not have information about a Bitcoin course in the current documents. You may want to check directly with the DSEU admissions office or their official website for details on courses related to Bitcoin or cryptocurrency.
+--------------------------------------------------------------------------------
+
+QUESTION 162: hostel discount btech
+ANSWER:
+I do not have information about hostel discounts for B.Tech programs in the current documents. Please check with the DSEU admissions office or official website for details on hostel fees and any possible discounts.
+--------------------------------------------------------------------------------
+
+QUESTION 163: nursing program
+ANSWER:
+I do not have information about a nursing program in the current documents. Please check with the DSEU admissions office for details on nursing programs.
+--------------------------------------------------------------------------------
+
+QUESTION 164: phd computer science
+ANSWER:
+I do not have information about a PhD program in Computer Science at DSEU in the current documents. Please check with the DSEU admissions office or official website for details on doctoral programs.
+--------------------------------------------------------------------------------
+
+QUESTION 165: dental course fees
+ANSWER:
+I do not have information about a dental course or its fees in the current documents. Please check with the DSEU admissions office or official website for details on dental courses and their fees.
+--------------------------------------------------------------------------------
+
+QUESTION 166: marine engineering dseu
+ANSWER:
+I do not have information about a Marine Engineering program at DSEU in the current documents. You may want to check directly with the DSEU admissions office or official website for the latest updates on Marine Engineering or related programs.
+--------------------------------------------------------------------------------
+
+QUESTION 167: astrology diploma fees
+ANSWER:
+I do not have information about an Astrology Diploma program or its fees in the current documents. Please check with the DSEU admissions office for details on Astrology Diploma fees.
+--------------------------------------------------------------------------------
+

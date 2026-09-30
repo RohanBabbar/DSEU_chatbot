@@ -33,7 +33,7 @@ docker compose up          # first run takes a few minutes to build
 Then open <http://localhost:8000> and ask it something.
 
 The first `up` builds the image, starts Postgres, parses the brochure and the
-spreadsheet into ~628 searchable chunks, and starts the server. That happens once;
+spreadsheet into ~452 searchable chunks, and starts the server. That happens once;
 later runs start in seconds because the parsed data lives in a Docker volume.
 `docker compose down` stops it, `docker compose down -v` also wipes the parsed data so
 the next start re-ingests from scratch.
@@ -141,6 +141,35 @@ Keep those chunks lean. An earlier version repeated a paragraph of explanation i
 one, which made them all look alike to the embedder so every "how do I get X degree"
 question retrieved all of them and crowded out the brochure. Shared explanation belongs
 in the prompt, stated once.
+
+### Fee concession (a configured rule, not brochure content)
+
+`FEE_CONCESSION_PERCENT` in [backend/core.py](backend/core.py) applies a percentage
+deduction on the general fee for SC / ST / PwD candidates — currently **60%**. Set it
+to `0` to switch the feature off entirely; the concession lines disappear from every
+chunk on the next ingest, and `eval.py` skips its concession cases automatically.
+
+**This rule is not in the 2026 brochure.** A search for
+`concession|exemption|waiver|freeship` across the whole document returns nothing, and
+page 105 states *"No scholarships are available at the university level for
+economically weaker students."* It is policy supplied separately, and the chunk that
+explains it says so. Confirm with the university before relying on it — in particular
+whether it is a concession at admission or a reimbursement claimed later, because the
+bot currently tells students what they will **pay**.
+
+The arithmetic is done in Python at ingest time and written into each program's
+`Program Fee` chunk, so an answer never depends on the model doing sums:
+
+```
+General Fee: Rs. 35,000/- per semester (General Fee Category - C)
+Concession for SC / ST / PwD candidates: 60% of the general fee is deducted.
+  General fee: Rs. 35,000 per semester
+  Less 60% concession: Rs. 21,000
+  Fee payable by an SC, ST or PwD candidate: Rs. 14,000 per semester
+```
+
+The concession applies to the general fee only, not to caution money, enrolment or
+examination fees.
 
 ## Retrieval
 

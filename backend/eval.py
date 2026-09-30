@@ -15,10 +15,20 @@ Exit code is non-zero if any case fails, so this can gate a deploy.
 """
 import argparse
 import json
+import os
 import sys
 import time
 import urllib.error
 import urllib.request
+
+# The SC/ST/PwD concession is a configured rule that can be switched off in
+# core.py. With it off, its cases would fail for the right reason, which is only
+# noise -- so they are skipped instead of removed.
+try:
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from core import FEE_CONCESSION_PERCENT
+except Exception:
+    FEE_CONCESSION_PERCENT = 60
 
 # name, question, checks
 #   all:      every string must appear (case-insensitive)
@@ -129,6 +139,44 @@ CASES = [
     ("lowest-fee", "Which program has the lowest fee at DSEU?",
      {"all": ["10,000"], "any": ["category e", "diploma"]}),
 
+    # Availability at a named campus. The bot used to answer "Yes, BCA is available
+    # at Dwarka (intake 60)" -- a fabrication built from Master of Computer
+    # Applications' Dwarka line, because campus lines did not name their program.
+    # BCA, B.S. Computer Applications and MCA are three different programs.
+    ("availability-negative", "dwarka mei bca avalaible hai?",
+     {"any": ["not offer", "not available", "not listed", "nahi"],
+      "none": ["yes, bca", "yes, bachelor"]}),
+
+    ("availability-negative-alt", "kya dwarka mei bca available hai?",
+     {"any": ["not offer", "not available", "not listed", "nahi"],
+      "none": ["yes, bca", "yes, bachelor"]}),
+
+    ("availability-positive", "ranhola mei bca hai kya?",
+     {"all": ["ranhola"], "none": ["not offer", "not available"]}),
+
+    ("lookalike-mca", "Is MCA available at Dwarka campus?",
+     {"any": ["50"], "none": ["not offer", "not available"]}),
+
+    ("campus-programs", "What programs are offered at Dwarka campus?",
+     {"min_hits": (4, ["mba finance", "diploma in pharmacy", "hotel management",
+                       "psychology", "network engineering"])}),
+
+    # SC/ST/PwD fee concession. A configured university rule, NOT brochure content
+    # (the brochure mentions no concession at all). The arithmetic is precomputed at
+    # ingest so the model never does sums, and these cases assert the exact rupees.
+    ("concession-sc-bca", "main sc category se hoon, bca ki fees kitni lagegi?",
+     {"all": ["35,000", "14,000"]}),
+
+    ("concession-pwd-btech",
+     "I am a PwD candidate. What is the fee for B.Tech Computer Science Engineering?",
+     {"all": ["87,000", "34,800"]}),
+
+    ("concession-st-diploma", "ST category ke liye Diploma ki fees kya hogi?",
+     {"all": ["10,000", "4,000"]}),
+
+    ("concession-policy", "What concession do SC ST candidates get on fees?",
+     {"all": ["60"], "any": ["general fee"]}),
+
     # Campus contact details. The brochure lays each campus out as a vertical
     # record, so chunking it row-wise detached every "(Nearest Metro Station: X)"
     # from its campus -- the bot could not answer, and risked pairing a metro with
@@ -224,6 +272,12 @@ def main() -> int:
     args = parser.parse_args()
 
     cases = [c for c in CASES if not args.only or args.only.lower() in c[0].lower()]
+    if not FEE_CONCESSION_PERCENT:
+        skipped = [c for c in cases if c[0].startswith("concession-")]
+        cases = [c for c in cases if not c[0].startswith("concession-")]
+        if skipped:
+            print(f"skipping {len(skipped)} concession cases "
+                  f"(FEE_CONCESSION_PERCENT is 0)\n")
     if not cases:
         print(f"no cases match {args.only!r}")
         return 1

@@ -11,3 +11,11 @@ __pycache__/
 
 # Ignore database data if a local volume is mapped
 pgdata/
+
+# Temporary evaluation and patch artifacts
+result_*.json
+patch_*.py
+test_*.sh
+*.log
+run_track_a.sh
+fix_indent.py

@@ -436,6 +436,30 @@ def fee_categories_by_program(doc) -> list[tuple[str, str, str, int]]:
     return found
 
 
+FEE_CONCESSION_PREFIX = "Fee Concession"
+
+
+def _concession_lines(amount: str, per: str) -> str:
+    """The SC/ST/PwD concession worked out for one program's general fee.
+
+    Computed here so the answer never depends on the model doing arithmetic --
+    a wrong fee is worse than no fee.
+    """
+    value = core.parse_rupees(amount)
+    if not value or not core.FEE_CONCESSION_PERCENT:
+        return ""
+    deducted, payable = core.concession_fee(value)
+    percent = core.FEE_CONCESSION_PERCENT
+    return (
+        f"Concession for {core.FEE_CONCESSION_LABEL} candidates: {percent}% of the "
+        f"general fee is deducted.\n"
+        f"  General fee: Rs. {core.format_rupees(value)}{per}\n"
+        f"  Less {percent}% concession: Rs. {core.format_rupees(deducted)}\n"
+        f"  Fee payable by an SC, ST or PwD candidate: "
+        f"Rs. {core.format_rupees(payable)}{per}\n"
+    )
+
+
 def build_fee_rows(doc) -> list[tuple]:
     """One chunk per program stating its fee category and the resolved amount."""
     amounts, period = fee_amounts(doc)
@@ -459,21 +483,51 @@ def build_fee_rows(doc) -> list[tuple]:
             f"Program: {name} ({kind})\n"
             f"Fee Category: {category}\n"
             f"General Fee: Rs. {amount}{per} (General Fee Category - {category})\n"
-            f"This is the general fee only. Caution money, enrolment, examination "
-            f"and other components are listed separately in the Fee Structure "
-            f"section of the brochure.",
+            + _concession_lines(amount, per)
+            + f"This is the general fee only. Caution money, enrolment, examination "
+              f"and other components are listed separately in the Fee Structure "
+              f"section of the brochure.",
             "Fee Structure", False, page_no, SOURCE_BROCHURE,
         ))
 
+    reference_lines = []
+    for key, value in sorted(amounts.items()):
+        line = f"- General Fee Category - {key}: Rs. {value}"
+        parsed = core.parse_rupees(value)
+        if parsed and core.FEE_CONCESSION_PERCENT:
+            _, payable = core.concession_fee(parsed)
+            line += (f" (payable by {core.FEE_CONCESSION_LABEL} candidates after the "
+                     f"{core.FEE_CONCESSION_PERCENT}% concession: "
+                     f"Rs. {core.format_rupees(payable)})")
+        reference_lines.append(line)
     reference = (
         "Fee Structure: general fee amount for every fee category"
         + (f", {period}" if period else "")
         + ".\n"
-        + "\n".join(f"- General Fee Category - {k}: Rs. {v}" for k, v in sorted(amounts.items()))
+        + "\n".join(reference_lines)
         + "\nEach program is assigned one of these categories; see the program's "
           "own fee entry for which category applies."
     )
     rows.append((reference, "Fee Structure", False, 0, SOURCE_BROCHURE))
+
+    if core.FEE_CONCESSION_PERCENT:
+        rows.append((
+            f"{FEE_CONCESSION_PREFIX}: {core.FEE_CONCESSION_LABEL} fee concession.\n"
+            f"Candidates in the {', '.join(core.FEE_CONCESSION_CATEGORIES)} categories "
+            f"get {core.FEE_CONCESSION_PERCENT}% deducted from the general fee of any "
+            f"program, so they pay "
+            f"{100 - core.FEE_CONCESSION_PERCENT}% of it.\n"
+            f"How it is worked out: payable = general fee - "
+            f"({core.FEE_CONCESSION_PERCENT}% of general fee).\n"
+            f"The concession applies to the general fee only. Caution money, "
+            f"enrolment fee, examination fee and the other components are not "
+            f"reduced.\n"
+            f"This is a university concession rule configured for this assistant; "
+            f"the printed 2026 brochure does not list it. Each program's own "
+            f"'{FEE_PREFIX}' entry already shows the computed amount for that "
+            f"program, so use that figure rather than calculating one.",
+            "Fee Structure", False, 0, SOURCE_BROCHURE,
+        ))
 
     print(f"Resolved fees for {len(rows) - 1} programs across "
           f"{len(amounts)} fee categories{per and ' (' + period + ')'}")
@@ -636,6 +690,7 @@ def build_campus_detail_rows(doc) -> list[tuple]:
 # reliably finds one or two of them, and the model then reports a partial list as
 # if it were complete. Aggregating per program makes it a single-hop lookup.
 CAMPUS_PREFIX = "Campus Availability"
+CAMPUS_PROGRAMS_PREFIX = "Campus Programs"
 INTAKE_RE = re.compile(r"^\d{1,4}$")
 ACRONYM_PAREN = re.compile(r"\s*\(([A-Z]{2,6})\)\s*$")
 
@@ -647,10 +702,9 @@ def _normalise_program(name: str) -> str:
     return re.sub(r"\s+", " ", ACRONYM_PAREN.sub("", name.strip())).lower()
 
 
-def build_campus_rows(doc) -> list[tuple]:
-    """One chunk per program listing every campus that offers it, with intake."""
-    # normalised name -> {"display": str, "places": list[(place, intake, page)]}
-    programs: dict[str, dict] = {}
+def _campus_program_pairs(doc) -> list[tuple[str, str, str, int]]:
+    """(program name, zone > campus, intake, page) for every campus/program row."""
+    pairs: list[tuple[str, str, str, int]] = []
     carried: ZoneState = (None, None, None)
     carried_section: str | None = None
     last_section = None
@@ -679,46 +733,85 @@ def build_campus_rows(doc) -> list[tuple]:
                 place = _place_label(contexts[position]) if position < len(contexts) else ""
                 if not place:
                     continue  # without a campus the intake number means nothing
-                name = max(names, key=len)
-                entry = programs.setdefault(
-                    _normalise_program(name), {"display": name, "places": []}
-                )
-                if len(name) > len(entry["display"]):
-                    entry["display"] = name
-                if not any(p == place for p, _, _ in entry["places"]):
-                    entry["places"].append((place, intakes[0], page_no))
+                pairs.append((max(names, key=len), place, intakes[0], page_no))
+    return pairs
 
+
+def build_campus_rows(doc) -> list[tuple]:
+    """Campus availability, indexed both by program and by campus.
+
+    Both directions are needed. "Which campuses offer BCA?" reads the
+    program-centric chunk; "is BCA available at Dwarka?" reads the campus-centric
+    one. Without the campus-centric chunk the model answered that question by
+    looking for a Dwarka line among whatever chunks came back -- and DSEU has
+    three similarly named programs (BCA, B.S. Computer Applications, Master of
+    Computer Applications) with different campus sets, so it confidently placed
+    BCA at Dwarka on the strength of MCA's line. Every line now names its own
+    program, which makes such a line impossible to misattribute.
+    """
+    pairs = _campus_program_pairs(doc)
     rows: list[tuple] = []
+
+    programs: dict[str, dict] = {}
+    for name, place, intake, page in pairs:
+        entry = programs.setdefault(_normalise_program(name), {"display": name, "places": []})
+        if len(name) > len(entry["display"]):
+            entry["display"] = name
+        if not any(p == place for p, _, _ in entry["places"]):
+            entry["places"].append((place, intake, page))
+
     for entry in programs.values():
         places = entry["places"]
         if not places:
             continue
+        display = entry["display"]
         total = sum(int(i) for _, i, _ in places if i.isdigit())
         head = (
-            f"{CAMPUS_PREFIX}: {entry['display']}\n"
-            f"Program: {entry['display']}\n"
-            f"Offered at {len(places)} campus(es), with the intake at each:\n"
+            f"{CAMPUS_PREFIX}: {display}\n"
+            f"Program: {display}\n"
+            f"{display} is offered at {len(places)} campus(es), and at no others:\n"
         )
-        lines = [f"- {place}: intake {intake}" for place, intake, _ in places]
-        tail = f"\nTotal intake across all campuses: {total}"
-        body = head + "\n".join(lines) + tail
-        if core.fits(body):
-            rows.append((body, CAMPUS_PREFIX, False, places[0][2], SOURCE_BROCHURE))
-            continue
-        # Rare: a program offered at very many campuses.
-        chunk: list[str] = []
-        for line in lines:
-            if chunk and not core.fits(head + "\n".join(chunk + [line]) + tail):
-                rows.append((head + "\n".join(chunk), CAMPUS_PREFIX, False,
-                             places[0][2], SOURCE_BROCHURE))
-                chunk = []
-            chunk.append(line)
-        if chunk:
-            rows.append((head + "\n".join(chunk) + tail, CAMPUS_PREFIX, False,
-                         places[0][2], SOURCE_BROCHURE))
+        lines = [f"- {display} at {place}: intake {intake}" for place, intake, _ in places]
+        tail = f"\nTotal intake for {display} across all campuses: {total}"
+        rows.extend(
+            (text, CAMPUS_PREFIX, False, places[0][2], SOURCE_BROCHURE)
+            for text in _fit_block(head, lines, tail)
+        )
 
-    print(f"Aggregated campus availability for {len(programs)} programs")
+    campuses: dict[str, dict] = {}
+    for name, place, intake, page in pairs:
+        entry = campuses.setdefault(place, {"page": page, "items": {}})
+        entry["items"].setdefault(_normalise_program(name), (name, intake))
+
+    for place, entry in campuses.items():
+        items = sorted(entry["items"].values())
+        head = (
+            f"{CAMPUS_PROGRAMS_PREFIX}: {place}\n"
+            f"Complete list of the {len(items)} program(s) offered at {place}. "
+            f"Any program not in this list is NOT offered at this campus:\n"
+        )
+        lines = [f"- {name} (intake {intake})" for name, intake in items]
+        rows.extend(
+            (text, CAMPUS_PROGRAMS_PREFIX, False, entry["page"], SOURCE_BROCHURE)
+            for text in _fit_block(head, lines, "")
+        )
+
+    print(f"Campus availability: {len(programs)} programs, {len(campuses)} campuses")
     return rows
+
+
+def _fit_block(head: str, lines: list[str], tail: str) -> list[str]:
+    """head + as many lines as fit the embedding limit, repeating head per part."""
+    out: list[str] = []
+    cur: list[str] = []
+    for line in lines:
+        if cur and not core.fits(head + "\n".join(cur + [line]) + tail):
+            out.append(head + "\n".join(cur))
+            cur = []
+        cur.append(line)
+    if cur:
+        out.append(head + "\n".join(cur) + tail)
+    return out
 
 
 def header_only_text(table) -> str | None:
