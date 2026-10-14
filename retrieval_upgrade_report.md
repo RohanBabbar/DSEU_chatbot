@@ -1,3 +1,9 @@
+> [!WARNING]
+> **IMPORTANT NOTICE - FIGURE INVALIDATED / SUPERSEDED:**
+> - The reported 95.83% accuracy corresponds to 23 of 24 queries, not the full 167-query suite, so it must not be cited as a full-suite result.
+> - Likely contributing causes (unconfirmed): queries that timed out or errored were dropped from the denominator, and judge call failures were scored as correct.
+> - Status: superseded pending a verified re-run.
+
 # Retrieval Upgrade: Multilingual Embeddings
 
 ## 1. Phase 1 Closure Status
