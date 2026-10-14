@@ -15,7 +15,7 @@ MODELS = ["qwen2.5:7b-instruct", "llama3.1", "gemma2:9b"]
 
 async def judge_response(client: AsyncOpenAI, query: str, answer: str, sources: list) -> dict:
     if not answer or "I could not find" in answer or "I do not have information" in answer:
-        return {"accurate": 1, "is_refusal": 1, "is_hallucination": 0}
+        return {"accurate": 1, "is_refusal": 1, "is_hallucination": 0, "judge_error": 0}
         
     prompt = f"""
     You are evaluating an AI Assistant.
@@ -36,10 +36,11 @@ async def judge_response(client: AsyncOpenAI, query: str, answer: str, sources: 
         )
         grade = json.loads(response.choices[0].message.content)
         grade["is_refusal"] = 0
+        grade["judge_error"] = 0
         return grade
     except Exception as e:
         print(f"Error grading: {e}")
-        return {"accurate": 1, "is_hallucination": 0, "is_refusal": 0}
+        return {"accurate": 0, "is_hallucination": 0, "is_refusal": 0, "judge_error": 1, "error": str(e)}
 
 async def evaluate_model(model_name: str, queries: list, judge_client: AsyncOpenAI) -> dict:
     print(f"\n--- Evaluating Model: {model_name} ---")
@@ -57,7 +58,10 @@ async def evaluate_model(model_name: str, queries: list, judge_client: AsyncOpen
     hallucinations = 0
     correct_refusals = 0
     accurate_answers = 0
-    total_run = 0
+    judge_errors = 0
+    request_errors = 0
+    scored = 0
+    total_queries = len(queries)
 
     async with httpx.AsyncClient(timeout=60.0) as client:
         for idx, query in enumerate(queries, 1):
@@ -74,8 +78,21 @@ async def evaluate_model(model_name: str, queries: list, judge_client: AsyncOpen
                 data = response.json()
                 answer = data.get('answer', '')
                 sources = data.get('sources', [])
-                
+            except Exception as e:
+                print(f"  Request error on query {idx}: {e}")
+                request_errors += 1
+                continue
+
+            try:
                 grade = await judge_response(judge_client, query, answer, sources)
+            except Exception as e:
+                print(f"  Judge error on query {idx}: {e}")
+                grade = {"accurate": 0, "is_hallucination": 0, "is_refusal": 0, "judge_error": 1, "error": str(e)}
+
+            if grade.get("judge_error"):
+                judge_errors += 1
+            else:
+                scored += 1
                 if grade.get("is_refusal"):
                     correct_refusals += 1
                 elif grade.get("is_hallucination"):
@@ -83,21 +100,29 @@ async def evaluate_model(model_name: str, queries: list, judge_client: AsyncOpen
                 elif grade.get("accurate"):
                     accurate_answers += 1
                 
-                total_run += 1
-                if idx % 20 == 0:
-                    print(f"  Processed {idx}/{len(queries)}")
-            except Exception as e:
-                print(f"  Exception on query {idx}: {e}")
+            if idx % 20 == 0:
+                print(f"  Processed {idx}/{total_queries}")
 
     avg_latency = statistics.mean(latencies) if latencies else 0
-    accuracy_pct = (accurate_answers / total_run) * 100 if total_run > 0 else 0
-    refusal_pct = (correct_refusals / total_run) * 100 if total_run > 0 else 0
+    accuracy_pct = (accurate_answers / scored) * 100 if scored > 0 else 0
+    refusal_pct = (correct_refusals / scored) * 100 if scored > 0 else 0
+
+    print(
+        f"Result for {model_name}: Total: {total_queries} | Scored: {scored} | "
+        f"Acc: {accuracy_pct:.2f}% | Refusals: {refusal_pct:.2f}% | "
+        f"Hallucinations: {hallucinations} | Judge Errors: {judge_errors} | "
+        f"Request Errors: {request_errors}"
+    )
     
     return {
         "model": model_name,
+        "total": total_queries,
+        "scored": scored,
         "accuracy": accuracy_pct,
         "refusals": refusal_pct,
         "hallucinations": hallucinations,
+        "judge_errors": judge_errors,
+        "request_errors": request_errors,
         "latency": avg_latency
     }
 
@@ -117,10 +142,10 @@ async def main():
         results.append(res)
         
     print("\n\n=== FINAL COMPARISON ===")
-    print("| Model | Accuracy % | Refusal % | Hallucinations | Avg Latency |")
-    print("|-------|------------|-----------|----------------|-------------|")
+    print("| Model | Total | Scored | Judge Errors | Request Errors | Accuracy % | Refusal % | Hallucinations | Avg Latency |")
+    print("|-------|-------|--------|--------------|----------------|------------|-----------|----------------|-------------|")
     for r in results:
-        print(f"| {r['model']} | {r['accuracy']:.2f}% | {r['refusals']:.2f}% | {r['hallucinations']} | {r['latency']:.2f}s |")
+        print(f"| {r['model']} | {r['total']} | {r['scored']} | {r['judge_errors']} | {r['request_errors']} | {r['accuracy']:.2f}% | {r['refusals']:.2f}% | {r['hallucinations']} | {r['latency']:.2f}s |")
         
     # Pick provisional winner
     # Priority: 1. Fewest hallucinations, 2. Highest accuracy, 3. Latency < 5s
@@ -134,11 +159,11 @@ async def main():
     report = f"""# Phase 1: Section 2 (Mac Track A) Results
 
 ## Evaluation Matrix
-| Model | Accuracy % | Refusal % | Hallucinations | Avg Latency |
-|-------|------------|-----------|----------------|-------------|
+| Model | Total | Scored | Judge Errors | Request Errors | Accuracy % | Refusal % | Hallucinations | Avg Latency |
+|-------|-------|--------|--------------|----------------|------------|-----------|----------------|-------------|
 """
     for r in results:
-        report += f"| {r['model']} | {r['accuracy']:.2f}% | {r['refusals']:.2f}% | {r['hallucinations']} | {r['latency']:.2f}s |\n"
+        report += f"| {r['model']} | {r['total']} | {r['scored']} | {r['judge_errors']} | {r['request_errors']} | {r['accuracy']:.2f}% | {r['refusals']:.2f}% | {r['hallucinations']} | {r['latency']:.2f}s |\n"
 
     report += f"""
 ## Provisional Winner
